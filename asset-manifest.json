@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AFOL-Store/static/css/main.073c9b0a.css",
+    "main.js": "/AFOL-Store/static/js/main.579a7a5a.js",
+    "index.html": "/AFOL-Store/index.html",
+    "main.073c9b0a.css.map": "/AFOL-Store/static/css/main.073c9b0a.css.map",
+    "main.579a7a5a.js.map": "/AFOL-Store/static/js/main.579a7a5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.579a7a5a.js"
+  ]
+}
