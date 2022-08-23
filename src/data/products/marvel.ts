@@ -150,7 +150,11 @@ export let marvel: Product[] = [
         id: 76223,
         name: 'Nano Gauntlet',
         description: [
-            ``
+            `Capture the spirit of Marvel Studios' Avengers: Endgame, with the LEGO® Marvel Nano Gauntlet (76223) - a challenging and rewarding model-making project, 
+            designed with adult fans in mind.`,
+            `Collectible Marvel movie memorabilia
+            This LEGO brick recreation of the iconic Nano Gauntlet is sure to captivate all who see it. Created with adult model-makers in mind, this vibrantly colored 
+            build-and-display piece features movable, jointed fingers and a descriptive tablet attached to a sturdy base.`
         ],
         pieces: 675,
         released: true,
