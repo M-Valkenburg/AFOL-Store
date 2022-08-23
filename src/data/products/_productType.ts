@@ -20,16 +20,19 @@ type Theme =
     'icons' | 
     'ideas' | 
     'marvel' | 
-    'starwars' | 
+    'star wars' | 
     'technic';
 
 type Tags = 
     'building' |
-    'vehicle' |
-    'movies' |
-    'tv-shows' |
-    'music' |
-    'super heroes' |
-    'space' |
+    'games' |
     'helmets' |
-    'other';
+    'home decoration' |
+    'movies' |
+    'music' |
+    'seasonal' |
+    'space' |
+    'sports' |
+    'super heroes' |
+    'tv-shows' |
+    'vehicle';
