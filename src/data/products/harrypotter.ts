@@ -36,6 +36,24 @@ export let harryPotter: Product[] = [
         stock: 0,
     },
     {
+        id: 75979,
+        name: 'Hedwig™',
+        description: [
+            `Bring the magical personality and elegant movement of Hedwig™, the celebrated snowy owl from the Harry Potter™ movies, to life. The collectible LEGO® Harry Potter Hedwig 
+            (75979) display toy offers a rewarding building experience and looks magnificent on show.`,
+            `Buildable Hedwig the owl with 'flying' wings<br>
+            With a wingspan of over 13” (34cm), this 630-piece brick-build model shows Hedwig in flight, delivering an important letter. Once the build is complete, a turn of a handle 
+            causes the jointedwings to move gracefully up and down. The collectible model stands on a sturdy base with a detachable LEGO Harry Potter minifigure and another, smaller, 
+            Hedwig the owl toy with wings spread open.`
+        ],
+        pieces: 630,
+        released: true,
+        theme1: 'harry potter',
+        tags: ['movies'],
+        price: 39.99,
+        stock: 14,
+    },
+    {
         id: 76391,
         name: "Hogwarts™ Icons - Collectors' Edition",
         description: [
@@ -72,6 +90,23 @@ export let harryPotter: Product[] = [
         stock: 9,    
     },
     {
+        id: 76394,
+        name: "Fawkes, Dumbledore's Phoenix",
+        description: [
+            `LEGO® Harry Potter™ Fawkes, Dumbledore's Phoenix (76394) is a realistic model of the iconic phoenix from the Harry Potter movies that kids can display - and 'fly' - for all their friends to admire.`,
+            `Buildable Fawkes the phoenix with 'flying' wings
+            This 597-piece, brick-built model recreates the fiery feathers, powerful beak and graceful flight of Fawkes the phoenix. The model is not only rewarding to build and impressive to 
+            display - it also features realistically jointed wings that move. Kids simply turn the handle at the rear to make the articulated wings flap gracefully up and down, displaying Fawkes' 
+            full wingspan of over 14 in. (35 cm). The collectible model stands on a sturdy base and is accompanied by an Albus Dumbledore™ LEGO minifigure alongside a smaller Fawkes figure.`
+        ],
+        pieces: 597,
+        released: true,
+        theme1: 'harry potter',
+        tags: ['movies'],
+        price: 39.99,
+        stock: 17,
+    },
+    {
         id: 76405,
         name: "Hogwarts Express™ - Collectors' Edition",
         description: [
@@ -89,5 +124,24 @@ export let harryPotter: Product[] = [
         tags: ['movies', 'vehicle'],
         price: 499.99,
         stock: 0,
+    },
+    {
+        id: 76406,
+        name: 'Hungarian Horntail Dragon',
+        description: [
+            `LEGO® Harry Potter™ Hungarian Horntail Dragon (76406) lets fans of the magical movies build, display and 'fly' one of the most dangerous dragons ever to have existed in the Wizarding 
+            World. This recreation of the legendary fire-breather is suitable for witches, wizards and muggles aged 10 and up.`,
+            `Buildable dragon with 'flying' wings
+            This brick-built model recreates the black scales, spiked tail and fiery breath of the Hungarian Horntail dragon. The iconic creature is not only rewarding to build and impressive to 
+            display - kids can also operate the model's realistically jointed wings. A handle at the rear makes the wings flap gracefully up and down, displaying the beast's full wingspan of over 
+            15 in. (40 cm). The collectible figure stands on a sturdy base and is accompanied by a Harry Potter minifigure astride his broomstick. The magic continues with the free LEGO Building 
+            Instructions app, which lets kids zoom and rotate the model as they build.`
+        ],
+        pieces: 671,
+        released: true,
+        theme1: 'harry potter',
+        tags: ['movies'],
+        price: 49.99,
+        stock: 10,
     }
-];
+]
