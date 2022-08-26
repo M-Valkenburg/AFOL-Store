@@ -16,7 +16,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building'],
-        price: 299.99,
+        price: 259.99,
         stock: 3,
     },
     {
@@ -34,7 +34,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['vehicle'],
-        price: 1471,
+        price: 139.99,
         stock: 5,
     },
     {
@@ -70,7 +70,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building'],
-        price: 199.99,
+        price: 179.99,
         stock: 4,
     },
     {
@@ -86,7 +86,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['vehicle'],
-        price: 89.99,
+        price: 79.99,
         stock: 8,
     },
     {
@@ -103,7 +103,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building', 'sports'],
-        price: 299.99,
+        price: 279.99,
         stock: 1,
     },
     {
@@ -121,7 +121,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building'],
-        price: 299.99,
+        price: 249.99,
         stock: 4,
     },
     {
@@ -138,7 +138,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['vehicle', 'movies'],
-        price: 239.99,
+        price: 199.99,
         stock: 5,
     },
     {
@@ -155,7 +155,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building', 'seasonal'],
-        price: 99.99,
+        price: 89.99,
         stock: 0,
     },
     {
@@ -172,7 +172,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building'],
-        price: 549.99,
+        price: 449.99,
         stock: 2,
     },
     {
@@ -189,7 +189,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building'],
-        price: 199.99,
+        price: 179.99,
         stock: 9,
     },
     {
@@ -206,7 +206,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['vehicle'],
-        price: 179.99,
+        price: 159.99,
         stock: 7,
     },
     {
@@ -225,7 +225,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['home decoration'],
-        price: 59.99,
+        price: 49.99,
         stock: 12,
     },
     {
@@ -261,7 +261,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['sports'],
-        price: 79.99,
+        price: 89.99,
         stock: 3,
     },
     {
@@ -279,7 +279,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['space'],
-        price: 199.99,
+        price: 179.99,
         stock: 8,
     },
     {
@@ -296,7 +296,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building', 'sports'],
-        price: 349.99,
+        price: 329.99,
         stock: 2,
     },
     {
@@ -348,7 +348,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['tv-shows'],
-        price: 974,
+        price: 99.99,
         stock: 4,
     },
     {
@@ -366,7 +366,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['tv-shows'],
-        price: 179.99,
+        price: 149.99,
         stock: 6,
     },
     {
@@ -383,7 +383,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building', 'seasonal'],
-        price: 99.99,
+        price: 89.99,
         stock: 3,
     },
     {
@@ -401,7 +401,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['vehicle'],
-        price: 679.99,
+        price: 629.99,
         stock: 1,
     },
     {
@@ -418,7 +418,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['vehicle'],
-        price: 169.99,
+        price: 139.99,
         stock: 8,
     },
     {
@@ -436,7 +436,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building'],
-        price: 229.99,
+        price: 199.99,
         stock: 9,
     },
     {
@@ -471,7 +471,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['building', 'sports'],
-        price: 399.99,
+        price: 349.99,
         stock: 2,
     },
     {
@@ -489,7 +489,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['movies', 'vehicle'],
-        price: 199.99,
+        price: 169.99,
         stock: 4,
     },
     {
@@ -507,7 +507,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['movies', 'vehicle'],
-        price: 179.99,
+        price: 169.99,
         stock: 4,
     },
     {
@@ -583,7 +583,7 @@ export let icons: Product[] = [
         stock: 4,
     },
     {
-        id: 10399,
+        id: 10309,
         name: 'Succulents',
         description: [
             `Succulents are a popular way to introduce plants into the home and enhance your decor. Now you can enjoy a mindful building project as you create an elegant plant display for 
@@ -648,7 +648,7 @@ export let icons: Product[] = [
         released: true,
         theme1: 'icons',
         tags: ['games'],
-        price: 89.99,
+        price: 79.99,
         stock: 5,
     }
-];
+]

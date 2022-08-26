@@ -13,7 +13,7 @@ export let disney: Product[] = [
         released: true,
         theme1: 'disney',
         tags: ['building'],
-        price: 39.99,
+        price: 34.99,
         stock: 0, 
     },
     {
@@ -65,4 +65,4 @@ export let disney: Product[] = [
         price: 49.99,
         stock: 28,
     }
-];
+]

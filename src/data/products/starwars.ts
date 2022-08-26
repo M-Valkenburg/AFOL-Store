@@ -16,7 +16,7 @@ export let starwars: Product[] = [
         released: true,
         theme1: 'star wars',
         tags: ['movies', 'space'],
-        price: 849.99,
+        price: 799.99,
         stock: 1,
     },
     {
@@ -49,7 +49,7 @@ export let starwars: Product[] = [
         released: true,
         theme1: 'star wars',
         tags: ['movies'],
-        price: 99.99,
+        price: 119.99,
         stock: 6,
     },
     {
@@ -84,7 +84,7 @@ export let starwars: Product[] = [
         released: true,
         theme1: 'star wars',
         tags: ['building', 'movies'],
-        price: 399.99,
+        price: 349.99,
         stock: 4,
     },
     {
@@ -119,7 +119,7 @@ export let starwars: Product[] = [
         released: true,
         theme1: 'star wars',
         tags: ['helmets', 'movies'],
-        price: 79.99,
+        price: 69.99,
         stock: 13,
     },
     {
@@ -135,7 +135,7 @@ export let starwars: Product[] = [
         released: true,
         theme1: 'star wars',
         tags: ['movies'],
-        price: 59.99,
+        price: 69.99,
         stock: 19,
     },
     {
@@ -153,7 +153,7 @@ export let starwars: Product[] = [
         released: true,
         theme1: 'star wars',
         tags: ['movies'],
-        price: 239.99,
+        price: 199.99,
         stock: 11,
     },
     {
@@ -171,7 +171,7 @@ export let starwars: Product[] = [
         released: true,
         theme1: 'star wars',
         tags: ['movies', 'space'],
-        price: 399.99,
+        price: 349.99,
         stock: 5,
     },
     {
@@ -189,7 +189,7 @@ export let starwars: Product[] = [
         released: true,
         theme1: 'star wars',
         tags: ['movies'],
-        price: 849.99,
+        price: 799.99,
         stock: 2,
     },
     {

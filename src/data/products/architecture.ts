@@ -14,7 +14,7 @@ export let architecture: Product[] = [
         released: true,
         theme1: 'architecture',
         tags: ['building'],
-        price: 59.99,
+        price: 49.99,
         stock: 15,
     },
     {
@@ -47,7 +47,7 @@ export let architecture: Product[] = [
         released: true,
         theme1: 'architecture',
         tags: ['building'],
-        price: 119.99,
+        price: 99.99,
         stock: 9,
     },
     {
@@ -63,7 +63,7 @@ export let architecture: Product[] = [
         released: true,
         theme1: 'architecture',
         tags: ['building'],
-        price: 49.99,
+        price: 39.99,
         stock: 17,
     },
     {
@@ -150,7 +150,7 @@ export let architecture: Product[] = [
         released: true,
         theme1: 'architecture',
         tags: ['building'],
-        price: 129.99,
+        price: 139.99,
         stock: 7,
     }
-];
+]

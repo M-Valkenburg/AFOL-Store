@@ -136,7 +136,7 @@ export let art: Product[] = [
         released: true,
         theme1: 'art',
         tags: ['home decoration'],
-        price: 79.99,
+        price: 69.99,
         stock: 25,
     }
-];
+]

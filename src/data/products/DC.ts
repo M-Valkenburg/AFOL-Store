@@ -49,7 +49,7 @@ export let DC: Product[] = [
         released: true,
         theme1: 'DC',
         tags: ['super heroes', 'vehicle', 'tv-shows'],
-        price: 29.99,
+        price: 34.99,
         stock: 42,
     },
     {
@@ -82,7 +82,7 @@ export let DC: Product[] = [
         released: true,
         theme1: 'DC',
         tags: ['super heroes', 'vehicle', 'movies'],
-        price: 269.99,
+        price: 229.99,
         stock: 2,
     }
-];
+]

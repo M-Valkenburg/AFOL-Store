@@ -14,7 +14,7 @@ export let harryPotter: Product[] = [
         released: true,
         theme1: 'harry potter',
         tags: ['building', 'movies'],
-        price: 469.99,
+        price: 419.99,
         stock: 2,
     },
     {
@@ -32,7 +32,7 @@ export let harryPotter: Product[] = [
         released: true,
         theme1: 'harry potter',
         tags: ['building', 'movies'],
-        price: 449.99,
+        price: 399.99,
         stock: 0,
     },
     {
@@ -68,7 +68,7 @@ export let harryPotter: Product[] = [
         released: true,
         theme1: 'harry potter',
         tags: ['movies'],
-        price: 299.99,
+        price: 249.99,
         stock: 4,
     },
     {
@@ -86,7 +86,7 @@ export let harryPotter: Product[] = [
         released: true,
         theme1: 'harry potter',
         tags: ['movies'],
-        price: 119.99,
+        price: 129.99,
         stock: 9,    
     },
     {

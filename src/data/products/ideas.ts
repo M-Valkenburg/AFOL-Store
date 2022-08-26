@@ -34,7 +34,7 @@ export let ideas: Product[] = [
         released: true,
         theme1: 'ideas',
         tags: ['building'],
-        price: 249.99,
+        price: 199.99,
         stock: 3,
     },
     {
@@ -52,7 +52,7 @@ export let ideas: Product[] = [
         released: true,
         theme1: 'ideas',
         tags: ['tv-shows'],
-        price: 59.99,
+        price: 79.99,
         stock: 3,
     },
     {
@@ -88,7 +88,7 @@ export let ideas: Product[] = [
         released: true,
         theme1: 'ideas',
         tags: ['music'],
-        price: 399.99,
+        price: 349.99,
         stock: 2,
     },
     {
@@ -124,7 +124,7 @@ export let ideas: Product[] = [
         released: true,
         theme1: 'ideas',
         tags: ['building'],
-        price: 179.99,
+        price: 149.99,
         stock: 17,
     },
     {
@@ -159,7 +159,7 @@ export let ideas: Product[] = [
         released: true,
         theme1: 'ideas',
         tags: ['home decoration'],
-        price: 249.99,
+        price: 199.99,
         stock: 1,
     },
     {
@@ -196,7 +196,7 @@ export let ideas: Product[] = [
         released: true,
         theme1: 'ideas',
         tags: ['music'],
-        price: 119.99,
+        price: 99.99,
         stock: 6,
     },
     {
@@ -216,7 +216,7 @@ export let ideas: Product[] = [
         released: true,
         theme1: 'ideas',
         tags: ['building', 'movies'],
-        price: 299.99,
+        price: 249.99,
         stock: 4,
     },
     {
@@ -235,7 +235,7 @@ export let ideas: Product[] = [
         released: true,
         theme1: 'ideas',
         tags: ['games'],
-        price: 79.99,
+        price: 69.99,
         stock: 18,
     },
     {
@@ -254,7 +254,7 @@ export let ideas: Product[] = [
         released: true,
         theme1: 'ideas',
         tags: ['home decoration'],
-        price: 229.99,
+        price: 199.99,
         stock: 3,
     },
     {
@@ -279,7 +279,12 @@ export let ideas: Product[] = [
         id: 21334,
         name: 'Jazz Quartet',
         description: [
-            ``
+            `Get into your groove and compose a jazz masterpiece. Create your own LEGO® Ideas Jazz Quartet (21334) featuring brick-built figures of a pianist, bassist, trumpeter 
+            and drummer in dynamic poses, plus highly detailed buildable models of their instruments - a grand piano, double bass, trumpet and drum kit.`,
+            `Share the joy<br>
+            This collectible display model makes a cool treat for yourself and the best gift for other jazz lovers and music fans in your life. Separate building instructions are 
+            included for each musician and instrument, so you can share the joyful creative experience with family, friends or bandmates. When the builds are complete, the quartet 
+            can be connected in whatever stage formation you prefer for display.`
         ],
         pieces: 1606,
         released: true,

@@ -16,7 +16,7 @@ export let marvel: Product[] = [
         released: true,
         theme1: 'marvel',
         tags: ['building', 'super heroes'],
-        price: 349.99,
+        price: 299.99,
         stock: 5,   
     },
     {
@@ -33,7 +33,7 @@ export let marvel: Product[] = [
         released: true,
         theme1: 'marvel',
         tags: ['helmets', 'super heroes'],
-        price: 69.99,
+        price: 59.99,
         stock: 12,
     },
     {
@@ -68,7 +68,7 @@ export let marvel: Product[] = [
         released: true,
         theme1: 'marvel',
         tags: ['space', 'super heroes'],
-        price: 159.99,
+        price: 149.99,
         stock: 10,
     },
     {
@@ -105,7 +105,7 @@ export let marvel: Product[] = [
         released: true,
         theme1: 'marvel',
         tags: ['super heroes'],
-        price: 99.99,
+        price: 119.99,
         stock: 8,
     },
     {
@@ -123,7 +123,7 @@ export let marvel: Product[] = [
         released: true,
         theme1: 'marvel',
         tags: ['super heroes'],
-        price: 54.99,
+        price: 49.99,
         stock: 21,
     },
     {
