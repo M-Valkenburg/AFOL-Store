@@ -1,0 +1,9 @@
+@import "../../scss/_config.scss";
+
+nav {
+    display: block;
+    background: $color-gold;
+    height: 60px;
+    position: sticky;
+    z-index: 1000;
+}
