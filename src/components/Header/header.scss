@@ -1,3 +1,8 @@
+@import "../../scss/_config.scss";
+
 header {
-    background-image: url("../../assets/banner/banner.webp");
+    img {
+        max-width: 100%;
+    }
 }
+
