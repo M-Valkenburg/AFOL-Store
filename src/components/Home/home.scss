@@ -1,0 +1,9 @@
+@import "../../scss/_config.scss";
+
+.home {
+    height: 2000px;
+    width: 100%;
+    background: white;
+    border-left: 3px solid $color-gold;
+    border-right: 3px solid $color-gold;
+}
