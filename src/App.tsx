@@ -4,6 +4,7 @@ import './App.scss';
 import { Header } from "./components/Header/Header";
 import { Navigation } from "./components/Navigation/Navigation"
 import { Home } from "./components/Home/Home";
+import { Themes } from "./components/Themes/Themes";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="themes" element={<Themes />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </div>
   );
