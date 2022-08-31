@@ -1,9 +1,49 @@
 @import "../../scss/_config.scss";
 
 nav {
-    display: block;
     background: $color-gold;
     height: 60px;
     position: sticky;
     z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    li {
+        display: block;
+        margin: 0 20px;
+        font-size: 26px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    span {
+        font-size: 20px;
+    }
+}
+
+.nav-hover {
+    display: inline-block;
+    position: relative;
+    color: black;
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    
+    &:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
 }
