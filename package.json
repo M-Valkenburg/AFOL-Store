@@ -23,6 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.14",
     "gh-pages": "^4.0.0",
     "react-scripts": "5.0.1"
   },
