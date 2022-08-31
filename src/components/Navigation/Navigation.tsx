@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./navigation.scss";
 import { FaSearch } from "react-icons/fa"
 import { ImCart } from "react-icons/im";
@@ -9,7 +9,7 @@ export const Navigation = () => {
         <nav>
             <div>
                 <ul>
-                    <li className="nav-hover">Theme</li>
+                    <Link to="/themes"><li className="nav-hover">Themes</li></Link>
                     <li className="nav-hover">Interest</li>
                     <li className="nav-hover">Sale</li>
                 </ul>
