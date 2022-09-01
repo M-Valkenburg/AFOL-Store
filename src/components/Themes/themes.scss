@@ -1,9 +1,75 @@
 @import "../../scss/_config.scss";
 
 .themes {
-    height: 2000px;
-    width: 100%;
-    background: red;
+    background: white;
+    padding: 30px;
     border-left: 3px solid $color-gold;
     border-right: 3px solid $color-gold;
+
+    h2 {
+        text-align: center;
+        margin: 30px 70px 50px;
+        padding: 10px;
+        background: $color-gold;
+    }
+}
+
+.themes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.theme {
+    height: 100%;
+    width: 30%;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 2px rgba(1, 1, 1, .5);
+    margin: 10px;
+    overflow: hidden;
+    padding: 5px;
+    transition: transform .5s;
+
+    &:hover,
+    &:active {
+        transform: scale(1.025);
+    }
+}
+
+.theme-img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 2s;
+
+    &:hover,
+    &:active {
+        transform: scale(1.1);
+    }
+}
+
+.logo-container {
+    height: 54px;
+    width: 100%;
+    background: lightgrey;
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.logo {
+    max-height: 39px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .theme {
+        width: 45%;
+    }
 }
