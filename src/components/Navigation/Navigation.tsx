@@ -1,25 +1,27 @@
 import { Link } from "react-router-dom";
 import "./navigation.scss";
-import { FaSearch } from "react-icons/fa"
-import { ImCart } from "react-icons/im";
-import { VscAccount } from "react-icons/vsc"
+import search from "../../assets/icons/search.svg";
+import cart from "../../assets/icons/cart.svg";
+import account from "../../assets/icons/account.svg";
 
 export const Navigation = () => {
     return (
         <nav>
             <div>
-                <ul>
-                    <Link to="/themes"><li className="nav-hover">Themes</li></Link>
-                    <li className="nav-hover">Interest</li>
-                    <li className="nav-hover">Sale</li>
-                </ul>
+                <Link to="/themes" className="nav-hover">Themes</Link>
+                <Link to="/" className="nav-hover">Interest</Link>
+                <Link to="/" className="nav-hover">Sale</Link>
             </div>
             <div>
-                <ul>
-                    <li className="nav-hover" aria-label="search"><span><FaSearch/></span> Search</li>
-                    <li className="nav-hover" aria-label="cart"><span className="cart"><ImCart/></span> Cart</li>
-                    <li className="nav-hover" aria-label="account"><span><VscAccount/></span> Login</li>
-                </ul>
+                <Link to="" className="nav-hover" aria-label="search">
+                    <img src={search} alt="search"></img> Search
+                </Link>
+                <Link to="" className="nav-hover" aria-label="cart">
+                    <img src={cart} alt="cart"></img> Cart
+                </Link>
+                <Link to="" className="nav-hover" aria-label="account">
+                    <img src={account} alt="account"></img> Login
+                </Link>
             </div>
         </nav>
     )
