@@ -30,7 +30,9 @@
 
 .theme-img {
     height: 100%;
+    max-height: 360px;
     width: 100%;
+    max-width: 360px;
     margin-bottom: 5px;
     transition: transform 2s;
 
