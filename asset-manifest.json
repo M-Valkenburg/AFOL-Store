@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/AFOL-Store/static/css/main.f825f0a0.css",
+    "main.css": "/AFOL-Store/static/css/main.8de984c7.css",
     "main.js": "/AFOL-Store/static/js/main.63d49a3b.js",
     "static/css/815.836fd9bf.chunk.css": "/AFOL-Store/static/css/815.836fd9bf.chunk.css",
     "static/js/815.526cef07.chunk.js": "/AFOL-Store/static/js/815.526cef07.chunk.js",
+    "static/media/bangers-regular.ttf": "/AFOL-Store/static/media/bangers-regular.0e89a2279da24d283991.ttf",
     "static/media/Art.webp": "/AFOL-Store/static/media/Art.d4f4ff2ccb3669ff6108.webp",
     "static/media/Star Wars.webp": "/AFOL-Store/static/media/Star Wars.d52b2c57646e1d7e9539.webp",
     "static/media/Icons.webp": "/AFOL-Store/static/media/Icons.1bb16df2eaaa3cfc5d55.webp",
@@ -13,7 +14,9 @@
     "static/media/DC.webp": "/AFOL-Store/static/media/DC.87a910fc39385faf09c1.webp",
     "static/media/Technic.webp": "/AFOL-Store/static/media/Technic.c8da9c71d7dd068948f4.webp",
     "static/media/Disney.webp": "/AFOL-Store/static/media/Disney.36f393c8e1278b8c999b.webp",
+    "static/media/bangers-regular-webfont.woff": "/AFOL-Store/static/media/bangers-regular-webfont.53e9757d1a3ecaf11dd3.woff",
     "static/media/Architecture.webp": "/AFOL-Store/static/media/Architecture.33f33889a07d1650d4c5.webp",
+    "static/media/bangers-regular-webfont.woff2": "/AFOL-Store/static/media/bangers-regular-webfont.5d57d4e13b66712f6ce4.woff2",
     "static/media/Marvel.webp": "/AFOL-Store/static/media/Marvel.2529fefdf48962828625.webp",
     "static/media/Architecture.png": "/AFOL-Store/static/media/Architecture.a0c5e8d91a61535910d2.png",
     "static/media/Harry Potter.png": "/AFOL-Store/static/media/Harry Potter.faae5b84138f95cb26fc.png",
@@ -21,13 +24,13 @@
     "static/media/cart.svg": "/AFOL-Store/static/media/cart.03a706e9d6046b4ad90dd2af5508a635.svg",
     "static/media/search.svg": "/AFOL-Store/static/media/search.cf315284d6e0edc1c7686864aa6da0bc.svg",
     "static/media/account.svg": "/AFOL-Store/static/media/account.9b62643f9d2afab17a6fdb52b7468d36.svg",
-    "main.f825f0a0.css.map": "/AFOL-Store/static/css/main.f825f0a0.css.map",
+    "main.8de984c7.css.map": "/AFOL-Store/static/css/main.8de984c7.css.map",
     "main.63d49a3b.js.map": "/AFOL-Store/static/js/main.63d49a3b.js.map",
     "815.836fd9bf.chunk.css.map": "/AFOL-Store/static/css/815.836fd9bf.chunk.css.map",
     "815.526cef07.chunk.js.map": "/AFOL-Store/static/js/815.526cef07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f825f0a0.css",
+    "static/css/main.8de984c7.css",
     "static/js/main.63d49a3b.js"
   ]
 }
