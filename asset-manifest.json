@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AFOL-Store/static/css/main.38ed8da8.css",
+    "main.css": "/AFOL-Store/static/css/main.79ee2145.css",
     "main.js": "/AFOL-Store/static/js/main.f4096890.js",
     "static/media/Art.png": "/AFOL-Store/static/media/Art.6c19f5bf0b19eee6e36f.png",
     "static/media/Ideas.png": "/AFOL-Store/static/media/Ideas.a410401a0aa1116f1b7a.png",
@@ -15,11 +15,11 @@
     "static/media/banner.webp": "/AFOL-Store/static/media/banner.a6243afe079f3f89dbb0.webp",
     "static/media/Harry Potter.png": "/AFOL-Store/static/media/Harry Potter.faae5b84138f95cb26fc.png",
     "index.html": "/AFOL-Store/index.html",
-    "main.38ed8da8.css.map": "/AFOL-Store/static/css/main.38ed8da8.css.map",
+    "main.79ee2145.css.map": "/AFOL-Store/static/css/main.79ee2145.css.map",
     "main.f4096890.js.map": "/AFOL-Store/static/js/main.f4096890.js.map"
   },
   "entrypoints": [
-    "static/css/main.38ed8da8.css",
+    "static/css/main.79ee2145.css",
     "static/js/main.f4096890.js"
   ]
 }
