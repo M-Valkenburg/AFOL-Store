@@ -9,9 +9,9 @@ export const Themes = () => {
                 {themes.map(theme => {
                     return (
                         <div className="theme" key={theme.name}>
-                            <img className="theme-img" src={theme.img} alt={theme.name}/>
+                            <img className="theme-img" src={theme.img} alt={theme.name} loading="lazy"/>
                             <div className="logo-container">
-                                <img className="logo" src={theme.logo} alt={theme.name}/>
+                                <img className="logo" src={theme.logo} alt={theme.name} loading="lazy"/>
                             </div>
                         </div>
                     )
