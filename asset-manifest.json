@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/AFOL-Store/static/css/main.79ee2145.css",
-    "main.js": "/AFOL-Store/static/js/main.58a7d740.js",
+    "main.css": "/AFOL-Store/static/css/main.f825f0a0.css",
+    "main.js": "/AFOL-Store/static/js/main.63d49a3b.js",
+    "static/css/815.836fd9bf.chunk.css": "/AFOL-Store/static/css/815.836fd9bf.chunk.css",
+    "static/js/815.526cef07.chunk.js": "/AFOL-Store/static/js/815.526cef07.chunk.js",
     "static/media/Art.webp": "/AFOL-Store/static/media/Art.d4f4ff2ccb3669ff6108.webp",
     "static/media/Star Wars.webp": "/AFOL-Store/static/media/Star Wars.d52b2c57646e1d7e9539.webp",
     "static/media/Icons.webp": "/AFOL-Store/static/media/Icons.1bb16df2eaaa3cfc5d55.webp",
@@ -16,11 +18,16 @@
     "static/media/Architecture.png": "/AFOL-Store/static/media/Architecture.a0c5e8d91a61535910d2.png",
     "static/media/Harry Potter.png": "/AFOL-Store/static/media/Harry Potter.faae5b84138f95cb26fc.png",
     "index.html": "/AFOL-Store/index.html",
-    "main.79ee2145.css.map": "/AFOL-Store/static/css/main.79ee2145.css.map",
-    "main.58a7d740.js.map": "/AFOL-Store/static/js/main.58a7d740.js.map"
+    "static/media/cart.svg": "/AFOL-Store/static/media/cart.03a706e9d6046b4ad90dd2af5508a635.svg",
+    "static/media/search.svg": "/AFOL-Store/static/media/search.cf315284d6e0edc1c7686864aa6da0bc.svg",
+    "static/media/account.svg": "/AFOL-Store/static/media/account.9b62643f9d2afab17a6fdb52b7468d36.svg",
+    "main.f825f0a0.css.map": "/AFOL-Store/static/css/main.f825f0a0.css.map",
+    "main.63d49a3b.js.map": "/AFOL-Store/static/js/main.63d49a3b.js.map",
+    "815.836fd9bf.chunk.css.map": "/AFOL-Store/static/css/815.836fd9bf.chunk.css.map",
+    "815.526cef07.chunk.js.map": "/AFOL-Store/static/js/815.526cef07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79ee2145.css",
-    "static/js/main.58a7d740.js"
+    "static/css/main.f825f0a0.css",
+    "static/js/main.63d49a3b.js"
   ]
 }
