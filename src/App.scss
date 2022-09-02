@@ -1,6 +1,19 @@
 @import "./scss/_config.scss";
 
+@font-face {
+    font-family: 'bangersregular';
+    src: url('./assets/fonts/bangers-regular.ttf') format('ttf'),
+         url('./assets/fonts/bangers-regular-webfont.woff2') format('woff2'),
+         url('./assets/fonts/bangers-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .App {
     font-family: Arial;
     max-width: 1600px;
+}
+
+h1 {
+    font-family: "bangersregular";
 }
