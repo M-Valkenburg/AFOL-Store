@@ -1,6 +1,126 @@
 @import "../../scss/_config.scss";
 
 .home {
-    height: 2000px;
     @extend .page;
+
+    section {
+        border: $content-border;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: blue;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .home {
+        padding: 30px;
+    }
+}
+
+.promo {
+    width: 100%;
+    height: auto;
+    border-bottom: $content-border;
+}
+
+.text-container {
+    padding: 10px 1.5%;
+
+    h3 {
+        font-size: 24px;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+
+    p {
+        line-height: 20px;
+        margin-top: 15px;
+        letter-spacing: .5px;
+        line-height: 22px;
+    }
+}
+
+.promo-10305 {
+    background: rgba(251, 197, 34, 1);
+}
+
+.castle-container {
+    position: relative;
+
+}
+
+.lkc {
+    position: relative;
+}
+
+.kk {
+    width: 55%;
+    height: auto;
+    border: $content-border;
+    border-radius: 5px;
+    position: absolute;
+    top: 1.5%;
+    left: 1%;
+}
+
+.castle-desc {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .castle-desc {
+        img {
+            display: none;
+        }
+    }
+}
+
+.space-container {
+    position: relative;
+
+    img {
+        position: relative;
+    }
+}
+
+.promo-10497 {
+    background: rgba(202, 208, 215, 1);
+}
+
+.classic-sets {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 1.5%;
+
+    img {
+        height: 35%;
+        max-height: 300px;
+        width: auto;
+        border: $content-border;
+        border-radius: 5px;
+    }
+}
+
+.promo-42143 {
+    color: white;
+    background: black;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
