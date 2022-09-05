@@ -1,12 +1,14 @@
 import "./home.scss";
 import castle10305 from "../../assets/promotion/10305-promo.webp";
 import castle6080 from "../../assets/promotion/6080.webp";
-import knights from "../../assets/promotion/10305-minifigs.webp"
+import knights from "../../assets/promotion/10305-minifigs.webp";
 import space10497 from "../../assets/promotion/10497-promo.webp";
 import space497 from "../../assets/promotion/497.webp";
 import space918 from "../../assets/promotion/918.webp";
 import space924 from "../../assets/promotion/924.webp";
-import ferrari from "../../assets/promotion/42143-promo.webp"
+import spaceFig from "../../assets/promotion/10497-minifig.webp";
+import ferrari from "../../assets/promotion/42143-promo.webp";
+import ferrariLogo from "../../assets/promotion/ferrari.webp";
 
 export const Home = () => {
     return (
@@ -16,7 +18,7 @@ export const Home = () => {
                     <img className="promo lkc" src={castle10305} alt="10305 Lion Knights' Castle"/>
                     <img className="kk" src={castle6080} alt="6080 King's Castle"/>
                 </div>
-                <div className="castle-desc">
+                <div className="desc-container">
                     <div className="text-container">
                         <h3>Go back in time, again!</h3>
                         <p>
@@ -36,22 +38,28 @@ export const Home = () => {
                     </div>
                     <img className="promo ge" src={space10497} alt="Galaxy Explorer"/>
                 </div>
-                <div className="text-container">
-                    <h3>A 1970s classic - reimagined</h3>
-                    <p>Celebrate 90 years of LEGO® creations as you build this scaled-up anniversary tribute to the Classic 497 Galaxy Explorer set.</p>
-                    <p>
-                        Alternitively, you can build the reimagined versions of the 918 Space Transport or the 924 Space Transporter.
-                        Instructions for the reimagined versions are not included in the set. They can be downloaded 
-                        from <a href="https://www.lego.com/en-us/service/buildinginstructions/10497" target="_blank" rel="noreferrer">Lego.com</a>
-                    </p>
+                <div className="desc-container">
+                    <div className="text-container">
+                        <h3>A 1970s classic - reimagined</h3>
+                        <p>Celebrate 90 years of LEGO® creations as you build this scaled-up anniversary tribute to the Classic 497 Galaxy Explorer set.</p>
+                        <p>
+                            Alternitively, you can build the reimagined versions of the 918 Space Transport or the 924 Space Transporter.
+                            Instructions for the reimagined versions are not included in the set. They can be downloaded 
+                            from <a href="https://www.lego.com/en-us/service/buildinginstructions/10497" target="_blank" rel="noreferrer">Lego.com</a>
+                        </p>
+                    </div>
+                    <img src={spaceFig} alt="Classic space minifigure"/>
                 </div>
             </section>
             <section className="promo-42143">
-                <img src={ferrari} alt="42143 Ferrari Daytona SP3"/>
-                <div className="text-container">
-                    <h3>Take the scenic route</h3>
-                    <p>Enter a zone of complete mindfulness with the impressive new LEGO® Technic Ferrari Daytona SP3.</p>
-                    <p>This 1:8 scale model has 3,778 pieces, making it one of the biggest Technic vehicles ever.</p>
+                <img className="fd" src={ferrari} alt="42143 Ferrari Daytona SP3"/>
+                <div className="desc-container">
+                    <div className="text-container">
+                        <h3>Take the scenic route</h3>
+                        <p>Enter a zone of complete mindfulness with the impressive new LEGO® Technic Ferrari Daytona SP3.</p>
+                        <p>This 1:8 scale model has 3,778 pieces, making it one of the biggest Technic vehicles ever.</p>
+                    </div>
+                    <img src={ferrariLogo} alt="Ferrari logo"/>
                 </div>
             </section>
         </div>
