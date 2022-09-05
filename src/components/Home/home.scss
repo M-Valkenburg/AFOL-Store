@@ -6,21 +6,25 @@
     section {
         border: $content-border;
         border-radius: 5px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
     }
 
     section:last-of-type {
         margin-bottom: 0;
     }
-
-    a {
-        color: blue;
-    }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 901px) {
     .home {
         padding: 30px;
+
+        section {
+            border: $content-border;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+        }
     }
 }
 
@@ -28,6 +32,33 @@
     width: 100%;
     height: auto;
     border-bottom: $content-border;
+}
+
+.desc-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    img {
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .desc-container {
+        img {
+            height: 150px;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .desc-container {
+        img {
+            display: none;
+        }
+    }
 }
 
 .text-container {
@@ -71,24 +102,6 @@
     left: 1%;
 }
 
-.castle-desc {
-    display: flex;
-    flex-direction: row;
-
-    img {
-        height: 200px;
-        width: auto;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .castle-desc {
-        img {
-            display: none;
-        }
-    }
-}
-
 .space-container {
     position: relative;
 
@@ -98,7 +111,12 @@
 }
 
 .promo-10497 {
-    background: rgba(202, 208, 215, 1);
+    color: white;
+    background: rgba(1, 0, 5, 1);
+
+    a {
+        color: $color-gold-light;
+    }
 }
 
 .classic-sets {
@@ -122,9 +140,9 @@
 .promo-42143 {
     color: white;
     background: black;
+}
 
-    img {
-        height: auto;
-        width: 100%;
-    }
+.fd {
+    height: auto;
+    width: 100%;
 }
