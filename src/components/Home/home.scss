@@ -6,7 +6,11 @@
     section {
         border: $content-border;
         border-radius: 5px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    section:last-of-type {
+        margin-bottom: 0;
     }
 
     a {
