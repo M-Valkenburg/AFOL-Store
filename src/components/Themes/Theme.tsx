@@ -1,9 +1,9 @@
 import './theme.scss';
 
-const DC = () => {
+const Theme = () => {
     return (
         <div className="theme-page"></div>
     )
 };
 
-export default DC;
+export default Theme;
