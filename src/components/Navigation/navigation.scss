@@ -38,6 +38,7 @@ nav {
 
     #menu-links {
         visibility: visible !important;
+        max-height: 60px !important;
     }
 
     .nav-hover {
@@ -103,6 +104,9 @@ nav {
         top: 50px;
         left: 0;
         width: 100%;
+        max-height: 0px;
+        transition: max-height 0.15s ease-out;
+        overflow: hidden;
         background-color: $color-gold-light;
         position: absolute;
         border: $content-border;

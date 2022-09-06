@@ -9,9 +9,15 @@ export const Navigation = () => {
     const handleClick = () => {
         let dropdown = document.getElementById('menu-links') as HTMLElement;
         
-        dropdown.style.visibility === 'hidden' || dropdown.style.visibility === ''
-            ? dropdown.style.visibility = 'visible'
-            : dropdown.style.visibility = 'hidden';
+        if (dropdown.style.visibility === 'hidden' || dropdown.style.visibility === '') {
+            dropdown.style.visibility = 'visible';
+            dropdown.style.maxHeight = '160px';
+            dropdown.style.transition = 'max-height .1s ease-in';
+        } else {
+            dropdown.style.visibility = 'hidden';
+            dropdown.style.maxHeight = '0px';
+            dropdown.style.transition = 'max-height .1s ease-out';
+        }
     };
 
     return (
