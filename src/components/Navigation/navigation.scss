@@ -117,6 +117,11 @@ nav {
             text-decoration: none;
             padding: 10px 5px;
             border-bottom: 1px solid rgba(1, 1, 1, .5);
+            
+            &:hover,
+            &:active {
+                background-color: $color-gold-lightest;
+            }
         }
 
         a:last-of-type {
