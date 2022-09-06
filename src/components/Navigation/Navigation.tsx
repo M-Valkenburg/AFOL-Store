@@ -5,7 +5,7 @@ import search from "../../assets/icons/search.svg";
 import cart from "../../assets/icons/cart.svg";
 import account from "../../assets/icons/account.svg";
 
-export const Navigation = () => {
+const Navigation = () => {
     const handleClick = () => {
         let dropdown = document.getElementById('menu-links') as HTMLElement;
         
@@ -46,3 +46,5 @@ export const Navigation = () => {
         </nav>
     )
 };
+
+export default Navigation;

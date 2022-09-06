@@ -10,7 +10,7 @@ import spaceFig from "../../assets/promotion/10497-minifig.webp";
 import ferrari from "../../assets/promotion/42143-promo.webp";
 import ferrariLogo from "../../assets/promotion/ferrari.webp";
 
-export const Home = () => {
+const Home = () => {
     return (
         <div className="home">
             <section className="promo-10305">
@@ -65,3 +65,5 @@ export const Home = () => {
         </div>
     )
 };
+
+export default Home;
