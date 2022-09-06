@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import "./themes.scss";
 import { themes } from "../../data/themes";
 
-export const Themes = () => {
+const Themes = () => {
     return (
         <div className="themes">
             <h2>Themes</h2>
@@ -21,3 +21,5 @@ export const Themes = () => {
         </div>
     )
 };
+
+export default Themes;

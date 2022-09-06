@@ -1,5 +1,9 @@
 import './theme.scss';
 
-export const DC = () => {
-
+const DC = () => {
+    return (
+        <div className="theme-page"></div>
+    )
 };
+
+export default DC;

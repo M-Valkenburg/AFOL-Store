@@ -1,5 +1,9 @@
 import './theme.scss';
 
-export const StarWars = () => {
-
+const StarWars = () => {
+    return (
+        <div className="theme-page"></div>
+    )
 };
+
+export default StarWars;

@@ -1,5 +1,9 @@
 import './theme.scss';
 
-export const Marvel = () => {
-
+const Marvel = () => {
+    return (
+        <div className="theme-page"></div>
+    )
 };
+
+export default Marvel;

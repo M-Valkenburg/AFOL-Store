@@ -1,5 +1,9 @@
 import './theme.scss';
 
-export const architecture = () => {
-
+const Architecture = () => {
+    return (
+        <div className="theme-page"></div>
+    )
 };
+
+export default Architecture;

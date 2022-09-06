@@ -1,5 +1,9 @@
 import './theme.scss';
 
-export const HarryPotter = () => {
-
+const HarryPotter = () => {
+    return (
+        <div className="theme-page"></div>
+    )
 };
+
+export default HarryPotter;

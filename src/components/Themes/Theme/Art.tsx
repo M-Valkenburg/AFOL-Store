@@ -1,5 +1,9 @@
 import './theme.scss';
 
-export const Art = () => {
-
+const Art = () => {
+    return (
+        <div className="theme-page"></div>
+    )
 };
+
+export default Art;

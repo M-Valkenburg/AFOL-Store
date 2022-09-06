@@ -1,5 +1,9 @@
 import './theme.scss';
 
-export const Teachnic = () => {
-
+const Technic = () => {
+    return (
+        <div className="theme-page"></div>
+    )
 };
+
+export default Technic;

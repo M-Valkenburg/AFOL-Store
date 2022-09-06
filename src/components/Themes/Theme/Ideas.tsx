@@ -1,5 +1,9 @@
 import './theme.scss';
 
-export const Ideas = () => {
-
+const Ideas = () => {
+    return (
+        <div className="theme-page"></div>
+    )
 };
+
+export default Ideas;

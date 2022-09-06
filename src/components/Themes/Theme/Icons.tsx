@@ -1,5 +1,9 @@
 import './theme.scss';
 
-export const Icons = () => {
-
+const Icons = () => {
+    return (
+        <div className="theme-page"></div>
+    )
 };
+
+export default Icons;
