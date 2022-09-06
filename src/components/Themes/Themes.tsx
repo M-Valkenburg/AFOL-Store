@@ -9,7 +9,7 @@ const Themes = () => {
             <div className="themes-container">
                 {themes.map(theme => {
                     return (
-                        <Link to={`${theme.name.toLowerCase()}`} className="theme" key={theme.name}>
+                        <Link to={`/themes/${theme.name.toLowerCase()}`} className="theme" key={theme.name}>
                             <img className="theme-img" src={theme.img} alt={theme.name} loading="lazy"/>
                             <div className="logo-container">
                                 <img className="logo" src={theme.logo} alt={theme.name} loading="lazy"/>
