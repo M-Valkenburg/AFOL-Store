@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Link } from "react-router-dom";
 import "./navigation.scss";
 import menu from "../../assets/icons/menu.svg"
@@ -10,9 +9,9 @@ export const Navigation = () => {
     const handleClick = () => {
         let dropdown = document.getElementById('menu-links') as HTMLElement;
         
-        dropdown.style.display === 'none'
-            ? dropdown.style.display = 'block'
-            : dropdown.style.display = 'none';
+        dropdown.style.visibility === 'hidden' || dropdown.style.visibility === ''
+            ? dropdown.style.visibility = 'visible'
+            : dropdown.style.visibility = 'hidden';
     };
 
     return (

@@ -37,7 +37,7 @@ nav {
     }
 
     #menu-links {
-        display: inline-block !important;
+        visibility: visible !important;
     }
 
     .nav-hover {
@@ -83,7 +83,7 @@ nav {
     }
 
     .menu-button {
-        display: visible;
+        display: block;
         height: 50px;
         width: 50px;
         border-right: $content-border;
@@ -99,10 +99,10 @@ nav {
     }
 
     #menu-links {
-        display: none;
+        visibility: hidden;
         top: 50px;
         left: 0;
-        width: 200px;
+        width: 100%;
         background-color: $color-gold-light;
         position: absolute;
         border: $content-border;
