@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let harryPotter: Product[] = [
+export let harrypotter: Product[] = [
     {
         id: 71073,
         name: 'Hogwarts™ Castle',

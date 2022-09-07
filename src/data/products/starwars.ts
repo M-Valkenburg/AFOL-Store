@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let starWars: Product[] = [
+export let starwars: Product[] = [
     {
         id: 75192,
         name: 'Millennium Falcon™',
