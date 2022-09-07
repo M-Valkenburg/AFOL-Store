@@ -16,11 +16,11 @@ type Theme =
     'art' | 
     'DC' | 
     'disney' | 
-    'harry potter' | 
+    'harrypotter' | 
     'icons' | 
     'ideas' | 
     'marvel' | 
-    'star wars' | 
+    'starwars' | 
     'technic';
 
 type Tags = 

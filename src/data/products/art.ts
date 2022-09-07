@@ -30,7 +30,7 @@ export let art: Product[] = [
         pieces: 4249,
         released: true,
         theme1: 'art',
-        theme2: 'harry potter',
+        theme2: 'harrypotter',
         tags: ['movies', 'home decoration'],
         price: 119.99,
         stock: 12,
