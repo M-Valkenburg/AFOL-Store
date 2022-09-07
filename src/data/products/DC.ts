@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let dc: Product[] = [
+const dc: Product[] = [
     {
         id: 76161,
         name: '1989 Batwing',
@@ -86,3 +86,5 @@ export let dc: Product[] = [
         stock: 2,
     }
 ]
+
+export default dc;

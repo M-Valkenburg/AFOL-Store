@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let art: Product[] = [
+const art: Product[] = [
     {
         id: 21226,
         name: 'Art Project - Create Together',
@@ -100,7 +100,7 @@ export let art: Product[] = [
         pieces: 4167,
         released: true,
         theme1: 'art',
-        theme2: 'DC',
+        theme2: 'dc',
         tags: ['movies', 'super heroes', 'home decoration'],
         price: 119.99,
         stock: 2,
@@ -140,3 +140,5 @@ export let art: Product[] = [
         stock: 25,
     }
 ]
+
+export default art;

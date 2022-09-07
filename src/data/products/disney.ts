@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let disney: Product[] = [
+const disney: Product[] = [
     {
         id: 40478,
         name: 'Mini Disney Castle',
@@ -66,3 +66,5 @@ export let disney: Product[] = [
         stock: 28,
     }
 ]
+
+export default disney;

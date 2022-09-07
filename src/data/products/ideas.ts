@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let ideas: Product[] = [
+const ideas: Product[] = [
     {
         id: 92176,
         name: 'LEGO® NASA Apollo Saturn V',
@@ -330,3 +330,5 @@ export let ideas: Product[] = [
         stock: 0,
     }
 ]
+
+export default ideas;

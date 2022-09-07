@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let icons: Product[] = [
+const icons: Product[] = [
     {
         id: 10255,
         name: 'Assembly Square',
@@ -652,3 +652,5 @@ export let icons: Product[] = [
         stock: 5,
     }
 ]
+
+export default icons;

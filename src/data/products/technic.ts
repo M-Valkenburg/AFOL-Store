@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let technic: Product[] = [
+const technic: Product[] = [
     {
         id: 42083,
         name: 'Bugatti Chiron',
@@ -227,7 +227,7 @@ export let technic: Product[] = [
         pieces: 1360,
         released: true,
         theme1: 'technic',
-        theme2: 'DC',
+        theme2: 'dc',
         tags: ['movies', 'super heroes', 'vehicle'],
         price: 99.99,
         stock: 14,
@@ -385,3 +385,5 @@ export let technic: Product[] = [
         stock: 5,
     }
 ]
+
+export default technic;

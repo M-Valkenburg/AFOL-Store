@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let starwars: Product[] = [
+const starwars: Product[] = [
     {
         id: 75192,
         name: 'Millennium Falcon™',
@@ -331,3 +331,5 @@ export let starwars: Product[] = [
         stock: 16,
     }
 ]
+
+export default starwars;

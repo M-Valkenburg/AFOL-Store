@@ -1,6 +1,6 @@
 import { Product } from './_productType';
-
-export let architecture: Product[] = [
+;
+const architecture: Product[] = [
     {
         id: 21028,
         name: 'New York City',
@@ -154,3 +154,5 @@ export let architecture: Product[] = [
         stock: 7,
     }
 ]
+
+export default architecture;
