@@ -14,7 +14,7 @@ export type Product = {
 type Theme = 
     'architecture' | 
     'art' | 
-    'DC' | 
+    'dc' | 
     'disney' | 
     'harrypotter' | 
     'icons' | 

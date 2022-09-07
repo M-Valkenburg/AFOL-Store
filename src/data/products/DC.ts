@@ -1,6 +1,6 @@
 import { Product } from './_productType';
 
-export let DC: Product[] = [
+export let dc: Product[] = [
     {
         id: 76161,
         name: '1989 Batwing',
@@ -13,7 +13,7 @@ export let DC: Product[] = [
         ],
         pieces: 2363,
         released: true,
-        theme1: 'DC',
+        theme1: 'dc',
         tags: ['super heroes', 'vehicle', 'movies'],
         price: 199.99,
         stock: 3,
@@ -29,7 +29,7 @@ export let DC: Product[] = [
         ],
         pieces: 410,
         released: true,
-        theme1: 'DC',
+        theme1: 'dc',
         tags: ['super heroes', 'helmets', 'movies'],
         price: 59.99,
         stock: 10,
@@ -47,7 +47,7 @@ export let DC: Product[] = [
         ],
         pieces: 345,
         released: true,
-        theme1: 'DC',
+        theme1: 'dc',
         tags: ['super heroes', 'vehicle', 'tv-shows'],
         price: 34.99,
         stock: 42,
@@ -64,7 +64,7 @@ export let DC: Product[] = [
         ],
         pieces: 372,
         released: true,
-        theme1: 'DC',
+        theme1: 'dc',
         tags: ['super heroes', 'helmets', 'tv-shows'],
         price: 59.99,
         stock: 12,
@@ -80,7 +80,7 @@ export let DC: Product[] = [
         ],
         pieces: 2049,
         released: true,
-        theme1: 'DC',
+        theme1: 'dc',
         tags: ['super heroes', 'vehicle', 'movies'],
         price: 229.99,
         stock: 2,
