@@ -60,7 +60,7 @@ const technic: Product[] = [
     },
     {
         id: 42110,
-        name: '',
+        name: 'Land Rover Defender',
         description: [
             `Experience world-leading vehicle design firsthand with this highly authentic and displayable 42110 LEGO® Technic™ Land Rover Defender model. Developed in 
             partnership with Land Rover, this impressive LEGO replica captures the vehicle's outstanding level of refinement with its clean, modern lines and sculpted 
