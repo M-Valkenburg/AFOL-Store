@@ -1,9 +1,11 @@
 import { Product } from './_productType';
+import images from "./dcImages";
 
 const dc: Product[] = [
     {
         id: 76161,
         name: '1989 Batwing',
+        image: images[76161],
         description: [
             `This is no kid's toy. If you're serious about BATMAN™, comic book super heroes or making cool models, this LEGO® DC BATMAN 1989 Batwing is for you!`,
             `Batwing construction project<br>
@@ -21,6 +23,7 @@ const dc: Product[] = [
     {
         id: 76182,
         name: 'Batman™ Cowl',
+        image: images[76182],
         description: [
             `Immerse yourself in a challenging and rewarding building experience as your imagination transports you to GOTHAM CITY™ with the impressive LEGO® DC Batman™: Batman Cowl (76182).`,
             `Iconic Batman helmet to build and display<br>
@@ -37,6 +40,7 @@ const dc: Product[] = [
     {
         id: 76188,
         name: 'Batman™ Classic TV Series Batmobile™',
+        image: images[76188],
         description: [
             `LEGO® DC Batman™: Batman Classic TV Series Batmobile™ (76188) gives kids all the style, action and excitement of the original 1966 Batman TV series. The iconic vehicle is 
             packed with cool features and attaches to a rotatable stand.`,
@@ -55,6 +59,7 @@ const dc: Product[] = [
     {
         id: 76238,
         name: 'Classic TV Series Batman™ Cowl',
+        image: images[76238],
         description: [
             `Immerse yourself in a rewarding model-making project as you recreate the unforgettable style of the classic Batman™ TV series. Created with adult fans in mind, LEGO® DC Batman 
             Classic TV Series Batman Cowl (76238) is satisfying to build and stunning to display.`,
@@ -72,6 +77,7 @@ const dc: Product[] = [
     {
         id: 76240,
         name: 'LEGO® DC Batman™ Batmobile™ Tumbler',
+        image: images[76240],
         description: [
             `LEGO® DC Batman™ Batmobile™ Tumbler (76240) will stretch your construction skills and capture the style of one of the most iconic vehicles in cinema history.`,
             `The ultimate, armored crime-fighting machine<br>

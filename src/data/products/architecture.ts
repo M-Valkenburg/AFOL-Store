@@ -1,9 +1,11 @@
 import { Product } from './_productType';
-;
+import images from "./architectureImages";
+
 const architecture: Product[] = [
     {
         id: 21028,
         name: 'New York City',
+        image: images[21028],
         description: [
             `Celebrate the architectural diversity of New York City with this detailed LEGO® brick model. The LEGO Architecture Skyline Collection offers models suitable for 
             display in the home and office, and has been developed for all with an interest in travel, architectural culture, history and design. Each set is scaled to give 
@@ -20,6 +22,7 @@ const architecture: Product[] = [
     {
         id: 21034,
         name: 'London',
+        image: images[21034],
         description: [`Celebrate the architectural diversity of London with this detailed LEGO® brick model. The LEGO Architecture Skyline Collection offers models suitable for 
             display in the home and office, and has been developed for all with an interest in travel, architectural culture, history and design. Each set is scaled to give an accurate 
             representation of the comparative size of each structure, with true-to-life color depiction. This set features the National Gallery, Nelson's Column, London Eye, Big Ben 
@@ -35,6 +38,7 @@ const architecture: Product[] = [
     {
         id: 21042,
         name: 'Statue of Liberty',
+        image: images[21042],
         description: [
             `Celebrate a monumental blend of architecture and sculpture with this LEGO® Architecture 21042 The Statue of Liberty set. America's iconic symbol of freedom stands more than 
             305 feet above Liberty Island in New York harbor, welcoming seafarers from around the globe. This impressive LEGO interpretation faithfully reproduces the monument's harmonious 
@@ -53,6 +57,7 @@ const architecture: Product[] = [
     {
         id: 21044,
         name: 'Paris',
+        image: images[21044],
         description: [
             `Bring together iconic Paris landmarks with this magnificent Paris skyline model. The 21044 LEGO® Architecture Skyline Collection set features the Arc de Triomphe, Champs-Elysées, 
             Tour Montparnasse, Grand Palais, Eiffel Tower and the Louvre, and is finished with grass and tree areas and a decorative "Paris" nameplate. This set has been designed to deliver a 
@@ -69,6 +74,7 @@ const architecture: Product[] = [
     {
         id: 21051,
         name: 'Tokyo',
+        image: images[21051],
         description: [
             `Recreate some of Tokyo's most famous buildings with this detailed LEGO® Architecture Skyline Collection 21051 desk toy. It's a great souvenir for Tokyo visitors and an ideal gift 
             for adults who live or have lived in Japan's capital city or who dream of visiting. Even LEGO newcomers can zone out from busy lives and enjoy this relaxing building experience iconic 
@@ -85,6 +91,7 @@ const architecture: Product[] = [
     {
         id: 21054,
         name: 'The White House',
+        image: images[21054],
         description: [
             `You're busy. It feels like you're always on the go. So when you do get some free time, you like to recharge your batteries by focusing on a fun, creative challenge. 
             That's what building The White House with LEGO® bricks is all about.`,
@@ -103,6 +110,7 @@ const architecture: Product[] = [
     {
         id: 21056,
         name: 'Taj Mahal',
+        image: images[21056],
         description: [
             `Whether you have been lucky enough to visit the Taj Mahal yourself and want a special souvenir of the experience, dream of visiting one day or just appreciate elegant buildings, this LEGO® 
             Architecture Landmarks Collection set (21056) is ideal for you.`,
@@ -121,6 +129,7 @@ const architecture: Product[] = [
     {
         id: 21057,
         name: 'Singapore',
+        image: images[21057],
         description: [
             `Be transported to one of the world's most exciting cities as you build this LEGO® Architecture Skyline Collection model of Singapore (21057) - no passport required. Enjoy quality time recreating 
             Marina Bay Sands, the OCBC Centre, One Raffles Place, Lau Pa Sat food market, The Fullerton Hotel Singapore and Supertree Grove at Gardens by the Bay. Add LEGO elements representing the Singapore 
@@ -139,6 +148,7 @@ const architecture: Product[] = [
     {
         id: 21058,
         name: 'Great Pyramid of Giza',
+        image: images[21058],
         description: [
             `Take an imaginative leap back in time to the 26th century BC and experience the building of one of the Seven Wonders of the Ancient World with this LEGO® Architecture Great Pyramid of Giza model (21058). 
             Build a beautifully detailed cross-section model of the Great Pyramid, revealing its main tunnels and chambers and the system that may have been used to move huge stones during its construction. Visualize 

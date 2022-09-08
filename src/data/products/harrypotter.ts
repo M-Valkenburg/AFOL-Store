@@ -1,9 +1,11 @@
 import { Product } from './_productType';
+import images from "./harrypotterImages";
 
 const harrypotter: Product[] = [
     {
-        id: 71073,
+        id: 71043,
         name: 'Hogwarts™ Castle',
+        image: images[71043],
         description: [
             `Make the magic come alive at the LEGO® Harry Potter™ 71043 Hogwarts™ Castle! This highly detailed LEGO Harry Potter collectible has over 6,000 pieces and offers 
             a rewarding build experience. It comes packed with highlights from the Harry Potter series, where you will discover towers, turrets, chambers, classrooms, creatures, 
@@ -20,6 +22,7 @@ const harrypotter: Product[] = [
     {
         id: 75978,
         name: 'Diagon Alley™',
+        image: images[75978],
         description: [
             `LEGO® Harry Potter™ Diagon Alley™ (75978) is a superb recreation of London's most magical shopping street for fans of the Harry Potter movies aged 16 and up.`,
             `Iconic stores packed with authentic movie details<br>
@@ -38,6 +41,7 @@ const harrypotter: Product[] = [
     {
         id: 75979,
         name: 'Hedwig™',
+        image: images[75979],
         description: [
             `Bring the magical personality and elegant movement of Hedwig™, the celebrated snowy owl from the Harry Potter™ movies, to life. The collectible LEGO® Harry Potter Hedwig 
             (75979) display toy offers a rewarding building experience and looks magnificent on show.`,
@@ -56,6 +60,7 @@ const harrypotter: Product[] = [
     {
         id: 76391,
         name: "Hogwarts™ Icons - Collectors' Edition",
+        image: images[76391],
         description: [
             `LEGO® Harry Potter™ Hogwarts™ Icons - Collectors' Edition is a recreation of some of the series' most memorable imagery, brought together in a celebratory display piece created with adult enthusiasts in mind.`,
             `A captivating collection of magical mementos<br>
@@ -74,6 +79,7 @@ const harrypotter: Product[] = [
     {
         id: 76393,
         name: 'Harry Potter & Hermione Granger™',
+        image: images[76393],
         description: [
             `Make a BIG impression on any young witch or wizard with the super-sized LEGO® Harry Potter™: Harry Potter & Hermione Granger™ (76393).`,
             `Large-scale, iconic figures<br>
@@ -92,6 +98,7 @@ const harrypotter: Product[] = [
     {
         id: 76394,
         name: "Fawkes, Dumbledore's Phoenix",
+        image: images[76394],
         description: [
             `LEGO® Harry Potter™ Fawkes, Dumbledore's Phoenix (76394) is a realistic model of the iconic phoenix from the Harry Potter movies that kids can display - and 'fly' - for all their friends to admire.`,
             `Buildable Fawkes the phoenix with 'flying' wings
@@ -109,6 +116,7 @@ const harrypotter: Product[] = [
     {
         id: 76405,
         name: "Hogwarts Express™ - Collectors' Edition",
+        image: images[76405],
         description: [
             `Capture the magic of the Harry Potter™ stories with a buildable, 1:32 scale replica of the most iconic vehicle in the Wizarding World. LEGO® Harry Potter Hogwarts Express™ - Collectors' 
             Edition (76405) is a spectacular build-and-display project for adult Harry Potter enthusiasts, which will enchant all who see it.`,
@@ -128,6 +136,7 @@ const harrypotter: Product[] = [
     {
         id: 76406,
         name: 'Hungarian Horntail Dragon',
+        image: images[76406],
         description: [
             `LEGO® Harry Potter™ Hungarian Horntail Dragon (76406) lets fans of the magical movies build, display and 'fly' one of the most dangerous dragons ever to have existed in the Wizarding 
             World. This recreation of the legendary fire-breather is suitable for witches, wizards and muggles aged 10 and up.`,

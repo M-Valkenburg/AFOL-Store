@@ -1,9 +1,11 @@
 import { Product } from './_productType';
+import images from "./artImages";
 
 const art: Product[] = [
     {
         id: 21226,
         name: 'Art Project - Create Together',
+        image: images[21226],
         description: [
             `Looking for a fun social project with a DIY twist? Then check out this creative LEGO® Art: Art Project - Create Together (21226) kit! Gather friends and family, 
             take out the manual and play together at creating highly personalized artwork for your wall.`,
@@ -21,6 +23,7 @@ const art: Product[] = [
     {
         id: 31201,
         name: 'Harry Potter™ Hogwarts™ Crests',
+        image: images[31201],
         description: [
             `Harry Potter™ fans seeking a project to reflect their passion can build 1 of 4 crests with this LEGO® Art Harry Potter Hogwarts™ Crests (31201) wall art set and enjoy a relaxing escape into an iconic world.`,
             `Stress reliever<br>
@@ -38,6 +41,7 @@ const art: Product[] = [
     {
         id: 31202,
         name: "Disney's Mickey Mouse",
+        image: images[31202],
         description: [
             `If you're a fan of classic Disney characters, we have a project just for you! You can build 1 of 2 wall decor portraits with this LEGO® Art | Disney's Mickey Mouse 
             (31202) set and enjoy a creative mosaic project that offers active stress relief as you build.`,
@@ -56,6 +60,7 @@ const art: Product[] = [
     {
         id: 31203,
         name: 'World Map',
+        image: images[31203],
         description: [
             `Ever wanted to create your own map? Now you can with this huge LEGO® Art World Map (31203) kit. It's the largest LEGO set to date and can be used to make and display 1 of 3 vibrant maps.`,
             `Focus on creativity<br>
@@ -72,6 +77,7 @@ const art: Product[] = [
     {
         id: 31204,
         name: 'Elvis Presley "The King"',
+        image: images[31204],
         description: [
             `Music lovers and Elvis Presley fans, we have the set for you. Create 1 of 3 portraits of the iconic entertainer with this LEGO® Art Elvis Presley “The King” (31204) kit. As you build, 
             you'll also develop other meaningful things. Like a zone of joyful zen, with a calm focus enhanced by each tile you click into place.`,
@@ -90,6 +96,7 @@ const art: Product[] = [
     {
         id: 31205,
         name: 'Jim Lee Batman™ Collection',
+        image: images[31205],
         description: [
             `Superhero or Super-Villain fans, we have got the set for you. Create 1 of 3 art portraits with this LEGO® Art Jim Lee Batman™ Collection (31205) kit. As you build, 
             you'll develop other meaningful experiences, such as mindfulness. A zone of joyful zen. Calm focus that enhances creativity as you click each tile into place in this collectible decor piece.`,
@@ -108,6 +115,7 @@ const art: Product[] = [
     {
         id: 31206,
         name: 'The Rolling Stones',
+        image: images[31206],
         description: [
             `They might say 'You Can't Always Get What You Want', but with this LEGO® Art The Rolling Stones (31206) kit, fans of rock & roll and The Rolling Stones can create one of the most distinctive band logos ever. 
             As you build, you'll be able to pay homage to an iconic rock band while you click each piece into place.`,
@@ -125,6 +133,7 @@ const art: Product[] = [
     {
         id: 31207,
         name: 'Floral Art',
+        image: images[31207],
         description: [
             `Open botanical creativity awaits in this LEGO® Art Floral Art (31207) wall kit. Bring bold colors and design possibilities into your home as you build. You can also let your imagination bloom with your own motif. 
             Enjoy a zone of joyful zen filled with flowers, peace and stress relief as you click each piece into place.`,

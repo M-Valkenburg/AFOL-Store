@@ -1,9 +1,11 @@
 import { Product } from './_productType';
+import images from "./disneyImages";
 
 const disney: Product[] = [
     {
         id: 40478,
         name: 'Mini Disney Castle',
+        image: images[40478],
         description: [
             `Celebrate the Walt Disney World® Resort's 50th anniversary with this LEGO® | Disney Mini Disney Castle (40478) set! Fans of Disney's flagship Magic Kingdom® Park can recreate 
             the iconic Walt Disney World® Resort Cinderella Castle, complete with pearlized golden tower tops, opalescent blue rooftop cones and a vintage-style Mickey Mouse minifigure. 
@@ -19,6 +21,7 @@ const disney: Product[] = [
     {
         id: 40521,
         name: 'Mini Disney The Haunted Mansion',
+        image: images[40521],
         description: [
             `Fans of Disney's The Haunted Mansion ride will love all the scary-good details in this miniature build-and-display model. Part of the interior is viewable from the back, 
             including the dining room, a chandelier and a gallery. The set includes an exclusive Butler minifigure to add to the display. Fans will recognize paintings of the Hitchhiking Ghosts, 
@@ -34,6 +37,7 @@ const disney: Product[] = [
     {
         id: 71040,
         name: 'The Disney Castle',
+        image: images[71040],
         description: [
             `Bring the magical world of Disney to your home with The Disney Castle. This highly detailed LEGO® model with over 4,000 pieces offers a rewarding build and play experience, and comes 
             with an array of exciting Disney-themed features and functions. The intricately detailed facade and towers replicate the iconic Walt Disney World® Resort Cinderella Castle, and each 
@@ -50,6 +54,7 @@ const disney: Product[] = [
     {
         id: 76832,
         name: 'XL-15 Spaceship',
+        image: images[76832],
         description: [
             `Let space fans aged 8+ play the hero in their own intergalactic adventure with the XL-15 Spaceship (76832) buildable, collectible toy. Imaginations take flight as fans play at travelling 
             through space with Buzz Lightyear in his spaceship on another mission to save the galaxy from evil.`,
