@@ -25,7 +25,10 @@ const Theme = () => {
                             <div className="prod-name-container">
                                 <h4>{product.name}</h4>
                             </div>
-                            <p>€ {product.price}</p>
+                            <div className="prod-price">
+                                <p>€ {product.price}</p>
+                                <p className="sale-price"></p>
+                            </div>
                             <button>Add to cart</button>
                         </div>
                     )
