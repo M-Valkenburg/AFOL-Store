@@ -428,9 +428,9 @@ const icons: Product[] = [
         tags: ['tv-shows'],
         price: 99.99,
         stock: 4,
-        sale: false,
-        salePrice: 0,
-        discount: 0
+        sale: true,
+        salePrice: 59.99,
+        discount: 40
     },
     {
         id: 10292,
