@@ -69,16 +69,12 @@
 }
 
 .discount-percentage {
+    @extend .discount-percentage;
     position: absolute;
     top: 5px;
     left: 5px;
     display: block;
     font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 1.2px;
-    background-color: red;
-    color: white;
-    padding: 3.5px;
 }
 
 .prod-name-container {
