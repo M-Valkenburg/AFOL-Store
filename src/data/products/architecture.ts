@@ -18,6 +18,9 @@ const architecture: Product[] = [
         tags: ['building'],
         price: 49.99,
         stock: 15,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21034,
@@ -34,6 +37,9 @@ const architecture: Product[] = [
         tags: ['building'],
         price: 39.99,
         stock: 18,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21042,
@@ -53,6 +59,9 @@ const architecture: Product[] = [
         tags: ['building'],
         price: 99.99,
         stock: 9,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21044,
@@ -70,6 +79,9 @@ const architecture: Product[] = [
         tags: ['building'],
         price: 39.99,
         stock: 17,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21051,
@@ -87,6 +99,9 @@ const architecture: Product[] = [
         tags: ['building'],
         price: 59.99,
         stock: 12,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21054,
@@ -106,6 +121,9 @@ const architecture: Product[] = [
         tags: ['building'],
         price: 99.99,
         stock: 8,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21056,
@@ -125,6 +143,9 @@ const architecture: Product[] = [
         tags: ['building'],
         price: 119.99,
         stock: 9,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21057,
@@ -144,6 +165,9 @@ const architecture: Product[] = [
         tags: ['building'],
         price: 59.99,
         stock: 14,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21058,
@@ -162,6 +186,9 @@ const architecture: Product[] = [
         tags: ['building'],
         price: 139.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     }
 ]
 

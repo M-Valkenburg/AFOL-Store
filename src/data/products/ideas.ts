@@ -19,6 +19,9 @@ const ideas: Product[] = [
         tags: ['space'],
         price: 119.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21318,
@@ -39,6 +42,9 @@ const ideas: Product[] = [
         tags: ['building'],
         price: 199.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21319,
@@ -58,6 +64,9 @@ const ideas: Product[] = [
         tags: ['tv-shows'],
         price: 79.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21321,
@@ -77,6 +86,9 @@ const ideas: Product[] = [
         tags: ['space'],
         price: 69.99,
         stock: 0,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21323,
@@ -96,6 +108,9 @@ const ideas: Product[] = [
         tags: ['music'],
         price: 349.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21324,
@@ -115,6 +130,9 @@ const ideas: Product[] = [
         tags: ['building', 'tv-shows'],
         price: 119.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21325,
@@ -134,6 +152,9 @@ const ideas: Product[] = [
         tags: ['building'],
         price: 149.99,
         stock: 17,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21326,
@@ -152,6 +173,9 @@ const ideas: Product[] = [
         tags: ['building', 'tv-shows'],
         price: 99.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21327,
@@ -171,6 +195,9 @@ const ideas: Product[] = [
         tags: ['home decoration'],
         price: 199.99,
         stock: 1,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21328,
@@ -191,6 +218,9 @@ const ideas: Product[] = [
         tags: ['tv-shows'],
         price: 79.99,
         stock: 8,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21329,
@@ -210,6 +240,9 @@ const ideas: Product[] = [
         tags: ['music'],
         price: 99.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21330,
@@ -231,6 +264,9 @@ const ideas: Product[] = [
         tags: ['building', 'movies'],
         price: 249.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21331,
@@ -251,6 +287,9 @@ const ideas: Product[] = [
         tags: ['games'],
         price: 69.99,
         stock: 18,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21332,
@@ -271,6 +310,9 @@ const ideas: Product[] = [
         tags: ['home decoration'],
         price: 199.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21333,
@@ -290,6 +332,9 @@ const ideas: Product[] = [
         tags: ['home decoration'],
         price: 169.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21334,
@@ -309,6 +354,9 @@ const ideas: Product[] = [
         tags: ['music'],
         price: 99.99,
         stock: 15,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21335,
@@ -328,6 +376,9 @@ const ideas: Product[] = [
         tags: ['building'],
         price: 299.99,
         stock: 0,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 21336,
@@ -347,6 +398,9 @@ const ideas: Product[] = [
         tags: ['tv-shows'],
         price: 119.99,
         stock: 0,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     }
 ]
 

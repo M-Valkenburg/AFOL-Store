@@ -20,6 +20,9 @@ const starwars: Product[] = [
         tags: ['movies', 'space'],
         price: 799.99,
         stock: 1,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75252,
@@ -38,6 +41,9 @@ const starwars: Product[] = [
         tags: ['movies', 'space'],
         price: 699.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75255,
@@ -55,6 +61,9 @@ const starwars: Product[] = [
         tags: ['movies'],
         price: 119.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75277,
@@ -74,6 +83,9 @@ const starwars: Product[] = [
         tags: ['helmets', 'movies'],
         price: 59.99,
         stock: 11,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75290,
@@ -92,6 +104,9 @@ const starwars: Product[] = [
         tags: ['building', 'movies'],
         price: 349.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75296,
@@ -111,6 +126,9 @@ const starwars: Product[] = [
         tags: ['movies'],
         price: 69.99,
         stock: 24,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75304,
@@ -129,6 +147,9 @@ const starwars: Product[] = [
         tags: ['helmets', 'movies'],
         price: 69.99,
         stock: 13,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75306,
@@ -146,6 +167,9 @@ const starwars: Product[] = [
         tags: ['movies'],
         price: 69.99,
         stock: 19,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75308,
@@ -165,6 +189,9 @@ const starwars: Product[] = [
         tags: ['movies'],
         price: 199.99,
         stock: 11,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75309,
@@ -184,6 +211,9 @@ const starwars: Product[] = [
         tags: ['movies', 'space'],
         price: 349.99,
         stock: 5,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75313,
@@ -203,6 +233,9 @@ const starwars: Product[] = [
         tags: ['movies'],
         price: 799.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75318,
@@ -219,6 +252,9 @@ const starwars: Product[] = [
         tags: ['tv-shows'],
         price: 89.99,
         stock: 9,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75327,
@@ -235,6 +271,9 @@ const starwars: Product[] = [
         tags: ['helmets', 'movies'],
         price: 69.99,
         stock: 13,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75328,
@@ -251,6 +290,9 @@ const starwars: Product[] = [
         tags: ['helmets', 'tv-shows'],
         price: 69.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75329,
@@ -267,6 +309,9 @@ const starwars: Product[] = [
         tags: ['movies'],
         price: 69.99,
         stock: 17,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75330,
@@ -284,6 +329,9 @@ const starwars: Product[] = [
         tags: ['movies'],
         price: 89.99,
         stock: 14,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75335,
@@ -301,6 +349,9 @@ const starwars: Product[] = [
         tags: ['games'],
         price: 99.99,
         stock: 8,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75339,
@@ -318,6 +369,9 @@ const starwars: Product[] = [
         tags: ['movies'],
         price: 89.99,
         stock: 11,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75341,
@@ -334,6 +388,9 @@ const starwars: Product[] = [
         tags: ['movies'],
         price: 239.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75343,
@@ -350,6 +407,9 @@ const starwars: Product[] = [
         tags: ['helmets', 'tv-shows'],
         price: 69.99,
         stock: 16,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     }
 ]
 

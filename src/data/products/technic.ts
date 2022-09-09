@@ -22,6 +22,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 349.99,
         stock: 0,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42096,
@@ -42,6 +45,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 179.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42107,
@@ -61,6 +67,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 79.99,
         stock: 16,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42110,
@@ -84,6 +93,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 199.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42111,
@@ -103,6 +115,9 @@ const technic: Product[] = [
         tags: ['movies', 'vehicle'],
         price: 119.99,
         stock: 8,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42114,
@@ -122,6 +137,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 249.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42115,
@@ -145,6 +163,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 449.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42122,
@@ -164,6 +185,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 49.99,
         stock: 28,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42123,
@@ -184,6 +208,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 49.99,
         stock: 22,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42125,
@@ -204,6 +231,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 199.99,
         stock: 12,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42126,
@@ -224,6 +254,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 99.99,
         stock: 17,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42127,
@@ -244,6 +277,9 @@ const technic: Product[] = [
         tags: ['movies', 'super heroes', 'vehicle'],
         price: 99.99,
         stock: 14,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42129,
@@ -265,6 +301,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 329.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42130,
@@ -285,6 +324,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 249.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42131,
@@ -305,6 +347,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 499.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42137,
@@ -325,6 +370,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 49.99,
         stock: 24,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42138,
@@ -345,6 +393,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 49.99,
         stock: 23,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42141,
@@ -366,6 +417,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 199.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42143,
@@ -385,6 +439,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 449.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 42145,
@@ -404,6 +461,9 @@ const technic: Product[] = [
         tags: ['vehicle'],
         price: 209.99,
         stock: 5,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     }
 ]
 

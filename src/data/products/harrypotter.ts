@@ -18,6 +18,9 @@ const harrypotter: Product[] = [
         tags: ['building', 'movies'],
         price: 419.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75978,
@@ -37,6 +40,9 @@ const harrypotter: Product[] = [
         tags: ['building', 'movies'],
         price: 399.99,
         stock: 0,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 75979,
@@ -56,6 +62,9 @@ const harrypotter: Product[] = [
         tags: ['movies'],
         price: 39.99,
         stock: 14,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76391,
@@ -75,6 +84,9 @@ const harrypotter: Product[] = [
         tags: ['movies'],
         price: 249.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76393,
@@ -94,6 +106,9 @@ const harrypotter: Product[] = [
         tags: ['movies'],
         price: 129.99,
         stock: 9,    
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76394,
@@ -112,6 +127,9 @@ const harrypotter: Product[] = [
         tags: ['movies'],
         price: 39.99,
         stock: 17,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76405,
@@ -132,6 +150,9 @@ const harrypotter: Product[] = [
         tags: ['movies', 'vehicle'],
         price: 499.99,
         stock: 0,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76406,
@@ -152,6 +173,9 @@ const harrypotter: Product[] = [
         tags: ['movies'],
         price: 49.99,
         stock: 10,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     }
 ]
 

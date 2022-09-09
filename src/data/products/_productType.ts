@@ -10,6 +10,9 @@ export type Product = {
     tags: Tags[],
     price: number,
     stock: number,
+    sale: boolean,
+    salePrice: number,
+    discount: number
 };
 
 type Theme = 

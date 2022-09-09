@@ -20,6 +20,9 @@ const marvel: Product[] = [
         tags: ['building', 'super heroes'],
         price: 299.99,
         stock: 5,   
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76187,
@@ -38,6 +41,9 @@ const marvel: Product[] = [
         tags: ['helmets', 'super heroes'],
         price: 59.99,
         stock: 12,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76191,
@@ -56,6 +62,9 @@ const marvel: Product[] = [
         tags: ['super heroes'],
         price: 79.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76193,
@@ -75,6 +84,9 @@ const marvel: Product[] = [
         tags: ['space', 'super heroes'],
         price: 149.99,
         stock: 10,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76199,
@@ -93,6 +105,9 @@ const marvel: Product[] = [
         tags: ['helmets', 'super heroes'],
         price: 59.99,
         stock: 14,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76209,
@@ -114,6 +129,9 @@ const marvel: Product[] = [
         tags: ['super heroes'],
         price: 119.99,
         stock: 8,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76217,
@@ -133,6 +151,9 @@ const marvel: Product[] = [
         tags: ['super heroes'],
         price: 49.99,
         stock: 21,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76218,
@@ -154,6 +175,9 @@ const marvel: Product[] = [
         tags: ['building', 'super heroes'],
         price: 249.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76223,
@@ -172,6 +196,9 @@ const marvel: Product[] = [
         tags: ['super heroes'],
         price: 69.99,
         stock: 18,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     }
 ]
 

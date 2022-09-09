@@ -20,6 +20,9 @@ const icons: Product[] = [
         tags: ['building'],
         price: 259.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10265,
@@ -39,6 +42,9 @@ const icons: Product[] = [
         tags: ['vehicle'],
         price: 139.99,
         stock: 5,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10266,
@@ -58,6 +64,9 @@ const icons: Product[] = [
         tags: ['space'],
         price: 99.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10270,
@@ -77,6 +86,9 @@ const icons: Product[] = [
         tags: ['building'],
         price: 179.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10271,
@@ -94,6 +106,9 @@ const icons: Product[] = [
         tags: ['vehicle'],
         price: 79.99,
         stock: 8,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10272,
@@ -112,6 +127,9 @@ const icons: Product[] = [
         tags: ['building', 'sports'],
         price: 279.99,
         stock: 1,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10273,
@@ -131,6 +149,9 @@ const icons: Product[] = [
         tags: ['building'],
         price: 249.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10274,
@@ -149,6 +170,9 @@ const icons: Product[] = [
         tags: ['vehicle', 'movies'],
         price: 199.99,
         stock: 5,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10275,
@@ -167,6 +191,9 @@ const icons: Product[] = [
         tags: ['building', 'seasonal'],
         price: 89.99,
         stock: 0,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10276,
@@ -185,6 +212,9 @@ const icons: Product[] = [
         tags: ['building'],
         price: 449.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10278,
@@ -203,6 +233,9 @@ const icons: Product[] = [
         tags: ['building'],
         price: 179.99,
         stock: 9,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10279,
@@ -221,6 +254,9 @@ const icons: Product[] = [
         tags: ['vehicle'],
         price: 159.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10280,
@@ -241,6 +277,9 @@ const icons: Product[] = [
         tags: ['home decoration'],
         price: 49.99,
         stock: 12,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10281,
@@ -261,6 +300,9 @@ const icons: Product[] = [
         tags: ['home decoration'],
         price: 49.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10282,
@@ -279,6 +321,9 @@ const icons: Product[] = [
         tags: ['sports'],
         price: 89.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10283,
@@ -298,6 +343,9 @@ const icons: Product[] = [
         tags: ['space'],
         price: 179.99,
         stock: 8,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10284,
@@ -316,6 +364,9 @@ const icons: Product[] = [
         tags: ['building', 'sports'],
         price: 329.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10289,
@@ -333,6 +384,9 @@ const icons: Product[] = [
         tags: ['home decoration'],
         price: 99.99,
         stock: 9,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10290,
@@ -351,6 +405,9 @@ const icons: Product[] = [
         tags: ['vehicle'],
         price: 129.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10291,
@@ -371,6 +428,9 @@ const icons: Product[] = [
         tags: ['tv-shows'],
         price: 99.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10292,
@@ -390,6 +450,9 @@ const icons: Product[] = [
         tags: ['tv-shows'],
         price: 149.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10293,
@@ -399,7 +462,10 @@ const icons: Product[] = [
             `If you're dreaming of the perfect Christmas Eve, get the festive season off to a magical start with this LEGO® Santa's Visit (10293) model building set. It's the ideal way to spend 
             quality time with a cozy project for adults and families. Build the intricate Christmas house and explore all of the model's jolly features before placing it on display.`,
             `A build packed with traditions Spot all the ingredients that make Christmas Eve so special. There are stockings on the fireplace, a plate of cookies with milk for Santa, and even a 
-            place setting for him at the dining table. The exterior is equally detailed. See the Christmas tree, which lights up when you press down gently on the tree top. Extra details complete 
+                sale: false,
+        salePrice: 0,
+        discount: 0place setting for him at the dining table. The exterior is equally detailed. See the Christmas tree,
+             which lights up when you press down gently on the tree top. Extra details complete 
             the cheerful scene with presents, a mailbox and brick-built boughs under the 'snow'-topped roof.`
         ],
         pieces: 1445,
@@ -408,6 +474,9 @@ const icons: Product[] = [
         tags: ['building', 'seasonal'],
         price: 89.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10294,
@@ -427,6 +496,9 @@ const icons: Product[] = [
         tags: ['vehicle'],
         price: 629.99,
         stock: 1,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10295,
@@ -445,6 +517,9 @@ const icons: Product[] = [
         tags: ['vehicle'],
         price: 139.99,
         stock: 8,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10297,
@@ -464,6 +539,9 @@ const icons: Product[] = [
         tags: ['building'],
         price: 199.99,
         stock: 9,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10298,
@@ -483,6 +561,9 @@ const icons: Product[] = [
         tags: ['vehicle'],
         price: 99.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10299,
@@ -501,6 +582,9 @@ const icons: Product[] = [
         tags: ['building', 'sports'],
         price: 349.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10300,
@@ -520,6 +604,9 @@ const icons: Product[] = [
         tags: ['movies', 'vehicle'],
         price: 169.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10302,
@@ -539,6 +626,9 @@ const icons: Product[] = [
         tags: ['movies', 'vehicle'],
         price: 169.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10303,
@@ -559,6 +649,9 @@ const icons: Product[] = [
         tags: ['building'],
         price: 399.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10304,
@@ -578,6 +671,9 @@ const icons: Product[] = [
         tags: ['vehicle'],
         price: 169.99,
         stock: 15,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10305,
@@ -597,6 +693,9 @@ const icons: Product[] = [
         tags: ['building'],
         price: 399.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10306,
@@ -615,6 +714,9 @@ const icons: Product[] = [
         tags: ['games'],
         price: 239.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10309,
@@ -634,6 +736,9 @@ const icons: Product[] = [
         tags: ['home decoration'],
         price: 49.99,
         stock: 14,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10311,
@@ -653,6 +758,9 @@ const icons: Product[] = [
         tags: ['home decoration'],
         price: 49.99,
         stock: 12,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 10497,
@@ -672,6 +780,9 @@ const icons: Product[] = [
         tags: ['space'],
         price: 99.99,
         stock: 24,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76989,
@@ -688,6 +799,9 @@ const icons: Product[] = [
         tags: ['games'],
         price: 79.99,
         stock: 5,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     }
 ]
 

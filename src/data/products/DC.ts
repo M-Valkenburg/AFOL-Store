@@ -19,6 +19,9 @@ const dc: Product[] = [
         tags: ['super heroes', 'vehicle', 'movies'],
         price: 199.99,
         stock: 3,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76182,
@@ -36,6 +39,9 @@ const dc: Product[] = [
         tags: ['super heroes', 'helmets', 'movies'],
         price: 59.99,
         stock: 10,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76188,
@@ -55,6 +61,9 @@ const dc: Product[] = [
         tags: ['super heroes', 'vehicle', 'tv-shows'],
         price: 34.99,
         stock: 42,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76238,
@@ -73,6 +82,9 @@ const dc: Product[] = [
         tags: ['super heroes', 'helmets', 'tv-shows'],
         price: 59.99,
         stock: 12,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76240,
@@ -90,6 +102,9 @@ const dc: Product[] = [
         tags: ['super heroes', 'vehicle', 'movies'],
         price: 229.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     }
 ]
 

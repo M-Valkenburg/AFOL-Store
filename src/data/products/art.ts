@@ -19,6 +19,9 @@ const art: Product[] = [
         tags: ['home decoration'],
         price: 119.99,
         stock: 7,
+        sale: false,
+        salePrice: 0,
+        discount: 0    
     },
     {
         id: 31201,
@@ -37,6 +40,9 @@ const art: Product[] = [
         tags: ['movies', 'home decoration'],
         price: 119.99,
         stock: 12,
+        sale: false,
+        salePrice: 0,
+        discount: 0    
     },
     {
         id: 31202,
@@ -56,6 +62,9 @@ const art: Product[] = [
         tags: ['tv-shows', 'home decoration'],
         price: 119.99,
         stock: 11,
+        sale: false,
+        salePrice: 0,
+        discount: 0    
     },
     {
         id: 31203,
@@ -73,6 +82,9 @@ const art: Product[] = [
         tags: ['home decoration'],
         price: 249.99,
         stock: 4,
+        sale: false,
+        salePrice: 0,
+        discount: 0    
     },
     {
         id: 31204,
@@ -92,6 +104,9 @@ const art: Product[] = [
         tags: ['music', 'home decoration'],
         price: 119.99,
         stock: 15,
+        sale: false,
+        salePrice: 0,
+        discount: 0    
     },
     {
         id: 31205,
@@ -111,6 +126,9 @@ const art: Product[] = [
         tags: ['movies', 'super heroes', 'home decoration'],
         price: 119.99,
         stock: 2,
+        sale: false,
+        salePrice: 0,
+        discount: 0    
     },
     {
         id: 31206,
@@ -129,6 +147,9 @@ const art: Product[] = [
         tags: ['music', 'home decoration'],
         price: 149.99,
         stock: 6,
+        sale: false,
+        salePrice: 0,
+        discount: 0    
     },
     {
         id: 31207,
@@ -146,7 +167,10 @@ const art: Product[] = [
         theme1: 'art',
         tags: ['home decoration'],
         price: 69.99,
-        stock: 25,
+        stock: 25,        sale: false,
+        salePrice: 0,
+        discount: 0
+   
     }
 ]
 

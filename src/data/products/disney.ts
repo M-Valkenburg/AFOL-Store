@@ -17,6 +17,9 @@ const disney: Product[] = [
         tags: ['building'],
         price: 34.99,
         stock: 0, 
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 40521,
@@ -33,6 +36,9 @@ const disney: Product[] = [
         tags: ['building'],
         price: 39.99,
         stock: 17,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 71040,
@@ -50,6 +56,9 @@ const disney: Product[] = [
         tags: ['building'],
         price: 349.99,
         stock: 1,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     },
     {
         id: 76832,
@@ -69,6 +78,9 @@ const disney: Product[] = [
         tags: ['vehicle', 'space', 'movies'],
         price: 49.99,
         stock: 28,
+        sale: false,
+        salePrice: 0,
+        discount: 0
     }
 ]
 
