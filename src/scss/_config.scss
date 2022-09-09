@@ -35,7 +35,6 @@ $content-border: 2px solid black;
         right: 0;
         border-top: 1px solid;
         border-color: inherit;
-
         -webkit-transform:rotate(-5deg);
         -moz-transform:rotate(-5deg);
         -ms-transform:rotate(-5deg);
@@ -47,4 +46,12 @@ $content-border: 2px solid black;
 .sale-price {
     color: red;
     margin-left: 15px;
+}
+
+.discount-percentage {
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    background-color: red;
+    color: white;
+    padding: 3.5px;
 }
