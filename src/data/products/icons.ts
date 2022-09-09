@@ -1,9 +1,11 @@
 import { Product } from './_productType';
+import images from "./iconsImages";
 
 const icons: Product[] = [
     {
         id: 10255,
         name: 'Assembly Square',
+        image: images[10255],
         description: [
             `Take a trip to the amazing Assembly Square, developed to celebrate ten years of LEGO® Modular Buildings, featuring a wealth of unsurpassed, intricate details 
             and hidden surprises. Easy-to-remove building sections provide access to the highly detailed interior, comprising a ground level with a bakery, florist's shop 
@@ -22,6 +24,7 @@ const icons: Product[] = [
     {
         id: 10265,
         name: 'Ford Mustang',
+        image: images[10265],
         description: [
             `Discover the magic of an iconic 1960s American muscle car with the LEGO® Creator Ford Mustang, featuring dark-blue bodywork with white racing stripes, bonnet scoop, 
             printed mustang grille badge, GT emblems and 5-spoke rims with road-gripping tires. Developed with input from Ford, this authentic replica comes with optional add-ons 
@@ -40,6 +43,7 @@ const icons: Product[] = [
     {
         id: 10266,
         name: 'NASA Apollo 11 Lunar',
+        image: images[10266],
         description: [
             `You were born to explore the universe! Build and inspire the next generation of astronauts with LEGO® Space rockets and vehicles - Let's Go!`,
             `Celebrate man's first moon landing with this LEGO® Creator Expert 10266 NASA Apollo 11 Lunar Lander building set—developed in cooperation with NASA to mark the 50th 
@@ -58,6 +62,7 @@ const icons: Product[] = [
     {
         id: 10270,
         name: 'Bookshop',
+        image: images[10270],
         description: [
             `Recreate the charm of a backstreet bookshop that you might discover in any European village or town with this LEGO® Creator Expert collectors' toy. The 3-story bookshop and 
             adjoining modular town house building is filled with fun building techniques and surprising details, including a display window, reading nook and an open-out design. Collectors 
@@ -76,6 +81,7 @@ const icons: Product[] = [
     {
         id: 10271,
         name: 'Fiat 500',
+        image: images[10271],
         description: [
             `This LEGO® Creator Expert Fiat 500 model car (10271) recreates a true icon of classic automotive design. Teenagers and adult fans will enjoy the challenging building experience 
             offered by this model kit based on the Fiat 500F legend from the late '60s, and will appreciate all the authentic LEGO brick details, such as the luggage rack with suitcase, 
@@ -92,6 +98,7 @@ const icons: Product[] = [
     {
         id: 10272,
         name: 'Old Trafford - Manchester United',
+        image: images[10272],
         description: [
             `Manchester United fans will love building this big LEGO® set model of Old Trafford (10272) to show their allegiance to one of the world's most famous football clubs. The building 
             set for this LEGO football stadium provides a fun challenge to create a spectacular showpiece model.`,
@@ -109,6 +116,7 @@ const icons: Product[] = [
     {
         id: 10273,
         name: 'Haunted House',
+        image: images[10273],
         description: [
             `If you love ghosts, ghouls and things that go bump in the night, we've got a treat for you - the LEGO® Haunted House (10273). Take time out of everyday life and explore something 
             extraordinary as you discover the thrills and surprises packed into this stunning building project.`,
@@ -127,6 +135,7 @@ const icons: Product[] = [
     {
         id: 10274,
         name: 'Ghostbusters™ ECTO-1',
+        image: images[10274],
         description: [
             `If you're a Ghostbusters™ fan, we've got just the thing for you - the LEGO® Ghostbusters ECTO-1! Bust the stress out of everyday life and indulge in some quality me time as you 
             build a LEGO version of the converted 1959 Cadillac Miller-Meteor ambulance from the Ghostbusters movies.`,
@@ -144,6 +153,7 @@ const icons: Product[] = [
     {
         id: 10275,
         name: 'Elf Club House',
+        image: images[10275],
         description: [
             `If you're looking to recreate the cozy feeling of your favorite Christmas memories, we've got the perfect thing for you - the LEGO® Elf Club House (10275). It's the ideal way to 
             enjoy quality time with a sugar-sweet DIY project. Build the intricately detailed Elf Club House then explore all its merry features.`,
@@ -161,6 +171,7 @@ const icons: Product[] = [
     {
         id: 10276,
         name: 'Colosseum',
+        image: images[10276],
         description: [
             `Nowhere on Earth compares to the majesty of the Colosseum of Rome. So, get ready to escape your everyday life as you take on the biggest ever LEGO® build (as at November 2020) yet. 
             This epic 9,036-piece Colosseum model depicts each part of the famous structure in great detail. Authentic detailing shows the northern part of the outer wall's facade and its iconic 
@@ -178,6 +189,7 @@ const icons: Product[] = [
     {
         id: 10278,
         name: 'Police Station',
+        image: images[10278],
         description: [
             `Escape into a delicious world of deceit, detection and donuts with this LEGO® Police Station (10278) model. Enjoy hours of immersive building as you create the three-floor police station. 
             See the brick-built staircase wind through detailed floors that can be removed to let you explore inside. Next door is a donut shop brimming with treats and, to the other side, a newspaper kiosk.`,
@@ -195,6 +207,7 @@ const icons: Product[] = [
     {
         id: 10279,
         name: 'Volkswagen T2 Camper Van',
+        image: images[10279],
         description: [
             `Whether you're reliving past adventures, planning future travels or simply want to celebrate your passion for camper vans, you'll love this LEGO® Volkswagen T2 Camper Van (10279) model 
             building project. Take your time building the camper van model then explore its detailed interior before placing it on display to remind you that there's a world of adventure just around the corner.`,
@@ -212,6 +225,7 @@ const icons: Product[] = [
     {
         id: 10280,
         name: 'Flower Bouquet',
+        image: images[10280],
         description: [
             `Giving and receiving beautiful flowers is such a joy. If you're looking for a flower gift with a difference, the LEGO® Flower Bouquet (10280) is an inspired choice. Whether you're 
             treating a loved one, or are looking for your next creative project, this flower bouquet model building kit lets you relax, unplug and create something wonderful. When complete, 
@@ -231,6 +245,7 @@ const icons: Product[] = [
     {
         id: 10281,
         name: 'Bonsai Tree',
+        image: images[10281],
         description: [
             `The art of bonsai has captured the imaginations of tree lovers for centuries. Now you can celebrate this ancient art with the LEGO® Bonsai Tree model building kit. Enjoy a sense of 
             calm as you carefully shape the bonsai tree model with either green leaves or pink cherry blossoms. When you're ready for a change, it's easy to swap the colored crowns to create a 
@@ -250,6 +265,7 @@ const icons: Product[] = [
     {
         id: 10282,
         name: 'adidas Originals Superstar',
+        image: images[10282],
         description: [
             `Add a surprising new addition to your sneaker collection with this LEGO® adidas Originals Superstar (10282) model. In this never-seen-before LEGO offering, you'll be recreating the 
             iconic sneaker from LEGO elements to make a collectible display piece that's sure to spark conversations.`,
@@ -267,6 +283,7 @@ const icons: Product[] = [
     {
         id: 10283,
         name: 'NASA Space Shuttle Discovery',
+        image: images[10283],
         description: [
             `Celebrate the wonders of space with this LEGO® NASA Space Shuttle Discovery (10283) model building set for adults. With 2,354 pieces, this engaging challenge lets you build the Space 
             Shuttle Discovery, plus the Hubble Space Telescope, launched on NASA's STS-31 mission in 1990.`,
@@ -285,6 +302,7 @@ const icons: Product[] = [
     {
         id: 10284,
         name: 'Camp Nou - FC Barcelona',
+        image: images[10284],
         description: [
             `FC Barcelona fans will love showing their passion for one of the world's most celebrated soccer clubs with this rewarding building project. Build all the details of the mighty Camp Nou 
             Stadium like the Lateral stand with its iconic 'Més Que Un Club' motto and the covered Tribuna stand, with press booths, plus the pitch itself. The model splits into 5 sections for access to each area.`,
@@ -302,6 +320,7 @@ const icons: Product[] = [
     {
         id: 10289,
         name: 'Bird of Paradise',
+        image: images[10289],
         description: [
             `One of the world's most eye-catching plants, the Bird of Paradise can grow up to two meters tall. Now you can build your own tribute to this exceptional flower with the LEGO® Bird of Paradise (10289) building kit.`,
             `A beautiful centerpiece for home or office
@@ -318,6 +337,7 @@ const icons: Product[] = [
     {
         id: 10290,
         name: 'Pickup Truck',
+        image: images[10290],
         description: [
             `A perfect escape from modern life! Get ready to travel back to the 1950s with this LEGO® Pickup Truck (10290) building project. Packed with details, this true-to-life model recreates 
             the vintage pickup truck shape with its rounded lines. Explore the model to discover realistic pickup truck features like a stepside bed, opening doors and tailgate and removable wooden side railings.`,
@@ -335,6 +355,7 @@ const icons: Product[] = [
     {
         id: 10291,
         name: 'Queer Eye - The Fab 5 Loft',
+        image: images[10291],
         description: [
             `Calling all fans of the Queer Eye TV show on Netflix! Get ready to be your true self as you join the Fab 5 for a rewarding building project with this LEGO® Queer Eye - The Fab 5 Loft 
             (10291) set. As you recreate all the details that make up the interior of the Fab 5's original Atlanta loft, you'll discover lots of features from the show with tributes to each of the 
@@ -354,6 +375,7 @@ const icons: Product[] = [
     {
         id: 10292,
         name: 'The Friends Apartments',
+        image: images[10292],
         description: [
             `If you're a fan of Friends, you'll be right at home with this latest LEGO® homage to your favorite TV series. So many classic storylines have taken place within these walls. Now you can 
             relive your favorites with this LEGO The Friends Apartments (10292) building kit. Enjoy the build, faithfully recreating the apartments. Then explore all the details, with references to 
@@ -372,6 +394,7 @@ const icons: Product[] = [
     {
         id: 10293,
         name: "Santa's Visit",
+        image: images[10293],
         description: [
             `If you're dreaming of the perfect Christmas Eve, get the festive season off to a magical start with this LEGO® Santa's Visit (10293) model building set. It's the ideal way to spend 
             quality time with a cozy project for adults and families. Build the intricate Christmas house and explore all of the model's jolly features before placing it on display.`,
@@ -389,6 +412,7 @@ const icons: Product[] = [
     {
         id: 10294,
         name: 'LEGO® Titanic',
+        image: images[10294],
         description: [
             `Since the Titanic set sail on its fateful maiden journey in 1912, the famous ship has captured imaginations across the world. Now you can pay tribute to it with this colossal 
             LEGO® Titanic (10294) collectible model building project.`,
@@ -407,6 +431,7 @@ const icons: Product[] = [
     {
         id: 10295,
         name: 'Porsche 911',
+        image: images[10295],
         description: [
             `Celebrate the unmistakable style of Porsche with this fantastic building challenge as you create your own classic, collectible car with the LEGO® Porsche 911 (10295) model kit. 
             Choose to build either the Turbo model with its turbocharged engine or the Targa with its iconic Targa bar and a removable roof that stores under the hood.`,
@@ -424,6 +449,7 @@ const icons: Product[] = [
     {
         id: 10297,
         name: 'Boutique Hotel',
+        image: images[10297],
         description: [
             `Imagine spending quality time at a luxurious hotel. Where every detail is carefully considered. Where every guest's request is met in style. Now you can build your own hotel 
             getaway with this LEGO® Boutique Hotel (10297) model building project for adults.`,
@@ -442,6 +468,7 @@ const icons: Product[] = [
     {
         id: 10298,
         name: 'Vespa 125',
+        image: images[10298],
         description: [
             `Dive into a mindful building project packed with style with this LEGO® Vespa 125 model kit for adults. Inspired by the classic 1960s Vespa Piaggio, it comes in pastel blue - 
             a very rare LEGO color that's sure to appeal to building fans. To celebrate Vespa's 75th anniversary, the LEGO designers have worked closely with the lifestyle brand to recreate 
@@ -460,6 +487,7 @@ const icons: Product[] = [
     {
         id: 10299,
         name: 'Real Madrid - Santiago Bernabéu Stadium',
+        image: images[10299],
         description: [
             `A build to capture the heart of any Real Madrid fan. This LEGO® Real Madrid - Santiago Bernabéu Stadium (10299) building kit for adults lets you build an accurate scale model 
             version of one of the most celebrated soccer stadiums of all time. So kick back and take your time discovering all the details packed into this collectible model.`,
@@ -477,6 +505,7 @@ const icons: Product[] = [
     {
         id: 10300,
         name: 'Back to the Future Time Machine',
+        image: images[10300],
         description: [
             `Back to the Future fans, we've got the ultimate project for you: the LEGO® Back to the Future Time Machine (10300) model building kit for adults. Indulge your passion for 
             one of the world's most loved movie trilogies, building 1 of 3 versions of the time-traveling car.`,
@@ -495,6 +524,7 @@ const icons: Product[] = [
     {
         id: 10302,
         name: 'Optimus Prime',
+        image: images[10302],
         description: [
             `Optimus Prime. Leader of the heroic Autobots. And now an impressive 2-in-1 LEGO® build for Transformers fans. Awaken your passion for the Transformers universe with this 
             rewarding building project for adults as you craft all the details of an iconic robot.`,
@@ -513,6 +543,7 @@ const icons: Product[] = [
     {
         id: 10303,
         name: 'Loop Coaster',
+        image: images[10303],
         description: [
             `Take your seat. It's time to relive the thrills of your favorite roller-coaster rides. But wait - there's no rush. This LEGO® Loop Coaster (10303) is a building project 
             for adults. So take your time crafting all the details of this functional roller-coaster model.`,
@@ -532,6 +563,7 @@ const icons: Product[] = [
     {
         id: 10304,
         name: 'Chevrolet Camaro Z28',
+        image: images[10304],
         description: [
             `Ready to push the limits of performance and style? Then start your creative engine. It's time to pay homage to a vintage classic with this Chevrolet Camaro Z28 (10304) building 
             project for adults. Take your time. This is an experience to savor. Make your choices. Create your perfect model. Then place on display to admire the impressive looks of an iconic car.`,
@@ -550,6 +582,7 @@ const icons: Product[] = [
     {
         id: 10305,
         name: "Lion Knights' Castle",
+        image: images[10305],
         description: [
             `A long time ago there was a child who loved to build with LEGO® bricks. Now that child is grown up and there's a new quest to enjoy. Celebrating 90 years of LEGO history, 
             the Lion Knights' Castle (10305) building set is a new interpretation inspired by the original LEGO Castle System and a build requested by fans for years.`,
@@ -568,6 +601,7 @@ const icons: Product[] = [
     {
         id: 10306,
         name: 'Atari® 2600',
+        image: images[10306],
         description: [
             `Take a trip back to the 1980s with this LEGO® Atari® 2600 (10306) building set for adults. Enjoy a rewarding project creating all the details of this replica console, game 
             cartridges and joystick. Gaming fans will love the 3 mini builds depicting themes from 3 popular Atari® games. There's even a hidden 1980s scene to build for total nostalgia overload.`,
@@ -585,6 +619,7 @@ const icons: Product[] = [
     {
         id: 10309,
         name: 'Succulents',
+        image: images[10309],
         description: [
             `Succulents are a popular way to introduce plants into the home and enhance your decor. Now you can enjoy a mindful building project as you create an elegant plant display for 
             your living space with this LEGO® Succulents (10309) building kit for adults. Take your time crafting all the details of the 9 different succulents - each inspired by a real-life 
@@ -603,6 +638,7 @@ const icons: Product[] = [
     {
         id: 10311,
         name: 'Orchid',
+        image: images[10311],
         description: [
             `Enjoy a mindful building project and create a beautiful plant display for your home with this LEGO® Orchid (10311) model building project for adults. Take your time crafting all 
             the details of the white and pink flowers and the vase. Inspired by a real orchid, the model has 5 leaves at the base and 2 wandering air roots to create an authentic display. 
@@ -621,6 +657,7 @@ const icons: Product[] = [
     {
         id: 10497,
         name: 'Galaxy Explorer',
+        image: images[10497],
         description: [
             `Join the celebrations to mark 90 years of LEGO® creations with this nostalgic building project for adults. This anniversary collectible edition of the Classic 497 LEGO Galaxy 
             Explorer model (10497) retains all the joy of the 1979 set but on a bigger scale.`,
@@ -639,6 +676,7 @@ const icons: Product[] = [
     {
         id: 76989,
         name: 'Horizon Forbidden West: Tallneck',
+        image: images[76989],
         description: [
             `Build the ultimate LEGO® brick model (76989) of the most iconic Horizon machine in the Forbidden West: the Tallneck. Use clever building techniques to capture authentic details 
             of this Communications Class machine, from its smooth, disc-shaped head to its long, slim legs. Display the Tallneck on a stand with brick-built Horizon landscape details, including 

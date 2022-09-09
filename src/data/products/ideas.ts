@@ -1,9 +1,11 @@
 import { Product } from './_productType';
+import images from "./ideasImages";
 
 const ideas: Product[] = [
     {
-        id: 92176,
+        id: 21309,
         name: 'LEGO® NASA Apollo Saturn V',
+        image: images[21309],
         description: [
             `You were born to explore the universe! Build and inspire the next generation of astronauts with LEGO® Space rockets and vehicles - Let's Go!`,
             `Display and role-play with this majestic meter-high LEGO brick model of the NASA Apollo Saturn V. Packed with authentic details, it features 3 
@@ -21,6 +23,7 @@ const ideas: Product[] = [
     {
         id: 21318,
         name: 'Tree House',
+        image: images[21318],
         description: [
             `Build, display and play with this intricately detailed, 3,036-piece LEGO® Ideas 21318 Tree House playset. A complex build for experienced LEGO builders 
             that all the family will love to play with, it features a landscape base and 3 LEGO tree house cabins—a main bedroom, bathroom and kids' room. The tree 
@@ -40,6 +43,7 @@ const ideas: Product[] = [
     {
         id: 21319,
         name: 'Central Perk',
+        image: images[21319],
         description: [
             `Celebrate the 25th anniversary of Friends, the legendary American TV sitcom, with this highly collectible LEGO® Ideas 21319 CENTRAL PERK set! This wonderful 
             LEGO recreation of the café TV studio set is packed with authentic details, making it a must-have Friends memorabilia item for fans. The iconic seating area 
@@ -58,6 +62,7 @@ const ideas: Product[] = [
     {
         id: 21321,
         name: 'International Space Station',
+        image: images[21321],
         description: [
             `Build and display this spectacular LEGO® Ideas 21321 ISS (International Space Station). Packed with authentic ISS details, including a posable Canadarm2 and 2 
             rotating joints that coincide with 8 adjustable 'solar panels', this 864-piece set is a wonderful gift idea for space enthusiasts, adult LEGO fans or any experienced builder.`,
@@ -76,6 +81,7 @@ const ideas: Product[] = [
     {
         id: 21323,
         name: 'Grand Piano',
+        image: images[21323],
         description: [
             `Do you have a passion for music? Do you like to relax by focusing on a fun, hands-on project in your free time? If so, this incredible LEGO® Ideas Grand Piano 
             model kit (21323) is just the creative activity for you.`,
@@ -94,6 +100,7 @@ const ideas: Product[] = [
     {
         id: 21324,
         name: '123 Sesame Street',
+        image: images[21324],
         description: [
             `Sesame Street has been a family-favorite TV show for more than 50 years. Now you can create a colorful, LEGO® brick version of 123 Sesame Street and relive 
             classic scenes with this awesome LEGO Ideas (21324) build-and-display set for adults.`,
@@ -112,6 +119,7 @@ const ideas: Product[] = [
     {
         id: 21325,
         name: 'Medieval Blacksmith',
+        image: images[21325],
         description: [
             `Take a break from modern life and build this magnificent LEGO® Ideas Medieval Blacksmith (21325) display model. The architectural details of a 3-level building 
             from the Middle Ages are lovingly recreated in LEGO style. The roof and top 2 levels lift off for easy viewing of the fully furnished bedroom and kitchen, plus 
@@ -130,6 +138,7 @@ const ideas: Product[] = [
     {
         id: 21326,
         name: 'Winnie the Pooh',
+        image: images[21326],
         description: [
             `Take time out and rekindle joyful childhood memories with this LEGO® Ideas set (21326) featuring Disney Winnie the Pooh and a delightful LEGO brick recreation of 
             Pooh Bear's house under a big oak tree in Hundred Acre Wood. Great to build alone or with family, the house opens at the back for easy access to the authentic 
@@ -147,6 +156,7 @@ const ideas: Product[] = [
     {
         id: 21327,
         name: 'Typewriter',
+        image: images[21327],
         description: [
             `Unplug from your digital life and recall simpler times as you build a LEGO® Ideas model of an old-fashioned typewriter (21327). The design is inspired by the 
             classic typewriter used by the LEGO Group's founder Ole Kirk Kristiansen, and it moves and sounds just like the real thing. The brick-built center typebar rises 
@@ -165,6 +175,7 @@ const ideas: Product[] = [
     {
         id: 21328,
         name: 'Seinfeld',
+        image: images[21328],
         description: [
             `Seinfeld was 'the show about nothing' that made everyone laugh, and now you can celebrate the legendary TV sitcom with this collectible LEGO® Ideas Seinfeld 
             display model (21328) of Jerry's apartment. It's packed with authentic details to delight fans, such as the kitchen/living room where Jerry and friends would 
@@ -184,6 +195,7 @@ const ideas: Product[] = [
     {
         id: 21329,
         name: 'LEGO® Ideas Fender® Stratocaster™',
+        image: images[21329],
         description: [
             `Create your own brick-built 1970s Fender® Stratocaster™ guitar and 65 Princeton® Reverb amplifier with this LEGO® Ideas set (21329). Recall the legendary musicians 
             who have played a Stratocaster® as you recreate its iconic curves and add authentic details such as the posable whammy bar, pickup switch and tuning pegs. The buildable 
@@ -202,6 +214,7 @@ const ideas: Product[] = [
     {
         id: 21330,
         name: 'LEGO® Ideas Home Alone',
+        image: images[21330],
         description: [
             `Relive a family-favorite Christmas comedy movie with this LEGO® Ideas Home Alone set (21330) for play and display. The McCallisters' house is packed with instantly 
             recognizable details and delightful features to recreate hilarious scenes. There is everything you need to stage Kevin's fake Christmas party, a basement furnace 
@@ -222,6 +235,7 @@ const ideas: Product[] = [
     {
         id: 21331,
         name: 'Sonic the Hedgehog™ - Green Hill Zone',
+        image: images[21331],
         description: [
             `Celebrate a pop culture icon and showcase the gameplay of a true classic with this LEGO® Ideas Sonic the Hedgehog™ - Green Hill Zone model (21331). Enjoy quality 
             time with no distractions, recreating authentic details of the Green Hill Zone, including a palm tree, bridge loop, rings, TV screens, Dr. Eggman's Eggmobile and 
@@ -241,6 +255,7 @@ const ideas: Product[] = [
     {
         id: 21332,
         name: 'The Globe',
+        image: images[21332],
         description: [
             `Where do you want to go today? Dream of your next travel destination as you build The Globe (21332). Created by a fan-designer and brought to the world by the 
             LEGO® Ideas team, this display model recreates the spinning movement of a vintage Earth globe with the help of LEGO Technic™ elements and features glow-in-the-dark 
@@ -260,6 +275,7 @@ const ideas: Product[] = [
     {
         id: 21333,
         name: 'Vincent van Gogh - The Starry Night',
+        image: images[21333],
         description: [
             `Build creativity. Build concentration. Build your own 3D LEGO® brick version of one of Vincent van Gogh's most celebrated artworks, The Starry Night, which can be seen 
             at The Museum of Modern Art (MoMA) in New York City. Discover innovative building techniques to capture Van Gogh's swirling brushstrokes, and hang your completed masterpiece 
@@ -278,6 +294,7 @@ const ideas: Product[] = [
     {
         id: 21334,
         name: 'Jazz Quartet',
+        image: images[21334],
         description: [
             `Get into your groove and compose a jazz masterpiece. Create your own LEGO® Ideas Jazz Quartet (21334) featuring brick-built figures of a pianist, bassist, trumpeter 
             and drummer in dynamic poses, plus highly detailed buildable models of their instruments - a grand piano, double bass, trumpet and drum kit.`,
@@ -296,6 +313,7 @@ const ideas: Product[] = [
     {
         id: 21335,
         name: 'Motorized Lighthouse',
+        image: images[21335],
         description: [
             `Let your creativity shine as you build this LEGO® Ideas Motorized Lighthouse (21335) model. It features a lighthouse tower with motorized rotating light and 
             custom-designed Fresnel lens elements, plus a cottage with a glowing fireplace. The cottage and tower are both easily accessible to let you view the wonderfully detailed 
@@ -314,6 +332,7 @@ const ideas: Product[] = [
     {
         id: 21336,
         name: 'The Office',
+        image: images[21336],
         description: [
             `Recreate an American workplace with this collectible LEGO® Ideas display model (21336) inspired by hit mockumentary The Office. Build familiar areas of Dunder Mifflin's 
             Scranton office with LEGO bricks, including boss Michael Scott's office (which slides out for display on its own), the conference room and much more.`,

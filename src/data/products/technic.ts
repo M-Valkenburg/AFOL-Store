@@ -1,9 +1,11 @@
 import { Product } from './_productType';
+import images from "./technicImages";
 
 const technic: Product[] = [
     {
         id: 42083,
         name: 'Bugatti Chiron',
+        image: images[42083],
         description: [
             `Explore engineering excellence with the LEGO® Technic™ 42083 Bugatti Chiron advanced building set. This exclusive model has been developed in partnership 
             with Bugatti Automobiles S.A.S to capture the essence of the quintessential super sports car, and comes with gleaming aerodynamic bodywork, logoed spoked 
@@ -24,6 +26,7 @@ const technic: Product[] = [
     {
         id: 42096,
         name: 'Porsche 911 RSR',
+        image: images[42096],
         description: [
             `Celebrate an icon of engineering excellence with the LEGO® Technic™ 42096 Porsche 911 RSR. Developed in partnership with Porsche, this authentic replica 
             captures the vehicle's powerful appearance with its sharp contours and aerodynamic detailing, including a rear wing with 'swan neck' mounts, extended rear 
@@ -43,6 +46,7 @@ const technic: Product[] = [
     {
         id: 42107,
         name: 'Ducati Panigale V4 R',
+        image: images[42107],
         description: [
             `Style, sophistication, performance. With breathtaking looks, this LEGO® Technic™ 42107 Ducati Panigale V4 R captures the spirit and design of the original. 
             It's the first model motorcycle in LEGO Technic history to include a gearbox for exploring different speeds and techniques. Other amazing features include 
@@ -61,6 +65,7 @@ const technic: Product[] = [
     {
         id: 42110,
         name: 'Land Rover Defender',
+        image: images[42110],
         description: [
             `Experience world-leading vehicle design firsthand with this highly authentic and displayable 42110 LEGO® Technic™ Land Rover Defender model. Developed in 
             partnership with Land Rover, this impressive LEGO replica captures the vehicle's outstanding level of refinement with its clean, modern lines and sculpted 
@@ -83,6 +88,7 @@ const technic: Product[] = [
     {
         id: 42111,
         name: "Dom's Dodge Charger",
+        image: images[42111],
         description: [
             `Give fans of Fast & Furious the ultimate thrill with this LEGO® Technic™ Dom's Dodge Charger (42111) building set for kids and adults. Based on the iconic 
             1970s Dodge Charger R/T, it's packed with authentic details. The opening hood reveals a model version of the iconic V8 engine. Other cool features include 
@@ -101,6 +107,7 @@ const technic: Product[] = [
     {
         id: 42114,
         name: '6x6 Volvo Articulated Hauler',
+        image: images[42114],
         description: [
             `A realistic model version of Volvo's biggest articulated hauler, the LEGO® Technic™ 6x6 Volvo Articulated Hauler (42114) is ideal for kids who love construction 
             vehicles. The truck is powered by 1 large angular position motor, 1 XL motor and 1 L motor with a Bluetooth controlled Smart Hub for realistic functionality.`,
@@ -119,6 +126,7 @@ const technic: Product[] = [
     {
         id: 42115,
         name: 'Lamborghini Sián FKP 37',
+        image: images[42115],
         description: [
             `Experience the unmistakable power and looks of the Lamborghini Sián FKP 37 as you become immersed in this LEGO® Technic™ building kit (42115). With superb 
             detailing, the model car is a faithful representation of the original Sián FKP 37 in eye-catching lime green with golden rims.`,
@@ -141,6 +149,7 @@ const technic: Product[] = [
     {
         id: 42122,
         name: 'Jeep® Wrangler',
+        image: images[42122],
         description: [
             `Any vehicle-loving kid would be proud to own a high-performance 4X4. Now you can make that dream a reality with the LEGO® Technic™ Jeep® Wrangler (42122) 
             toy model. Boys and girls aged 9 and up will have fun exploring this iconic off-roader. There's a button to operate the front steering and its powerful 
@@ -159,6 +168,7 @@ const technic: Product[] = [
     {
         id: 42123,
         name: 'McLaren Senna GTR™',
+        image: images[42123],
         description: [
             `Looking for the ultimate gift for a child or teen who loves supercar toys? This LEGO® Technic™ McLaren Senna GTR™ (42123) is a great choice - and adult 
             McLaren fans will love it too! Packed with authentic features inspired by the original track-focused supercar icon, this collectible model toy is sure 
@@ -178,6 +188,7 @@ const technic: Product[] = [
     {
         id: 42125,
         name: 'Ferrari 488 GTE "AF Corse #51"',
+        image: images[42125],
         description: [
             `Delivering prestigious wins for the Prancing Horse in the world's toughest endurance races, the Ferrari 488 GTE is a car unlike any other. 
             Now you can create your own LEGO® Technic™ model version, complete with authentic design details
@@ -197,6 +208,7 @@ const technic: Product[] = [
     {
         id: 42126,
         name: 'Ford® F-150 Raptor',
+        image: images[42126],
         description: [
             `In production since 1948, the Ford® F-Series is an enduring symbol of quality and functionality. Now you can pay tribute to the 'workhorse' of the 
             pickup world as you recreate all the details of Ford's 2021 F-150 pickup truck with this LEGO® Technic™ Ford F-150 Raptor (42126) building set.`,
@@ -216,6 +228,7 @@ const technic: Product[] = [
     {
         id: 42127,
         name: 'THE BATMAN - BATMOBILE™',
+        image: images[42127],
         description: [
             `Super-hero fans will enjoy a thrilling challenge as they build the iconic BATMOBILE™ car in LEGO® Technic™ form. Inspired by the latest version of 
             the BATMOBILE from the 2022 THE BATMAN movie, this highly detailed toy car building set features a true-to-life design and is packed with hot features. `,
@@ -235,6 +248,7 @@ const technic: Product[] = [
     {
         id: 42129,
         name: '4x4 Mercedes-Benz Zetros Trial Truck',
+        image: images[42129],
         description: [
             `Anyone who loves powerful toy trucks and construction toys will have lots of fun building this LEGO® Technic™ 4x4 Mercedes-Benz Zetros Trial Truck 
             (42129) model. Packed with realistic features, this truck toy offers an engaging build for adults and kids aged 12 and up. Open the cab doors and hood. 
@@ -255,6 +269,7 @@ const technic: Product[] = [
     {
         id: 42130,
         name: 'BMW M 1000 RR',
+        image: images[42130],
         description: [
             `Developed in sports racing and perfected for the road, the BMW M 1000 RR has captured the hearts of motorsport and motorcycle fans. Now you can enjoy 
             a mindful build crafting your own LEGO® Technic™ model version (42130) of the ultimate motorcycle.`,
@@ -274,6 +289,7 @@ const technic: Product[] = [
     {
         id: 42131,
         name: 'App-Controlled Cat® D11 Bulldozer',
+        image: images[42131],
         description: [
             `Celebrate a hero of the construction world as you build a replica version of the biggest Cat® dozer with this LEGO® Technic™ App-Controlled Cat® D11 
             Bulldozer (42131) kit. This large set lets adults enjoy quality 'me time' focusing on their passion. Just like the real Cat® bulldozer, this model is 
@@ -293,6 +309,7 @@ const technic: Product[] = [
     {
         id: 42137,
         name: 'Formula E® Porsche 99X Electric',
+        image: images[42137],
         description: [
             `Discover a top gift for Formula E® racing and Porsche fans aged 9+ with this fast-paced LEGO® Technic™ Formula E® Porsche 99X Electric (42137) pull-back 
             race car toy. Kids enjoy an immersive build, crafting all the details of the Porsche race car, then recreate all the action of a real race day using the 
@@ -312,6 +329,7 @@ const technic: Product[] = [
     {
         id: 42138,
         name: 'Ford Mustang Shelby® GT500®',
+        image: images[42138],
         description: [
             `Let kids aged 9 and up build their own drag race car toy with this thrilling LEGO® Technic™ Ford Mustang Shelby® GT500® (42138) set. The immersive build 
             gives kids a great introduction to engineering - but that's just the start! Using the 2 pull-back motors, kids can send the toy car racing. Use the AR app 
@@ -331,6 +349,7 @@ const technic: Product[] = [
     {
         id: 42141,
         name: 'McLaren Formula 1™ Race Car',
+        image: images[42141],
         description: [
             `Remove all distractions. Channel your competitor's focus. It's time to build a highly detailed LEGO® Technic™ McLaren Formula 1™ Race Car 42141 model. When you cross 
             the finish line, you'll feel immense pride - with an impressive display model to celebrate your dedication.`,
@@ -351,6 +370,7 @@ const technic: Product[] = [
     {
         id: 42143,
         name: 'Ferrari Daytona SP3',
+        image: images[42143],
         description: [
             `From the LEGO® Technic™ Ultimate Car Concept series comes an impressive build for adult Ferrari fans. Enter a zone of total mindfulness as you recreate the features of the 
             Ferrari Daytona SP3 model in classic red with chrome-painted rims. Then place it on display to admire the iconic rear and curved lines that make this 1:8 scale model so special.`,
@@ -369,6 +389,7 @@ const technic: Product[] = [
     {
         id: 42145,
         name: 'Airbus H175 Rescue Helicopter',
+        image: images[42145],
         description: [
             `Inquisitive kids aged 11 and up will love learning how a helicopter works with this LEGO® Technic™ Airbus H175 Rescue Helicopter (42145) toy set. It has lots of awesome 
             functions, so they'll discover how the different parts come together to create an iconic search and rescue vehicle.`,

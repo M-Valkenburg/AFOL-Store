@@ -1,9 +1,11 @@
 import { Product } from './_productType';
+import images from "./marvelImages";
 
 const marvel: Product[] = [
     {
         id: 76178,
         name: 'Daily Bugle',
+        image: images[76178],
         description: [
             `LEGO® Marvel Spider-Man Daily Bugle (76178) brings together a cast of 25 classic characters from the Spiderverse in a stunning build-and-display construction project for adults.`,
             `A 4-story celebration of the Marvel Universe
@@ -22,6 +24,7 @@ const marvel: Product[] = [
     {
         id: 76187,
         name: 'Venom',
+        image: images[76187],
         description: [
             `Stretch your construction skills and capture forever the distinctive, razor-toothed features of an iconic Marvel super villain with LEGO® Marvel Spider-Man Venom (76187).`,
             `A detailed replica to build and display
@@ -39,6 +42,7 @@ const marvel: Product[] = [
     {
         id: 76191,
         name: 'Infinity Gauntlet',
+        image: images[76191],
         description: [
             `LEGO® Marvel Infinity Gauntlet (76191) is a challenging construction project that rewards the builder with an impressive display piece that perfectly evokes Marvel's captivating style.`,
             `Collectible Marvel movie model<br>
@@ -56,6 +60,7 @@ const marvel: Product[] = [
     {
         id: 76193,
         name: "The Guardians' Ship",
+        image: images[76193],
         description: [
             `LEGO® Marvel The Guardians' Ship (76193) is perfect for anyone aged 14 and up who is serious about the Marvel Avengers movies, or just loves making cool models.`,
             `Build-and-display Marvel spaceship
@@ -74,6 +79,7 @@ const marvel: Product[] = [
     {
         id: 76199,
         name: 'Carnage',
+        image: images[76199],
         description: [
             `LEGO® Marvel Spider-Man Carnage (76199) takes your construction skills into the Marvel Universe as you recreate the nightmarish features of the alien super villain.`,
             `Authentic details to build and display
@@ -91,6 +97,7 @@ const marvel: Product[] = [
     {
         id: 76209,
         name: "Thor's Hammer",
+        image: images[76209],
         description: [
             `Celebrate Marvel Studios' Infinity Saga with LEGO® Marvel Thor's Hammer (76209). Designed with adult model makers in mind, this premium display piece perfectly 
             evokes the style and spirit of the Marvel Cinematic Universe.`,
@@ -111,6 +118,7 @@ const marvel: Product[] = [
     {
         id: 76217,
         name: 'I am Groot',
+        image: images[76217],
         description: [
             `Put a movable model of Baby Groot from the Marvel Cinematic Universe into the hands of kids aged 10 and up with LEGO® Marvel I am Groot (76217).`,
             `Play-and-display Groot
@@ -129,6 +137,7 @@ const marvel: Product[] = [
     {
         id: 76218,
         name: 'Sanctum Sanctorum',
+        image: images[76218],
         description: [
             `Capture the magic of Doctor Strange with the stunning LEGO® Marvel Sanctum Sanctorum (76218), a celebration of the Master of the Mystic Arts - 
             designed with adult enthusiasts in mind.`,
@@ -149,6 +158,7 @@ const marvel: Product[] = [
     {
         id: 76223,
         name: 'Nano Gauntlet',
+        image: images[76223],
         description: [
             `Capture the spirit of Marvel Studios' Avengers: Endgame, with the LEGO® Marvel Nano Gauntlet (76223) - a challenging and rewarding model-making project, 
             designed with adult fans in mind.`,
