@@ -73,12 +73,21 @@
     justify-items: bottom;
     height: 60px;
 
-    h4 {
+    a {
         position: absolute;
         align-items: start;
         letter-spacing: .3px;
         line-height: 22px;
         padding: 10px 0px 15px 0;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+
+        &:hover,
+        &:active {
+            text-decoration: underline;
+        }
     }
 }
 
