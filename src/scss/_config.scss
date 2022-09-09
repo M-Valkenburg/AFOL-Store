@@ -23,3 +23,28 @@ $content-border: 2px solid black;
         border: none;
     }
 }
+
+.strikethrough {
+    position: relative;
+
+    &:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 50%;
+        right: 0;
+        border-top: 1px solid;
+        border-color: inherit;
+
+        -webkit-transform:rotate(-5deg);
+        -moz-transform:rotate(-5deg);
+        -ms-transform:rotate(-5deg);
+        -o-transform:rotate(-5deg);
+        transform:rotate(-5deg);
+    }
+}
+
+.sale-price {
+    color: red;
+    margin-left: 15px;
+}
