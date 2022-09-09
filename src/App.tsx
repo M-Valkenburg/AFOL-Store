@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 
 const Themes = React.lazy(() => import("./components/Themes/Themes"));
 const Theme = React.lazy(() => import("./components/Themes/Theme"));
+const Product = React.lazy(() => import("./components/Product/Product"));
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="themes" element={<Themes />} />
-          <Route path="themes/:themeId" element={<Theme />}></Route>
+          <Route path="themes/:themeId" element={<Theme />} />
+          <Route path="product/:productId" element={<Product />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
