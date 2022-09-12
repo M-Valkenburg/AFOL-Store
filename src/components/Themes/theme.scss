@@ -18,21 +18,21 @@
     }
 
     button {
-        text-align: center;
-        font-size: 18px;
-        font-weight: 600;
-        letter-spacing: .5px;
-        padding: 10px 5px;
-        background-color: $color-gold-light;
-        border-style: none;
-        border: 3px solid $color-gold-light;
-        border-radius: 5px;
+        @extend button;
 
-        &:hover,
-        &:active {
+        &:disabled {
             background-color: white;
+            border: 3px solid white;
         }
     }
+}
+
+.comming-soon {
+    color: darkorange;
+}
+
+.no-stock {
+    color: red;
 }
 
 .product-tile {
@@ -67,7 +67,7 @@
     }
 }
 
-.discount-percentage {
+.prod-discount {
     @extend .discount-percentage;
     position: absolute;
     top: 5px;
