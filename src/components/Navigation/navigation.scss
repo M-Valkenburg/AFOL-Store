@@ -100,10 +100,12 @@ nav {
     }
 
     #menu-links {
+        display: block;
         visibility: hidden;
         top: 50px;
         left: 0;
         width: 100%;
+        height: 160px;
         max-height: 0px;
         transition: max-height 0.15s ease-out;
         overflow: hidden;
