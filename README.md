@@ -11,9 +11,10 @@ I decided to go with the latter and create a web shop because I thought it provi
 ___
 ## Technologies Used
 - HTML
-- CSS
+- SASS
 - Typescript
 - React-Redux
+- React-router-dom V6
 
 ## Project Status
 In progress
