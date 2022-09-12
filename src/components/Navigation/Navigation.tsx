@@ -27,9 +27,9 @@ const Navigation = () => {
                     <img src={menu} alt="menu"/>
                 </div>
                 <div id="menu-links">
-                    <Link to="/themes" className="nav-hover">Themes</Link>
-                    <Link to="/" className="nav-hover">Interest</Link>
-                    <Link to="/" className="nav-hover">Sale</Link>
+                    <Link to="/themes" className="nav-hover" onClick={handleClick}>Themes</Link>
+                    <Link to="/" className="nav-hover" onClick={handleClick}>Interest</Link>
+                    <Link to="/" className="nav-hover" onClick={handleClick}>Sale</Link>
                 </div>
             </div>
             <div className="nav-icons">
