@@ -3,3 +3,147 @@
 .product-page {
     @extend .page;
 }
+
+.product-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.product-image {
+    max-height: 600px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding: 10px;
+
+    img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+.product-info {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 15px;
+    border-left: 1px solid lightgrey;
+    letter-spacing: .5px;
+
+    h3 {
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: .5px;
+        margin-bottom: 50px;
+    }
+
+    button {
+        @extend button;
+        margin-top: 30px;
+
+        &:disabled {
+            background-color: $color-gold-lightest;
+            border: 3px solid $color-gold-lightest;
+        }
+    }
+}
+
+.product-price {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: -6px;
+}
+
+.strikethrough {
+    @extend .strikethrough;
+}
+
+.sale-price {
+    @extend .sale-price;
+}
+
+.product-discount {
+    @extend .discount-percentage;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    align-self: flex-end;
+}
+
+.unreleased,
+.unavailable,
+.available {
+    font-weight: 600;
+}
+
+.unreleased {
+    color: darkorange;
+}
+
+.unavailable {
+    color: red;
+}
+
+.available {
+    color: green;
+}
+
+.set-id,
+.pieces {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.set-id {
+    margin-top: 30px;
+}
+
+.product-description {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 20px 10px;
+
+    p {
+        line-height: 20px;
+        letter-spacing: .5px;
+        margin-bottom: 20px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .product-content {
+        flex-direction: column;
+    }
+
+    .product-info {
+        border: none;
+        padding: 10px;
+    }
+
+    .product-image,
+    .product-info {
+        width: 100%;
+    }
+
+    .product-image {
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}
