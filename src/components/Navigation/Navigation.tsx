@@ -6,9 +6,9 @@ import cart from "../../assets/icons/cart.svg";
 import account from "../../assets/icons/account.svg";
 
 const Navigation = () => {
+    let dropdown = document.getElementById('menu-links') as HTMLElement;
+
     const handleClick = () => {
-        let dropdown = document.getElementById('menu-links') as HTMLElement;
-        
         if (dropdown.style.visibility === 'hidden' || dropdown.style.visibility === '') {
             dropdown.style.visibility = 'visible';
             dropdown.style.maxHeight = '160px';
@@ -20,13 +20,19 @@ const Navigation = () => {
         }
     };
 
+    const closeNav = () => {
+        dropdown.style.visibility = 'hidden';
+        dropdown.style.maxHeight = '0px';
+        dropdown.style.transition = 'max-height .1s ease-out';   
+    };
+
     return (
         <nav className="nav-menu">
             <div>
                 <div className="menu-button" onClick={handleClick}>
                     <img src={menu} alt="menu"/>
                 </div>
-                <div id="menu-links">
+                <div id="menu-links" onMouseLeave={closeNav}>
                     <Link to="/themes" className="nav-hover" onClick={handleClick}>Themes</Link>
                     <Link to="/" className="nav-hover" onClick={handleClick}>Interest</Link>
                     <Link to="/" className="nav-hover" onClick={handleClick}>Sale</Link>
