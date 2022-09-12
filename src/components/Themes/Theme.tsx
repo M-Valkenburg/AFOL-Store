@@ -15,7 +15,7 @@ const Theme = () => {
                         <div className="product-tile" key={product.id}>
                             <Link to={`/product/${product.id}`} className="prod-img">
                                 <img src={product.image} alt={product.name}/>
-                                {product.sale ? <div className="discount-percentage">-{product.discount}%</div> : ""}
+                                {product.sale ? <span className="prod-discount">-{product.discount}%</span> : ""}
                             </Link>
                             <div className="prod-name-container">
                                 <Link to={`/product/${product.id}`}>{product.name}</Link>
@@ -24,7 +24,13 @@ const Theme = () => {
                                 <p className={product.sale ? "strikethrough" : ""}>€ {product.price}</p>
                                 {product.sale ? <p className="sale-price">{product.salePrice}</p> : ""}
                             </div>
-                            <button>Add to cart</button>
+                            {
+                                !product.released 
+                                    ? <button className="comming-soon" disabled>Coming soon</button>
+                                    : product.released && product.stock === 0 
+                                        ? <button className="no-stock" disabled>Out of stock</button>
+                                        : <button>Add to cart</button>
+                            }
                         </div>
                     )
                 })}
