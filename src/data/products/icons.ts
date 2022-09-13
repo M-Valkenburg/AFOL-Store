@@ -127,9 +127,9 @@ const icons: Product[] = [
         tags: ['building', 'sports'],
         price: 279.99,
         stock: 1,
-        sale: false,
-        salePrice: 0,
-        discount: 0
+        sale: true,
+        salePrice: 167.99,
+        discount: 40
     },
     {
         id: 10273,
@@ -277,9 +277,9 @@ const icons: Product[] = [
         tags: ['home decoration'],
         price: 49.99,
         stock: 12,
-        sale: false,
-        salePrice: 0,
-        discount: 0
+        sale: true,
+        salePrice: 39.99,
+        discount: 20
     },
     {
         id: 10281,
@@ -321,9 +321,9 @@ const icons: Product[] = [
         tags: ['sports'],
         price: 89.99,
         stock: 3,
-        sale: false,
-        salePrice: 0,
-        discount: 0
+        sale: true,
+        salePrice: 67.49,
+        discount: 25
     },
     {
         id: 10283,
@@ -364,9 +364,9 @@ const icons: Product[] = [
         tags: ['building', 'sports'],
         price: 329.99,
         stock: 2,
-        sale: false,
-        salePrice: 0,
-        discount: 0
+        sale: true,
+        salePrice: 247.49,
+        discount: 25
     },
     {
         id: 10289,
