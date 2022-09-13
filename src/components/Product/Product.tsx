@@ -42,9 +42,9 @@ const Product = () => {
                     </div>
                 </div>
                 <div className="product-description">
-                    {product.description.map((desc: string) => {
+                    {product.description.map((desc: string, index: number) => {
                         return (
-                            <ReactMarkdown children={desc} rehypePlugins={[rehypeRaw]}/>
+                            <ReactMarkdown key={index} children={desc} rehypePlugins={[rehypeRaw]}/>
                         )})}
                 </div>
             </div>
