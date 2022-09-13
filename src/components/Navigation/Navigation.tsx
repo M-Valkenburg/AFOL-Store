@@ -32,10 +32,10 @@ const Navigation = () => {
                 <div className="menu-button" onClick={handleClick}>
                     <img src={menu} alt="menu"/>
                 </div>
-                <div id="menu-links" onMouseLeave={closeNav} onTouchCancel={closeNav}>
+                <div id="menu-links" onMouseLeave={closeNav}>
                     <Link to="/themes" className="nav-hover" onClick={handleClick}>Themes</Link>
-                    <Link to="/" className="nav-hover" onClick={handleClick}>Interest</Link>
-                    <Link to="/" className="nav-hover" onClick={handleClick}>Sale</Link>
+                    <Link to="/interest" className="nav-hover" onClick={handleClick}>Interest</Link>
+                    <Link to="/sale" className="nav-hover" onClick={handleClick}>Sale</Link>
                 </div>
             </div>
             <div className="nav-icons">
