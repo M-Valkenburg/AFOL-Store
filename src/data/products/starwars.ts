@@ -101,7 +101,7 @@ const starwars: Product[] = [
         pieces: 3187,
         released: true,
         theme1: 'starwars',
-        tags: ['building', 'movies'],
+        tags: ['buildings', 'movies'],
         price: 349.99,
         stock: 4,
         sale: false,

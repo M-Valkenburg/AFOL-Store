@@ -16,7 +16,7 @@ const dc: Product[] = [
         pieces: 2363,
         released: true,
         theme1: 'dc',
-        tags: ['super heroes', 'vehicle', 'movies'],
+        tags: ['super heroes', 'vehicles', 'movies'],
         price: 199.99,
         stock: 3,
         sale: false,
@@ -48,17 +48,17 @@ const dc: Product[] = [
         name: 'Batman™ Classic TV Series Batmobile™',
         image: images[76188],
         description: [
-            `LEGO® DC Batman™: Batman Classic TV Series Batmobile™ (76188) gives kids all the style, action and excitement of the original 1966 Batman TV series. The iconic vehicle is 
+            `LEGO® DC Batman™: Batman Classic TV Series Batmobile™ (76188) gives people all the style, action and excitement of the original 1966 Batman TV series. The iconic vehicle is 
             packed with cool features and attaches to a rotatable stand.`,
             `Classic Batman vehicle and minifigures
-            Kids can play out endless Batman adventures with this impressive Batmobile, plus Batman and The Joker™ minifigures from the original TV series. This amazing vehicle includes 
-            an opening trunk containing a Batarang™ and additional bricks that kids can use to customize the car's hood so it appears with or without the stud shooters. When the action's 
-            over, the Batmobile can be displayed on a rotatable stand that lets kids display their awesome, crime-fighting machine at its best.`,
+            people can play out endless Batman adventures with this impressive Batmobile, plus Batman and The Joker™ minifigures from the original TV series. This amazing vehicle includes 
+            an opening trunk containing a Batarang™ and additional bricks that people can use to customize the car's hood so it appears with or without the stud shooters. When the action's 
+            over, the Batmobile can be displayed on a rotatable stand that lets people display their awesome, crime-fighting machine at its best.`,
         ],
         pieces: 345,
         released: true,
         theme1: 'dc',
-        tags: ['super heroes', 'vehicle', 'tv-shows'],
+        tags: ['cars', 'super heroes', 'tv-shows', ],
         price: 34.99,
         stock: 42,
         sale: false,
@@ -99,7 +99,7 @@ const dc: Product[] = [
         pieces: 2049,
         released: true,
         theme1: 'dc',
-        tags: ['super heroes', 'vehicle', 'movies'],
+        tags: ['super heroes', 'movies', 'cars'],
         price: 229.99,
         stock: 2,
         sale: false,

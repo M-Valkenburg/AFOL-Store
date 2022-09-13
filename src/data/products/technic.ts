@@ -19,7 +19,7 @@ const technic: Product[] = [
         pieces: 3599,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 349.99,
         stock: 0,
         sale: false,
@@ -42,7 +42,7 @@ const technic: Product[] = [
         pieces: 1580,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 179.99,
         stock: 4,
         sale: false,
@@ -64,7 +64,7 @@ const technic: Product[] = [
         pieces: 646,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['vehicles'],
         price: 79.99,
         stock: 16,
         sale: false,
@@ -90,7 +90,7 @@ const technic: Product[] = [
         pieces: 2573,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 199.99,
         stock: 4,
         sale: false,
@@ -102,7 +102,7 @@ const technic: Product[] = [
         name: "Dom's Dodge Charger",
         image: images[42111],
         description: [
-            `Give fans of Fast & Furious the ultimate thrill with this LEGO® Technic™ Dom's Dodge Charger (42111) building set for kids and adults. Based on the iconic 
+            `Give fans of Fast & Furious the ultimate thrill with this LEGO® Technic™ Dom's Dodge Charger (42111) building set for people and adults. Based on the iconic 
             1970s Dodge Charger R/T, it's packed with authentic details. The opening hood reveals a model version of the iconic V8 engine. Other cool features include 
             moving pistons, wishbone suspension, steering system and air blower. There are even nitro bottles in the trunk to bring Dom's daring high-speed chases to life. 
             Just like the real thing! Fans aged 10 and up will love building their very own replica model of Dominic Toretto's famous car. After building the Dodge Charger, 
@@ -112,7 +112,7 @@ const technic: Product[] = [
         pieces: 1077,
         released: true,
         theme1: 'technic',
-        tags: ['movies', 'vehicle'],
+        tags: ['movies', 'cars'],
         price: 119.99,
         stock: 8,
         sale: false,
@@ -124,17 +124,17 @@ const technic: Product[] = [
         name: '6x6 Volvo Articulated Hauler',
         image: images[42114],
         description: [
-            `A realistic model version of Volvo's biggest articulated hauler, the LEGO® Technic™ 6x6 Volvo Articulated Hauler (42114) is ideal for kids who love construction 
+            `A realistic model version of Volvo's biggest articulated hauler, the LEGO® Technic™ 6x6 Volvo Articulated Hauler (42114) is ideal for people who love construction 
             vehicles. The truck is powered by 1 large angular position motor, 1 XL motor and 1 L motor with a Bluetooth controlled Smart Hub for realistic functionality.`,
             `Explore the app for new ways to play<br>
-            There are lots of authentic details to discover and kids can take control of the truck using the LEGO Technic CONTROL+ app. Use the different control screens to 
-            drive forward, reverse, steer, change speed and gear, or unload the hauler's bucket. Kids also get a personalized dashboard with authentic cockpit controls. 
-            Challenges and achievements help kids develop their driving skills and there's inspirational content to discover in the app too.`
+            There are lots of authentic details to discover and people can take control of the truck using the LEGO Technic CONTROL+ app. Use the different control screens to 
+            drive forward, reverse, steer, change speed and gear, or unload the hauler's bucket. people also get a personalized dashboard with authentic cockpit controls. 
+            Challenges and achievements help people develop their driving skills and there's inspirational content to discover in the app too.`
         ],
         pieces: 2193,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['vehicles'],
         price: 249.99,
         stock: 6,
         sale: false,
@@ -160,7 +160,7 @@ const technic: Product[] = [
         pieces: 3696,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 449.99,
         stock: 3,
         sale: false,
@@ -172,17 +172,17 @@ const technic: Product[] = [
         name: 'Jeep® Wrangler',
         image: images[42122],
         description: [
-            `Any vehicle-loving kid would be proud to own a high-performance 4X4. Now you can make that dream a reality with the LEGO® Technic™ Jeep® Wrangler (42122) 
+            `Any vehicle-loving person would be proud to own a high-performance 4X4. Now you can make that dream a reality with the LEGO® Technic™ Jeep® Wrangler (42122) 
             toy model. Boys and girls aged 9 and up will have fun exploring this iconic off-roader. There's a button to operate the front steering and its powerful 
-            axle-articulation suspension means kids will love testing out their model on obstacles around the home.`,
+            axle-articulation suspension means people will love testing out their model on obstacles around the home.`,
             `Packed with authentic details<br>
-            With opening doors and hood, fold-down rear seats, a full-size spare tire, winch and classic Jeep branding, this fun toy model car brings kids closer than 
+            With opening doors and hood, fold-down rear seats, a full-size spare tire, winch and classic Jeep branding, this fun toy model car brings people closer than 
             ever to the real Jeep Wrangler Rubicon. The eye-catching, yellow-and-black color scheme means this model looks great in action or on display.`
         ],
         pieces: 665,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 49.99,
         stock: 28,
         sale: false,
@@ -205,7 +205,7 @@ const technic: Product[] = [
         pieces: 830,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 49.99,
         stock: 22,
         sale: false,
@@ -228,7 +228,7 @@ const technic: Product[] = [
         pieces: 1684,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 199.99,
         stock: 12,
         sale: false,
@@ -251,7 +251,7 @@ const technic: Product[] = [
         pieces: 1379,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 99.99,
         stock: 17,
         sale: false,
@@ -268,13 +268,13 @@ const technic: Product[] = [
             `Light up the night<br>
             The model includes 2 light bricks - 1 red and 1 yellow. The red light adds an awesome glow to the transparent toy engine at the back, while the yellow 
             brick lights up the front grille. Other cool features include steering on the front wheels, differential on the rear wheels, a spinning flame, plus 
-            opening doors and hood. Kids will love exploring the model before placing it on display in tribute to their favorite super hero.`
+            opening doors and hood. people will love exploring the model before placing it on display in tribute to their favorite super hero.`
         ],
         pieces: 1360,
         released: true,
         theme1: 'technic',
         theme2: 'dc',
-        tags: ['movies', 'super heroes', 'vehicle'],
+        tags: ['movies', 'super heroes', 'cars'],
         price: 99.99,
         stock: 14,
         sale: false,
@@ -287,7 +287,7 @@ const technic: Product[] = [
         image: images[42129],
         description: [
             `Anyone who loves powerful toy trucks and construction toys will have lots of fun building this LEGO® Technic™ 4x4 Mercedes-Benz Zetros Trial Truck 
-            (42129) model. Packed with realistic features, this truck toy offers an engaging build for adults and kids aged 12 and up. Open the cab doors and hood. 
+            (42129) model. Packed with realistic features, this truck toy offers an engaging build for adults and people aged 12 and up. Open the cab doors and hood. 
             Check out the working suspension on all 4 wheels and open the service hatch to inspect the gearbox. The model also features a detailed engine with 
             spinning radiator fan. In a first for LEGO Technic, this model has differential locking. Lock and unlock the differentials using the app to maneuver 
             the truck over rough terrain.`,
@@ -298,7 +298,7 @@ const technic: Product[] = [
         pieces: 2129,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 329.99,
         stock: 3,
         sale: false,
@@ -321,7 +321,7 @@ const technic: Product[] = [
         pieces: 1920,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['vehicles'],
         price: 249.99,
         stock: 6,
         sale: false,
@@ -344,7 +344,7 @@ const technic: Product[] = [
         pieces: 3854,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['vehicles'],
         price: 499.99,
         stock: 2,
         sale: false,
@@ -357,17 +357,17 @@ const technic: Product[] = [
         image: images[42137],
         description: [
             `Discover a top gift for Formula E® racing and Porsche fans aged 9+ with this fast-paced LEGO® Technic™ Formula E® Porsche 99X Electric (42137) pull-back 
-            race car toy. Kids enjoy an immersive build, crafting all the details of the Porsche race car, then recreate all the action of a real race day using the 
+            race car toy. people enjoy an immersive build, crafting all the details of the Porsche race car, then recreate all the action of a real race day using the 
             2 pull-back motors and LEGO Technic AR app.`,
             `Bring the race to life<br>
-            Using augmented reality, the app lets kids immerse themselves in the role of a top Porsche Formula E driver. They'll choose which circuit to race on, make 
-            decisions about energy management and use their skills to work their way up in the race. Using the 2 pull-back motors, kids will decide how much to charge 
+            Using augmented reality, the app lets people immerse themselves in the role of a top Porsche Formula E driver. They'll choose which circuit to race on, make 
+            decisions about energy management and use their skills to work their way up in the race. Using the 2 pull-back motors, people will decide how much to charge 
             the car's energy before pushing the trigger to see the car race along the AR track right in front of them!`
         ],
         pieces: 422,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 49.99,
         stock: 24,
         sale: false,
@@ -379,18 +379,18 @@ const technic: Product[] = [
         name: 'Ford Mustang Shelby® GT500®',
         image: images[42138],
         description: [
-            `Let kids aged 9 and up build their own drag race car toy with this thrilling LEGO® Technic™ Ford Mustang Shelby® GT500® (42138) set. The immersive build 
-            gives kids a great introduction to engineering - but that's just the start! Using the 2 pull-back motors, kids can send the toy car racing. Use the AR app 
+            `Let people aged 9 and up build their own drag race car toy with this thrilling LEGO® Technic™ Ford Mustang Shelby® GT500® (42138) set. The immersive build 
+            gives people a great introduction to engineering - but that's just the start! Using the 2 pull-back motors, people can send the toy car racing. Use the AR app 
             to take the play experience to the next level with a host of exciting, augmented reality features.`,
             `Race like a real driver<br>
-            Kids can have hours of fun putting their muscle car toy to the test using the LEGO Technic AR app experience. Race your car, complete challenges and discover 
+         people can have hours of fun putting their muscle car toy to the test using the LEGO Technic AR app experience. Race your car, complete challenges and discover 
             lots of fun ways to play. This model also makes a great display piece - simply add the rear cover to complete the sleek looks. A great introduction to engineering 
             LEGO Technic building sets feature realistic movement and mechanisms that introduce LEGO builders to the universe of engineering in an approachable and realistic way.`
         ],
         pieces: 544,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 49.99,
         stock: 23,
         sale: false,
@@ -414,7 +414,7 @@ const technic: Product[] = [
         pieces: 1434,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 199.99,
         stock: 7,
         sale: false,
@@ -436,7 +436,7 @@ const technic: Product[] = [
         pieces: 3778,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['cars'],
         price: 449.99,
         stock: 6,
         sale: false,
@@ -448,7 +448,7 @@ const technic: Product[] = [
         name: 'Airbus H175 Rescue Helicopter',
         image: images[42145],
         description: [
-            `Inquisitive kids aged 11 and up will love learning how a helicopter works with this LEGO® Technic™ Airbus H175 Rescue Helicopter (42145) toy set. It has lots of awesome 
+            `Inquisitive people aged 11 and up will love learning how a helicopter works with this LEGO® Technic™ Airbus H175 Rescue Helicopter (42145) toy set. It has lots of awesome 
             functions, so they'll discover how the different parts come together to create an iconic search and rescue vehicle.`,
             `Packed with realistic details<br>
             This Airbus H175 rescue model helicopter is packed with features - just like those that appear on the real-life version. The motor (included) brings the model to life with 
@@ -458,7 +458,7 @@ const technic: Product[] = [
         pieces: 2001,
         released: true,
         theme1: 'technic',
-        tags: ['vehicle'],
+        tags: ['vehicles'],
         price: 209.99,
         stock: 5,
         sale: false,
