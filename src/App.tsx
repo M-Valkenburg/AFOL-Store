@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 
 const Themes = React.lazy(() => import("./components/Themes/Themes"));
-const Theme = React.lazy(() => import("./components/Themes/Theme"));
+const Theme = React.lazy(() => import("./components/Theme/Theme"));
 const Product = React.lazy(() => import("./components/Product/Product"));
 
 function App() {
