@@ -3,8 +3,8 @@ import './theme.scss';
 import { themes } from "../../data/themes";
 
 const Theme = () => {
-    let parmas = useParams();
-    const index = themes.findIndex(obj => obj.path === parmas.themeId);
+    const params = useParams();
+    const index = themes.findIndex(obj => obj.path === params.themeId);
 
     return (
         <div className="theme-page">
