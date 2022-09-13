@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
+import ReactMarkdown from 'react-markdown';
 import "./product.scss";
 import products from "../../data/products";
+import rehypeRaw from "rehype-raw";
 
 const Product = () => {
     let params = useParams();  
@@ -30,7 +32,7 @@ const Product = () => {
                         }
                         {
                             !product.released 
-                                ? <button disabled>Coming soon</button>
+                                ? ""
                                 : product.released && product.stock === 0 
                                     ? <button disabled>Add to cart</button>
                                     : <button>Add to cart</button>
@@ -40,7 +42,10 @@ const Product = () => {
                     </div>
                 </div>
                 <div className="product-description">
-                    {product.description.map((desc: string) => <p>{desc}</p>)}
+                    {product.description.map((desc: string) => {
+                        return (
+                            <ReactMarkdown children={desc} rehypePlugins={[rehypeRaw]}/>
+                        )})}
                 </div>
             </div>
         </div>
