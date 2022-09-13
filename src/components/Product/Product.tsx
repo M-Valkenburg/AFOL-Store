@@ -5,7 +5,7 @@ import products from "../../data/products";
 import rehypeRaw from "rehype-raw";
 
 const Product = () => {
-    let params = useParams();  
+    const params = useParams();  
     const index = products.findIndex(obj => obj.id.toString() === params.productId);
     const product = products[index];
 
