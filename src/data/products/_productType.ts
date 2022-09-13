@@ -32,12 +32,12 @@ type Tags =
     'cars' |
     'games' |
     'helmets' |
-    'home decoration' |
+    'homedecoration' |
     'movies' |
     'music' |
     'seasonal' |
     'space' |
     'sports' |
-    'super heroes' |
+    'superheroes' |
     'tv-shows' |
     'vehicles';
