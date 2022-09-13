@@ -28,7 +28,8 @@ type Theme =
     'technic';
 
 type Tags = 
-    'building' |
+    'buildings' |
+    'cars' |
     'games' |
     'helmets' |
     'home decoration' |
@@ -39,4 +40,4 @@ type Tags =
     'sports' |
     'super heroes' |
     'tv-shows' |
-    'vehicle';
+    'vehicles';
