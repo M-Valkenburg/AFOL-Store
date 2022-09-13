@@ -15,7 +15,6 @@ const products = productsArray.concat(
     architectureProd,
     artProd,
     dcProd,
-    dcProd,
     disneyProd,
     harrypotterProd,
     iconsProd,
