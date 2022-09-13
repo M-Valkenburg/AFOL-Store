@@ -274,7 +274,7 @@ const technic: Product[] = [
         released: true,
         theme1: 'technic',
         theme2: 'dc',
-        tags: ['movies', 'super heroes', 'cars'],
+        tags: ['movies', 'superheroes', 'cars'],
         price: 99.99,
         stock: 14,
         sale: false,
