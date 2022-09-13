@@ -32,7 +32,7 @@ const Navigation = () => {
                 <div className="menu-button" onClick={handleClick}>
                     <img src={menu} alt="menu"/>
                 </div>
-                <div id="menu-links" onMouseLeave={closeNav}>
+                <div id="menu-links" onMouseLeave={closeNav} onTouchCancel={closeNav}>
                     <Link to="/themes" className="nav-hover" onClick={handleClick}>Themes</Link>
                     <Link to="/" className="nav-hover" onClick={handleClick}>Interest</Link>
                     <Link to="/" className="nav-hover" onClick={handleClick}>Sale</Link>
