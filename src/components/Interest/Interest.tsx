@@ -1,21 +1,37 @@
-import { Link } from 'react-router-dom';
-import "./interest.scss";
-import "../Themes/themes.scss";
+import { Link, useParams } from "react-router-dom";
+import '../Theme/theme.scss';
 import { tags } from "../../data/tags";
 
 const Interest = () => {
+    const params = useParams();
+    const index = tags.findIndex(obj => obj.path === params.interestId);
+
     return (
-        <div className="themes interest">
-            <h2>Interest</h2>
-            <div className="themes-container">
-                {tags.map(tag => {
+        <div className="theme-page">
+            <h2>{tags[index].name}</h2>
+            <div className="products-container">
+                {tags[index].products.map(product => {
                     return (
-                        <Link to={`/interest/${tag.name.toLowerCase().replace(" ", "")}`} className="theme" key={tag.name}>
-                            <img className="theme-img" src={tag.image} alt={tag.name} loading="lazy"/>
-                            <div className="logo-container">
-                                <span>{tag.name}</span>
+                        <div className="product-tile" key={product.id}>
+                            <Link to={`/product/${product.id}`} className="prod-img">
+                                <img src={product.image} alt={product.name}/>
+                                {product.sale ? <span className="prod-discount">-{product.discount}%</span> : ""}
+                            </Link>
+                            <div className="prod-name-container">
+                                <Link to={`/product/${product.id}`}>{product.name}</Link>
                             </div>
-                        </Link>
+                            <div className="prod-price">
+                                <p className={product.sale ? "strikethrough" : ""}>€ {product.price}</p>
+                                {product.sale ? <p className="sale-price">{product.salePrice}</p> : ""}
+                            </div>
+                            {
+                                !product.released 
+                                    ? <button className="comming-soon" disabled>Coming soon</button>
+                                    : product.released && product.stock === 0 
+                                        ? <button className="no-stock" disabled>Out of stock</button>
+                                        : <button>Add to cart</button>
+                            }
+                        </div>
                     )
                 })}
             </div>
