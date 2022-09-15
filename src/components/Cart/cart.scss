@@ -1,0 +1,67 @@
+@import "../../scss/_config.scss";
+
+.cart {
+    @extend .page;
+}
+
+.cart-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartItem {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "img name name del"
+        "img price qty del";
+    grid-template-columns: 150px 160px auto 14px;
+    grid-template-rows: auto;
+    padding: 5px 0;
+    border-bottom: 1px solid lightgray;
+
+    img {
+        max-height: 150px;
+        max-width: 150px;
+    }
+}
+
+.item-img {
+    height: 150px;
+    width: 150px;
+    grid-area: img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-name {
+    grid-area: name;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.item-remove {
+    grid-area: del;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.item-price {
+    height: 20px;
+    grid-area: price;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-qty {
+    grid-area: qty;
+}
