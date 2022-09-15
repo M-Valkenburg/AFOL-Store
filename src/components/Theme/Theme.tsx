@@ -1,8 +1,11 @@
 import { Link, useParams } from "react-router-dom";
 import './theme.scss';
 import { themes } from "../../data/themes";
+import { addProduct } from "../../store/cartSlice";
+import { useAppDispatch } from '../../store/hooks';
 
 const Theme = () => {
+    const dispatch = useAppDispatch();
     const params = useParams();
     const index = themes.findIndex(obj => obj.path === params.themeId);
 
@@ -29,7 +32,7 @@ const Theme = () => {
                                     ? <button className="comming-soon" disabled>Coming soon</button>
                                     : product.released && product.stock === 0 
                                         ? <button className="no-stock" disabled>Out of stock</button>
-                                        : <button>Add to cart</button>
+                                        : <button onClick={() => dispatch(addProduct(product))} aria-label="Add to cart">Add to cart</button>
                             }
                         </div>
                     )

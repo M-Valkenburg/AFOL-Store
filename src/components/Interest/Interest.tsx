@@ -1,8 +1,11 @@
 import { Link, useParams } from "react-router-dom";
 import '../Theme/theme.scss';
 import { tags } from "../../data/tags";
+import { addProduct } from "../../store/cartSlice";
+import { useAppDispatch } from '../../store/hooks';
 
 const Interest = () => {
+    const dispatch = useAppDispatch();
     const params = useParams();
     const index = tags.findIndex(obj => obj.path === params.interestId);
 
@@ -29,7 +32,7 @@ const Interest = () => {
                                     ? <button className="comming-soon" disabled>Coming soon</button>
                                     : product.released && product.stock === 0 
                                         ? <button className="no-stock" disabled>Out of stock</button>
-                                        : <button>Add to cart</button>
+                                        : <button onClick={() => dispatch(addProduct(product))} aria-label="Add to cart">Add to cart</button>
                             }
                         </div>
                     )

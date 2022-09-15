@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import '../Theme/theme.scss';
 import products from "../../data/products";
+import { addProduct } from "../../store/cartSlice";
+import { useAppDispatch } from '../../store/hooks';
 
 const Sale = () => {
+    const dispatch = useAppDispatch();
     const saleProducts = products.filter(product => product.sale === true);
 
     return (
@@ -26,7 +29,7 @@ const Sale = () => {
                             {
                                 product.released && product.stock === 0 
                                     ? <button className="no-stock" disabled>Out of stock</button>
-                                    : <button>Add to cart</button>
+                                    : <button onClick={() => dispatch(addProduct(product))} aria-label="Add to cart">Add to cart</button>
                             }
                         </div>
                     )
