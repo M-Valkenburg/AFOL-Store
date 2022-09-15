@@ -8,6 +8,7 @@ import homeDecoration from "../assets/interest/homedecoration.webp";
 import movies from "../assets/interest/movies.webp";
 import music from "../assets/interest/music.webp";
 import seasonal from "../assets/interest/seasonal.webp";
+import space from "../assets/interest/space.webp";
 import sports from "../assets/interest/sports.webp";
 import superHeroes from "../assets/interest/superheroes.webp";
 import tvShows from "../assets/interest/tvshows.webp";
@@ -60,6 +61,12 @@ export const tags: {name: string, path: string , image: string, products: Produc
         name: 'Seasonal',
         path: 'seasonal',
         image: seasonal,
+        get products() {return interestProducts(this.path)}
+    },
+    {
+        name: 'Space',
+        path: 'space',
+        image: space,
         get products() {return interestProducts(this.path)}
     },
     {
