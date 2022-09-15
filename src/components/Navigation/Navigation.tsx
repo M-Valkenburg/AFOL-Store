@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { useAppSelector } from '../../store/hooks';
+import { selectItems } from "../../store/cartSlice";
 import "./navigation.scss";
 import menu from "../../assets/icons/menu.svg"
 import search from "../../assets/icons/search.svg";
@@ -6,6 +8,8 @@ import cart from "../../assets/icons/cart.svg";
 import account from "../../assets/icons/account.svg";
 
 const Navigation = () => {
+    const cartTotal = useAppSelector(selectItems);
+
     let dropdown = document.getElementById('menu-links') as HTMLElement;
 
     const handleClick = () => {
@@ -42,8 +46,8 @@ const Navigation = () => {
                 <Link to="" className="nav-hover" aria-label="search">
                     <img src={search} alt="search"></img><span className="nav-name"> Search</span>
                 </Link>
-                <Link to="" className="nav-hover" aria-label="cart">
-                    <img src={cart} alt="cart"></img><span className="nav-name"> Cart</span>
+                <Link to="/cart" className="nav-hover" aria-label="cart">
+                    <img src={cart} alt="cart"></img><span className="nav-name"> Cart <span className="cartTotal">({cartTotal})</span></span>
                 </Link>
                 <Link to="" className="nav-hover" aria-label="account">
                     <img src={account} alt="account"></img><span className="nav-name"> Login</span>
