@@ -12,6 +12,7 @@ const Interests = React.lazy(() => import("./components/Interests/Interests"));
 const Interest = React.lazy(() => import("./components/Interest/Interest"));
 const Sale = React.lazy(() => import ("./components/Sale/Sale"));
 const Product = React.lazy(() => import("./components/Product/Product"));
+const Cart = React.lazy(() => import ("./components/Cart/Cart"));
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="interest/:interestId" element={<Interest />} />
           <Route path="sale" element={<Sale />} />
           <Route path="product/:productId" element={<Product />} />
+          <Route path="cart" element={<Cart />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
