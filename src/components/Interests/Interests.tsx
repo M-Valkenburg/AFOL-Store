@@ -11,7 +11,9 @@ const Interest = () => {
                 {tags.map(tag => {
                     return (
                         <Link to={`/interest/${tag.path}`} className="theme" key={tag.name}>
-                            <img className="theme-img" src={tag.image} alt={tag.name} loading="lazy"/>
+                            <div className="tag-img">
+                                <img className="theme-img" src={tag.image} alt={tag.name} loading="lazy"/>
+                            </div>
                             <div className="logo-container">
                                 <span>{tag.name}</span>
                             </div>
