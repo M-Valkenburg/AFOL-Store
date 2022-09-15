@@ -623,7 +623,7 @@ const icons: Product[] = [
         pieces: 1508,
         released: true,
         theme1: 'icons',
-        tags: ['movies', 'vehicles'],
+        tags: ['movies', 'cars'],
         price: 169.99,
         stock: 4,
         sale: false,
