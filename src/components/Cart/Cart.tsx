@@ -2,8 +2,6 @@ import "./cart.scss";
 import { useAppSelector, useAppDispatch } from '../../store/hooks';
 import { selectCart, removeProduct } from "../../store/cartSlice";
 import remove from "../../assets/icons/remove.svg";
-import products from "../../data/products";
-import { Product } from "../../data/products/_productType";
 
 const Cart = () => {
     const dispatch = useAppDispatch();
