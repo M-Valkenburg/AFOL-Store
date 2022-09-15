@@ -59,7 +59,7 @@ const art: Product[] = [
         released: true,
         theme1: 'art',
         theme2: 'disney',
-        tags: ['tv-shows', 'homedecoration'],
+        tags: ['homedecoration'],
         price: 119.99,
         stock: 11,
         sale: false,
