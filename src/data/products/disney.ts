@@ -75,7 +75,7 @@ const disney: Product[] = [
         pieces: 497,
         released: true,
         theme1: 'disney',
-        tags: ['vehicles', 'space', 'movies'],
+        tags: ['space', 'movies'],
         price: 49.99,
         stock: 28,
         sale: false,
