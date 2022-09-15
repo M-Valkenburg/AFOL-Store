@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/AFOL-Store/static/css/main.fc8030e9.css",
-    "main.js": "/AFOL-Store/static/js/main.95adc85c.js",
+    "main.js": "/AFOL-Store/static/js/main.7b3ca1de.js",
     "static/css/207.9a5fdd8a.chunk.css": "/AFOL-Store/static/css/207.9a5fdd8a.chunk.css",
     "static/js/207.96fee521.chunk.js": "/AFOL-Store/static/js/207.96fee521.chunk.js",
     "static/css/372.7631c172.chunk.css": "/AFOL-Store/static/css/372.7631c172.chunk.css",
     "static/js/372.8045f4d5.chunk.js": "/AFOL-Store/static/js/372.8045f4d5.chunk.js",
-    "static/css/44.c63e6db2.chunk.css": "/AFOL-Store/static/css/44.c63e6db2.chunk.css",
+    "static/css/44.d3a70a41.chunk.css": "/AFOL-Store/static/css/44.d3a70a41.chunk.css",
     "static/js/44.66e5b0e7.chunk.js": "/AFOL-Store/static/js/44.66e5b0e7.chunk.js",
     "static/css/359.7631c172.chunk.css": "/AFOL-Store/static/css/359.7631c172.chunk.css",
     "static/js/359.4e244353.chunk.js": "/AFOL-Store/static/js/359.4e244353.chunk.js",
@@ -202,12 +202,12 @@
     "static/media/remove.svg": "/AFOL-Store/static/media/remove.26cfd3d2054b6e033432eeaef8b63944.svg",
     "static/media/account.svg": "/AFOL-Store/static/media/account.9b62643f9d2afab17a6fdb52b7468d36.svg",
     "main.fc8030e9.css.map": "/AFOL-Store/static/css/main.fc8030e9.css.map",
-    "main.95adc85c.js.map": "/AFOL-Store/static/js/main.95adc85c.js.map",
+    "main.7b3ca1de.js.map": "/AFOL-Store/static/js/main.7b3ca1de.js.map",
     "207.9a5fdd8a.chunk.css.map": "/AFOL-Store/static/css/207.9a5fdd8a.chunk.css.map",
     "207.96fee521.chunk.js.map": "/AFOL-Store/static/js/207.96fee521.chunk.js.map",
     "372.7631c172.chunk.css.map": "/AFOL-Store/static/css/372.7631c172.chunk.css.map",
     "372.8045f4d5.chunk.js.map": "/AFOL-Store/static/js/372.8045f4d5.chunk.js.map",
-    "44.c63e6db2.chunk.css.map": "/AFOL-Store/static/css/44.c63e6db2.chunk.css.map",
+    "44.d3a70a41.chunk.css.map": "/AFOL-Store/static/css/44.d3a70a41.chunk.css.map",
     "44.66e5b0e7.chunk.js.map": "/AFOL-Store/static/js/44.66e5b0e7.chunk.js.map",
     "359.7631c172.chunk.css.map": "/AFOL-Store/static/css/359.7631c172.chunk.css.map",
     "359.4e244353.chunk.js.map": "/AFOL-Store/static/js/359.4e244353.chunk.js.map",
@@ -223,6 +223,6 @@
   },
   "entrypoints": [
     "static/css/main.fc8030e9.css",
-    "static/js/main.95adc85c.js"
+    "static/js/main.7b3ca1de.js"
   ]
 }
