@@ -34,9 +34,9 @@ button {
     border-style: none;
     border: 3px solid $color-gold-light;
     border-radius: 5px;
+    cursor: pointer;
 
-    &:hover,
-    &:active {
+    &:hover {
         background-color: white;
     }
 }
