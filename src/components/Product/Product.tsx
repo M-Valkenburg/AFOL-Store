@@ -1,10 +1,13 @@
 import { useParams } from "react-router-dom";
 import ReactMarkdown from 'react-markdown';
 import "./product.scss";
+import { addProduct } from "../../store/cartSlice";
+import { useAppDispatch } from '../../store/hooks';
 import products from "../../data/products";
 import rehypeRaw from "rehype-raw";
 
 const Product = () => {
+    const dispatch = useAppDispatch();
     const params = useParams();  
     const index = products.findIndex(obj => obj.id.toString() === params.productId);
     const product = products[index];
@@ -35,7 +38,7 @@ const Product = () => {
                                 ? ""
                                 : product.released && product.stock === 0 
                                     ? <button disabled>Add to cart</button>
-                                    : <button>Add to cart</button>
+                                    : <button onClick={() => dispatch(addProduct(product))} aria-label="Add to cart">Add to cart</button>
                         }
                         <p className="set-id">Set id: {product.id}</p>
                         <p className="pieces">Pieces: {product.pieces}</p>
