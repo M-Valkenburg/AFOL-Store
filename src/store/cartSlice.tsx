@@ -33,13 +33,13 @@ const cartSlice = createSlice({
                 state.items += 1;
                 state.value += (product.sale ? product.salePrice : product.price);
                 state.VAT = Number((state.value * 0.21).toFixed(2));
-                state.total = state.value + state.VAT;
+                state.total = state.value + state.shipping;
             } else {
                 state.cart.push({product: action.payload, qty: 1});
                 state.items += 1;
                 state.value += (product.sale ? product.salePrice : product.price);
                 state.VAT = Number((state.value * 0.21).toFixed(2));
-                state.total = state.value + state.VAT;
+                state.total = state.value + state.shipping;
             }
         },
         removeProduct: (state, action: PayloadAction<Product>) => {
@@ -50,7 +50,7 @@ const cartSlice = createSlice({
             state.cart.splice(index, 1)
             state.value -= (product.sale ? product.salePrice : product.price);
             state.VAT = Number((state.value * 0.21).toFixed(2));
-            state.total = state.value + state.VAT;
+            state.total = state.value + state.shipping;
         },
         increment: (state, action: PayloadAction<Product>) => {
             const product: Product = action.payload;
@@ -60,7 +60,7 @@ const cartSlice = createSlice({
             state.items += 1;
             state.value += (product.sale ? product.salePrice : product.price);
             state.VAT = Number((state.value * 0.21).toFixed(2));
-            state.total = state.value + state.VAT;
+            state.total = state.value + state.shipping;
         },
         decrement: (state, action: PayloadAction<Product>) => {
             const product: Product = action.payload;
@@ -72,7 +72,7 @@ const cartSlice = createSlice({
             state.items -= 1;
             state.value -= (product.sale ? product.salePrice : product.price);
             state.VAT = Number((state.value * 0.21).toFixed(2));
-            state.total = state.value + state.VAT; 
+            state.total = state.value + state.shipping; 
         },
         changeQty: (state, action) => {},
     }
