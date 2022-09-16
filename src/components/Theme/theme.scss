@@ -2,6 +2,10 @@
 
 .theme-page {
     @extend .page;
+    
+    button {
+        @extend .add-button;
+    }
 }
 
 .products-container {

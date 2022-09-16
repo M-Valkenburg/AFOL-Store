@@ -2,6 +2,10 @@
 
 .product-page {
     @extend .page;
+
+    button {
+        @extend .add-button;
+    }
 }
 
 .product-container {
