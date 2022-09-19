@@ -2,6 +2,8 @@
 
 .theme-page {
     @extend .page;
+    display: flex;
+    flex-direction: column;
     
     button {
         @extend .add-button;
@@ -9,9 +11,10 @@
 }
 
 .products-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
     overflow: hidden;
 
     p {
@@ -40,7 +43,6 @@
 }
 
 .product-tile {
-    width: 300px;
     display: flex;
     flex-direction: column;
     border: $content-border;
@@ -51,23 +53,29 @@
 
 .prod-img {
     position: relative;
-    height: 280px;
-    width: 280px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    object-fit: contain;
 
-    &:hover,
-    &:active {
+    &:hover {
         transform: scale(1.065);
     }
 
     img {
         display: block;
-        position: relative;       
-        max-height: 100%;
-        max-width: 100%;
+        position: absolute;
+        max-width: 90%;
+        max-height: 90%;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
@@ -119,42 +127,17 @@
     @extend .sale-price;
 }
 
-@media only screen and (max-width: 990px) {
-    .product-tile {
-        width: 280px;
-    }
-
-    .prod-img {
-            height: 260px;
-            width: 260px;
-    } 
-}
-
-@media only screen and (max-width: 930px) {
-    .product-tile {
-        width: 220px;
-    }
-
-    .prod-img {
-            height: 200px;
-            width: 200px;
-    }
-
-    .prod-name-container {
-        a {
-            font-size: 14px;
-        }
+@media only screen and (max-width: 900px) {
+    .products-container {
+        width: 100%;
+        grid-template-columns: repeat(3, 33.33%);
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .product-tile {
-        width: 180px;
-    }
-
-    .prod-img {
-        height: 160px;
-        width: 160px;
+@media only screen and (max-width: 700px) {
+    .products-container {
+        width: 100%;
+        grid-template-columns: repeat(2, 50%);
     }
 
     .prod-price {
