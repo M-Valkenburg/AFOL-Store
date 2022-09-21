@@ -29,7 +29,7 @@ const Sale = () => {
                             {
                                 product.released && product.stock === 0 
                                     ? <button className="no-stock" disabled>Out of stock</button>
-                                    : <button onClick={() => dispatch(addProduct(product))} aria-label="Add to cart">Add to cart</button>
+                                    : <button onClick={() => dispatch(addProduct([product, 1]))} aria-label="Add to cart">Add to cart</button>
                             }
                         </div>
                     )
