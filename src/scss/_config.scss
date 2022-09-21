@@ -2,6 +2,7 @@ $color-gold: rgba(178, 129, 23, 1);
 $color-gold-light: rgba(225, 200, 82, 1);
 $color-gold-lightest: rgba(226, 211, 143, 1);
 $content-border: 2px solid black;
+$content-border-light: 1px solid lightgrey;
 
 .page {
     background: white;
@@ -78,12 +79,14 @@ $content-border: 2px solid black;
     display: flex;
     flex-direction: row;
 
-    input {
+    .value {
         height: 30px;
         width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 18px;
-        text-align: center;
-        border: 1px solid lightgrey;
+        border: $content-border-light;
 
         &:focus {
             outline: none;
@@ -97,7 +100,7 @@ $content-border: 2px solid black;
         justify-content: center;
         align-items: center;
         background-color: ghostwhite;
-        border: 1px solid lightgrey;
+        border: $content-border-light;
         cursor: pointer;
 
         img {
