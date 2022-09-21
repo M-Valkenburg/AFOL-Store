@@ -75,6 +75,22 @@
         letter-spacing: .5px;
         line-height: 22px;
     }
+
+    button {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: .3px;
+        background-color: ghostwhite;
+        border: none;
+        border-radius: 20px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: LemonChiffon;
+        }
+    }
 }
 
 .promo-10305 {
