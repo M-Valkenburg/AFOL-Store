@@ -40,7 +40,7 @@
 .cart-items {
     height: min-content;
     width: 100%;
-    border: 1px solid lightgray;
+    border: $content-border-light;
     border-radius: 10px;
     padding: 10px;
 }
@@ -54,7 +54,7 @@
     grid-template-columns: 150px 200px auto 14px;
     grid-template-rows: auto;
     padding: 5px 0;
-    border-bottom: 1px solid lightgray;
+    border-bottom: $content-border-light;
 
     &:last-of-type {
         border-bottom: none;
@@ -110,7 +110,7 @@
 .cart-totals {
     height: 100%;
     width: 360px;
-    border: 1px solid lightgray;
+    border: $content-border-light;
     border-radius: 10px;
     margin-left: 20px;
     padding: 10px;
