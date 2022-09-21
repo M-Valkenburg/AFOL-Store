@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./home.scss";
 import castle10305 from "../../assets/promotion/10305-promo.webp";
 import castle6080 from "../../assets/promotion/6080.webp";
@@ -25,6 +26,7 @@ const Home = () => {
                             Celebrate 90 years of LEGO® history with the new Lion Knights' Castle, an ode to the original castle set from 1984.
                             The impressive new Lion Knights' Castle reimagines the memorable medieval theme first introduced in the late 1970s.
                         </p>
+                        <Link to="/product/10305"><button>Buy now &#10140;</button></Link>
                     </div>
                     <img src={knights} alt="Lion knights"></img>
                 </div>
@@ -47,6 +49,7 @@ const Home = () => {
                             Instructions for the reimagined versions are not included in the set. They can be downloaded 
                             from <a href="https://www.lego.com/en-us/service/buildinginstructions/10497" target="_blank" rel="noreferrer">Lego.com</a>
                         </p>
+                        <Link to="/product/10497"><button>Buy now &#10140;</button></Link>
                     </div>
                     <img src={spaceFig} alt="Classic space minifigure"/>
                 </div>
@@ -58,6 +61,7 @@ const Home = () => {
                         <h3>Take the scenic route</h3>
                         <p>Enter a zone of complete mindfulness with the impressive new LEGO® Technic Ferrari Daytona SP3.</p>
                         <p>This 1:8 scale model has 3,778 pieces, making it one of the biggest Technic vehicles ever.</p>
+                        <Link to="/product/42143"><button>Buy now &#10140;</button></Link>
                     </div>
                     <img src={ferrariLogo} alt="Ferrari logo"/>
                 </div>
