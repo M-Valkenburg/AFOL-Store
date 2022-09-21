@@ -2,10 +2,6 @@
 
 .product-page {
     @extend .page;
-
-    button {
-        @extend .add-button;
-    }
 }
 
 .product-container {
@@ -47,16 +43,6 @@
         font-weight: 500;
         letter-spacing: .5px;
         margin-bottom: 50px;
-    }
-
-    button {
-        @extend button;
-        margin-top: 30px;
-
-        &:disabled {
-            background-color: $color-gold-lightest;
-            border: 3px solid $color-gold-lightest;
-        }
     }
 }
 
@@ -101,6 +87,25 @@
 
 .available {
     color: green;
+}
+
+.product-qty {
+    @extend .qty;
+    margin-top: 30px;
+}
+
+.product-stock {
+    font-size: 14px;
+    margin: 6px 0 20px;
+}
+
+.product-to-cart {
+    @extend .add-button;
+
+    &:disabled {
+        background-color: $color-gold-lightest;
+        border: 3px solid $color-gold-lightest;
+    }
 }
 
 .set-id,
