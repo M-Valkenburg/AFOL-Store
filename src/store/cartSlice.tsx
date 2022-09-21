@@ -24,20 +24,33 @@ const cartSlice = createSlice({
     name: 'cart',
     initialState: initialstate,
     reducers: {
-        addProduct: (state, action: PayloadAction<Product>) => {
-            const product: Product = action.payload;
+        addProduct: (state, action: PayloadAction<[item: Product, qty: number]>) => {
+            const product: Product = action.payload[0];
+            const quantity: number = action.payload[1]
             const index: number = state.cart.findIndex(item => item.product.id === product.id)
 
             if (index !== -1) {
-                state.cart[index].qty += 1;
-                state.items += 1;
-                state.value += (product.sale ? product.salePrice : product.price);
-                state.VAT = Number((state.value * 0.21).toFixed(2));
-                state.total = state.value + state.shipping;
+                const stock = state.cart[index].product.stock;
+
+                if (state.cart[index].qty === stock) {
+                    return;
+                } else if (state.cart[index].qty + quantity > stock) {
+                    state.items += (stock - state.cart[index].qty);
+                    state.value += (product.sale ? (product.salePrice * (stock - state.cart[index].qty)) : (product.price * (stock - state.cart[index].qty)));
+                    state.cart[index].qty += (stock - state.cart[index].qty);
+                    state.VAT = Number((state.value * 0.21).toFixed(2));
+                    state.total = state.value + state.shipping;
+                } else {
+                    state.items += quantity;
+                    state.cart[index].qty += quantity;
+                    state.value += (product.sale ? (product.salePrice * quantity) : (product.price * quantity));
+                    state.VAT = Number((state.value * 0.21).toFixed(2));
+                    state.total = state.value + state.shipping;
+                }
             } else {
-                state.cart.push({product: action.payload, qty: 1});
-                state.items += 1;
-                state.value += (product.sale ? product.salePrice : product.price);
+                state.cart.push({product: action.payload[0], qty: quantity});
+                state.items += quantity;
+                state.value += (product.sale ? (product.salePrice * quantity) : (product.price * quantity));
                 state.VAT = Number((state.value * 0.21).toFixed(2));
                 state.total = state.value + state.shipping;
             }
@@ -55,6 +68,8 @@ const cartSlice = createSlice({
         increment: (state, action: PayloadAction<Product>) => {
             const product: Product = action.payload;
             const index: number = state.cart.findIndex(item => item.product.id === product.id);
+
+            if (state.cart[index].qty === product.stock) return;
             
             state.cart[index].qty += 1;
             state.items += 1;
@@ -74,7 +89,6 @@ const cartSlice = createSlice({
             state.VAT = Number((state.value * 0.21).toFixed(2));
             state.total = state.value + state.shipping; 
         },
-        changeQty: (state, action) => {},
     }
 });
 
@@ -90,6 +104,5 @@ export const {
     addProduct, 
     removeProduct, 
     increment, 
-    decrement,  
-    changeQty
+    decrement,
 } = cartSlice.actions;
