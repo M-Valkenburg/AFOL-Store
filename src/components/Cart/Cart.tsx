@@ -1,11 +1,12 @@
-import "./cart.scss";
 import { Link } from "react-router-dom";
+import "./cart.scss";
 import { useAppSelector, useAppDispatch } from '../../store/hooks';
 import { 
     selectCart, selectItems, selectValue,
     selectVAT, selectShipping, selectTotal,
     removeProduct, increment, decrement
 } from "../../store/cartSlice";
+import { Product } from "../../data/products/_productType";
 import cartIcon from "../../assets/icons/cart.svg";
 import remove from "../../assets/icons/remove.svg";
 import plus from "../../assets/icons/plus.svg";
@@ -19,6 +20,11 @@ const Cart = () => {
     const totalTax = useAppSelector(selectVAT);
     const shipping = useAppSelector(selectShipping);
     const orderTotal = useAppSelector(selectTotal);
+
+    const getValue = (product: Product) => {
+        const index: number = cart.findIndex(i => i.product === product);
+        return cart[index].qty.toString();
+    }
 
     if (totalItems === 0) {
         return (
@@ -57,7 +63,7 @@ const Cart = () => {
                                     <button aria-label="decrease quantity" onClick={() => dispatch(decrement(product))}>
                                         <img src={minus} alt="decrease quantity"/>
                                     </button>
-                                    <input type="text" value={item.qty} pattern="[0-9]+"></input>
+                                    <span className="value">{getValue(product)}</span>
                                     <button aria-label="increase quantity" onClick={() => dispatch(increment(product))}>
                                         <img src={plus} alt="increase quantity"/>
                                     </button>
