@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./footer.scss";
 import logo from "../../assets/logos/Lego.png";
 
@@ -7,19 +8,19 @@ const Footer = () => {
             <div className="info-container">
                 <div className="about">
                     <h3>ABOUT</h3>
-                    <a href="">About us</a>
-                    <a href="">Contact</a>
+                    <Link to="/">About us</Link>
+                    <Link to="/">Contact</Link>
                 </div>
                 <div className="legal">
                     <h3>LEGAL</h3>
-                    <a href="">Terms & conditions</a>
-                    <a href="">Privacy</a>
+                    <Link to="/">Terms & conditions</Link>
+                    <Link to="/">Privacy</Link>
                 </div>
                 <div className="customer-service">
                     <h3>CUSTOMER SERVICE</h3>
-                    <a href="">Payment Methods</a>
-                    <a href="">Shipping & delivery</a>
-                    <a href="">Returns</a>
+                    <Link to="/">Payment methods</Link>
+                    <Link to="/">Shipping & delivery</Link>
+                    <Link to="/">Returns</Link>
                 </div>
             </div>
             <img src={logo} alt="LEGO® logo"/>
