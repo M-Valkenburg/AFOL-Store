@@ -10,48 +10,29 @@ import account from "../../assets/icons/account.svg";
 const Navigation = () => {
     const cartTotal = useAppSelector(selectItems);
 
-    let dropdown = document.getElementById('menu-links') as HTMLElement;
-
-    const handleClick = () => {
-        if (dropdown.style.visibility === 'hidden' || dropdown.style.visibility === '') {
-            dropdown.style.visibility = 'visible';
-            dropdown.style.maxHeight = '160px';
-            dropdown.style.transition = 'max-height .1s ease-in';
-        } else {
-            dropdown.style.visibility = 'hidden';
-            dropdown.style.maxHeight = '0px';
-            dropdown.style.transition = 'max-height .1s ease-out';
-        }
-    };
-
-    const closeNav = () => {
-        dropdown.style.visibility = 'hidden';
-        dropdown.style.maxHeight = '0px';
-        dropdown.style.transition = 'max-height .1s ease-out';   
-    };
-
     return (
-        <nav className="nav-menu">
-            <div>
-                <div className="menu-button" onClick={handleClick}>
-                    <img src={menu} alt="menu"/>
-                </div>
-                <div id="menu-links" onMouseLeave={closeNav}>
-                    <Link to="/themes" className="nav-hover" onClick={handleClick}>Themes</Link>
-                    <Link to="/interest" className="nav-hover" onClick={handleClick}>Interest</Link>
-                    <Link to="/sale" className="nav-hover" onClick={handleClick}>Sale</Link>
+        <nav>
+            <div className="nav-left">
+                <label htmlFor="hamburger">
+                    <img src={menu} alt="menu" aria-label="menu"/>
+                </label>
+                <input type="checkbox" className="hamburger" id="hamburger"/>
+                <div className="nav-links">
+                    <Link to="/themes" className="nav-hover">Themes</Link>
+                    <Link to="/interest" className="nav-hover">Interest</Link>
+                    <Link to="/sale" className="nav-hover">Sale</Link>
                 </div>
             </div>
-            <div className="nav-icons">
+            <div className="nav-right">
                 <Link to="" className="nav-hover" aria-label="search">
                     <img src={search} alt="search"></img><span className="nav-name"> Search</span>
                 </Link>
                 <Link to="/cart" className="nav-hover" aria-label="cart">
-                    <img src={cart} alt="cart"></img><span className="nav-name"> Cart <span className="cartTotal">({cartTotal})</span></span>
+                    <img src={cart} alt="cart"></img><span className="nav-name"> Cart</span><span className="cartTotal"> ({cartTotal})</span>
                 </Link>
                 <Link to="" className="nav-hover" aria-label="account">
                     <img src={account} alt="account"></img><span className="nav-name"> Login</span>
-                </Link>
+                 </Link>
             </div>
         </nav>
     )
