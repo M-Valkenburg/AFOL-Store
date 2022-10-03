@@ -12,7 +12,9 @@ const Interests = React.lazy(() => import("./components/Interests/Interests"));
 const Interest = React.lazy(() => import("./components/Interest/Interest"));
 const Sale = React.lazy(() => import ("./components/Sale/Sale"));
 const Product = React.lazy(() => import("./components/Product/Product"));
+const SearchResults = React.lazy(() => import ("./components/SearachResults/SeachResults"));
 const Cart = React.lazy(() => import ("./components/Cart/Cart"));
+const ErrorPage = React.lazy(() => import ("./components/404/404"));
 
 function App() {
   return (
@@ -21,15 +23,16 @@ function App() {
       <Navigation />
       <Suspense>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="themes" element={<Themes />} />
           <Route path="themes/:themeId" element={<Theme />} />
           <Route path="interest" element={<Interests />} />
           <Route path="interest/:interestId" element={<Interest />} />
           <Route path="sale" element={<Sale />} />
           <Route path="product/:productId" element={<Product />} />
+          <Route path="search" element={<SearchResults />} />
           <Route path="cart" element={<Cart />} />
-          <Route path="*" element={<Home />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Suspense>
       <Footer />
