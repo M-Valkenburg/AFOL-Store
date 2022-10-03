@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import '../Theme/theme.scss';
+import "./searchResults.scss";
 import products from "../../data/products";
 import { addProduct } from "../../store/cartSlice";
 import { selectSearchTerm } from "../../store/productSlice";
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
+import noResults from "../../assets/errors/no-results.webp";
 
 const SearchResults = () => {
     const dispatch = useAppDispatch();
@@ -12,6 +14,21 @@ const SearchResults = () => {
     const results = products.filter(product => {
         return product.id.toString().includes(searchTerm) || product.name.toLowerCase().includes(searchTerm)
     });
+
+    if (results.length === 0) {
+        return (
+            <div className="no-results">
+                <div className="no-results-message">
+                    <div>
+                        <span>No results</span>
+                        <p>No matching products could be found.</p>
+                        <Link to="/themes">Continue shopping &#10140;</Link>
+                    </div>
+                    <img src={noResults} alt="no results found"/>
+                </div>
+            </div>
+        )
+    }
 
     return (
         <div className="theme-page">
