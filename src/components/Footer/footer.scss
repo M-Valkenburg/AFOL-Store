@@ -6,7 +6,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 100px;
+    padding: 40px 80px;
 
     img {
         height: 80px;
@@ -20,7 +20,7 @@ footer {
     flex-direction: row;
 
     div {
-        margin-right: 100px;
+        margin-right: 70px;
     }
 
     h3 {
@@ -34,9 +34,11 @@ footer {
         font-weight: 600;
         text-decoration: none;
         color: black;
+        position: relative;
+        transition: .5s;
 
         &:hover {
-            text-decoration: underline;
+            transform: translateX(5px);
         }
     }
 }
