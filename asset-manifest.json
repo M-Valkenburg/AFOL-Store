@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AFOL-Store/static/css/main.210945fa.css",
-    "main.js": "/AFOL-Store/static/js/main.d83dd179.js",
+    "main.css": "/AFOL-Store/static/css/main.a4993837.css",
+    "main.js": "/AFOL-Store/static/js/main.54cfb7cb.js",
     "static/css/207.866445d3.chunk.css": "/AFOL-Store/static/css/207.866445d3.chunk.css",
     "static/js/207.58e354fa.chunk.js": "/AFOL-Store/static/js/207.58e354fa.chunk.js",
     "static/css/372.df9ca3ba.chunk.css": "/AFOL-Store/static/css/372.df9ca3ba.chunk.css",
@@ -18,6 +18,8 @@
     "static/js/325.fe2cc388.chunk.js": "/AFOL-Store/static/js/325.fe2cc388.chunk.js",
     "static/css/144.a8f14368.chunk.css": "/AFOL-Store/static/css/144.a8f14368.chunk.css",
     "static/js/144.9367cde0.chunk.js": "/AFOL-Store/static/js/144.9367cde0.chunk.js",
+    "static/css/392.1c44d3ac.chunk.css": "/AFOL-Store/static/css/392.1c44d3ac.chunk.css",
+    "static/js/392.3592b615.chunk.js": "/AFOL-Store/static/js/392.3592b615.chunk.js",
     "static/css/803.3b75b81f.chunk.css": "/AFOL-Store/static/css/803.3b75b81f.chunk.css",
     "static/js/803.26870b7c.chunk.js": "/AFOL-Store/static/js/803.26870b7c.chunk.js",
     "static/js/508.cfd89071.chunk.js": "/AFOL-Store/static/js/508.cfd89071.chunk.js",
@@ -209,8 +211,8 @@
     "static/media/remove.svg": "/AFOL-Store/static/media/remove.26cfd3d2054b6e033432eeaef8b63944.svg",
     "static/media/plus.svg": "/AFOL-Store/static/media/plus.f3ca0f0290870ffb457a7aed0a2acab9.svg",
     "static/media/minus.svg": "/AFOL-Store/static/media/minus.e6962d4324b2e734a98fb786daef41c6.svg",
-    "main.210945fa.css.map": "/AFOL-Store/static/css/main.210945fa.css.map",
-    "main.d83dd179.js.map": "/AFOL-Store/static/js/main.d83dd179.js.map",
+    "main.a4993837.css.map": "/AFOL-Store/static/css/main.a4993837.css.map",
+    "main.54cfb7cb.js.map": "/AFOL-Store/static/js/main.54cfb7cb.js.map",
     "207.866445d3.chunk.css.map": "/AFOL-Store/static/css/207.866445d3.chunk.css.map",
     "207.58e354fa.chunk.js.map": "/AFOL-Store/static/js/207.58e354fa.chunk.js.map",
     "372.df9ca3ba.chunk.css.map": "/AFOL-Store/static/css/372.df9ca3ba.chunk.css.map",
@@ -227,6 +229,8 @@
     "325.fe2cc388.chunk.js.map": "/AFOL-Store/static/js/325.fe2cc388.chunk.js.map",
     "144.a8f14368.chunk.css.map": "/AFOL-Store/static/css/144.a8f14368.chunk.css.map",
     "144.9367cde0.chunk.js.map": "/AFOL-Store/static/js/144.9367cde0.chunk.js.map",
+    "392.1c44d3ac.chunk.css.map": "/AFOL-Store/static/css/392.1c44d3ac.chunk.css.map",
+    "392.3592b615.chunk.js.map": "/AFOL-Store/static/js/392.3592b615.chunk.js.map",
     "803.3b75b81f.chunk.css.map": "/AFOL-Store/static/css/803.3b75b81f.chunk.css.map",
     "803.26870b7c.chunk.js.map": "/AFOL-Store/static/js/803.26870b7c.chunk.js.map",
     "508.cfd89071.chunk.js.map": "/AFOL-Store/static/js/508.cfd89071.chunk.js.map",
@@ -234,7 +238,7 @@
     "770.5e549dda.chunk.js.map": "/AFOL-Store/static/js/770.5e549dda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.210945fa.css",
-    "static/js/main.d83dd179.js"
+    "static/css/main.a4993837.css",
+    "static/js/main.54cfb7cb.js"
   ]
 }
