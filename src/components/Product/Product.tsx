@@ -60,7 +60,7 @@ const Product = () => {
                             <button aria-label="increase quantity" onClick={increment}>
                                 <img src={plus} alt="increase quantity"/>
                             </button>
-                            <select defaultValue={1} onChange={(e) => handleChange(Number(e.target.value))}>
+                            <select onChange={(e) => handleChange(Number(e.target.value))}>
                                 {[...Array(product.stock)].map((_,i) => {
                                     return <option value={i + 1}>{i + 1}</option>
                                 })}
