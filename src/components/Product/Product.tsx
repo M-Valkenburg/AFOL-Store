@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useParams } from "react-router-dom";
 import "./product.scss";
 import ReactMarkdown from 'react-markdown';
@@ -30,10 +30,6 @@ const Product = () => {
     const handleChange = (value: number) => {
         setQty(qty => qty = value);
     }
-
-    useEffect(() => {
-        setQty(qty)
-    }, [qty]);
 
     return (
         <div className="product-page">
