@@ -16,7 +16,7 @@ const initialstate: CartState = {
     items: 0,
     value: 0,
     VAT: 0,
-    shipping: 5.95,
+    shipping: 0,
     total: 0,
 };
 
@@ -39,12 +39,14 @@ const cartSlice = createSlice({
                     state.value += (product.sale ? (product.salePrice * (stock - state.cart[index].qty)) : (product.price * (stock - state.cart[index].qty)));
                     state.cart[index].qty += (stock - state.cart[index].qty);
                     state.VAT = Number((state.value * 0.21).toFixed(2));
+                    state.shipping = (state.value >= 150 ? 0 : 5.95);
                     state.total = state.value + state.shipping;
                 } else {
                     state.items += quantity;
                     state.cart[index].qty += quantity;
                     state.value += (product.sale ? (product.salePrice * quantity) : (product.price * quantity));
                     state.VAT = Number((state.value * 0.21).toFixed(2));
+                    state.shipping = (state.value >= 150 ? 0 : 5.95);
                     state.total = state.value + state.shipping;
                 }
             } else {
@@ -52,6 +54,7 @@ const cartSlice = createSlice({
                 state.items += quantity;
                 state.value += (product.sale ? (product.salePrice * quantity) : (product.price * quantity));
                 state.VAT = Number((state.value * 0.21).toFixed(2));
+                state.shipping = (state.value >= 150 ? 0 : 5.95);
                 state.total = state.value + state.shipping;
             }
         },
@@ -63,6 +66,7 @@ const cartSlice = createSlice({
             state.cart.splice(index, 1)
             state.value -= (product.sale ? product.salePrice : product.price);
             state.VAT = Number((state.value * 0.21).toFixed(2));
+            state.shipping = (state.value >= 150 ? 0 : 5.95);
             state.total = state.value + state.shipping;
         },
         increment: (state, action: PayloadAction<Product>) => {
@@ -75,6 +79,7 @@ const cartSlice = createSlice({
             state.items += 1;
             state.value += (product.sale ? product.salePrice : product.price);
             state.VAT = Number((state.value * 0.21).toFixed(2));
+            state.shipping = (state.value >= 150 ? 0 : 5.95);
             state.total = state.value + state.shipping;
         },
         decrement: (state, action: PayloadAction<Product>) => {
@@ -87,6 +92,7 @@ const cartSlice = createSlice({
             state.items -= 1;
             state.value -= (product.sale ? product.salePrice : product.price);
             state.VAT = Number((state.value * 0.21).toFixed(2));
+            state.shipping = (state.value >= 150 ? 0 : 5.95);
             state.total = state.value + state.shipping; 
         },
         selectQty: (state, action: PayloadAction<[item: Product, qty: number]>) => {
@@ -103,6 +109,7 @@ const cartSlice = createSlice({
                 state.items += diff;
                 state.value += (product.sale ? (product.salePrice * diff) : (product.price * diff));
                 state.VAT = Number((state.value * 0.21).toFixed(2));
+                state.shipping = (state.value >= 150 ? 0 : 5.95);
                 state.total = state.value + state.shipping;
             } else {
                 const diff = state.cart[index].qty - quantity;
@@ -111,6 +118,7 @@ const cartSlice = createSlice({
                 state.items -= diff;
                 state.value -= (product.sale ? (product.salePrice * diff) : (product.price * diff));
                 state.VAT = Number((state.value * 0.21).toFixed(2));
+                state.shipping = (state.value >= 150 ? 0 : 5.95);
                 state.total = state.value + state.shipping;    
             }
         }
