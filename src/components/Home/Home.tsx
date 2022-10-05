@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./home.scss";
+import shipping from "../../assets/icons/shipping.svg";
 import castle10305 from "../../assets/promotion/10305-promo.webp";
 import castle6080 from "../../assets/promotion/6080.webp";
 import knights from "../../assets/promotion/10305-minifigs.webp";
@@ -14,6 +15,9 @@ import ferrariLogo from "../../assets/promotion/ferrari.webp";
 const Home = () => {
     return (
         <div className="home">
+            <section className="free-shipping">
+                <p>FREE shipping with all orders over €150 <img src={shipping} alt="shipping" /></p>
+            </section>
             <section className="promo-10305">
                 <div className="castle-container">
                     <img className="promo lkc" src={castle10305} alt="10305 Lion Knights' Castle"/>
