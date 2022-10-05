@@ -4,7 +4,8 @@ import { useAppSelector, useAppDispatch } from '../../store/hooks';
 import { 
     selectCart, selectItems, selectValue,
     selectVAT, selectShipping, selectTotal,
-    removeProduct, increment, decrement
+    removeProduct, increment, decrement,
+    selectQty
 } from "../../store/cartSlice";
 import { Product } from "../../data/products/_productType";
 import cartIcon from "../../assets/icons/cart.svg";
@@ -67,6 +68,11 @@ const Cart = () => {
                                     <button aria-label="increase quantity" onClick={() => dispatch(increment(product))}>
                                         <img src={plus} alt="increase quantity"/>
                                     </button>
+                                    <select onChange={(e) => dispatch(selectQty([product, Number(e.target.value)]))}>
+                                        {[...Array(product.stock)].map((_,i) => {
+                                            return <option value={i + 1}>{i + 1}</option>
+                                        })}
+                                    </select>
                                 </div>
                             </div>
                         )
