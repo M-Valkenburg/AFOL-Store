@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AFOL-Store/static/css/main.4f0b0646.css",
-    "main.js": "/AFOL-Store/static/js/main.439391f0.js",
+    "main.css": "/AFOL-Store/static/css/main.2d7780d1.css",
+    "main.js": "/AFOL-Store/static/js/main.e1407ea4.js",
     "static/css/207.866445d3.chunk.css": "/AFOL-Store/static/css/207.866445d3.chunk.css",
     "static/js/207.58e354fa.chunk.js": "/AFOL-Store/static/js/207.58e354fa.chunk.js",
     "static/css/372.df9ca3ba.chunk.css": "/AFOL-Store/static/css/372.df9ca3ba.chunk.css",
@@ -16,8 +16,8 @@
     "static/js/63.212a5cbb.chunk.js": "/AFOL-Store/static/js/63.212a5cbb.chunk.js",
     "static/css/325.6a6d0d88.chunk.css": "/AFOL-Store/static/css/325.6a6d0d88.chunk.css",
     "static/js/325.fe2cc388.chunk.js": "/AFOL-Store/static/js/325.fe2cc388.chunk.js",
-    "static/css/144.a8f14368.chunk.css": "/AFOL-Store/static/css/144.a8f14368.chunk.css",
-    "static/js/144.491350c5.chunk.js": "/AFOL-Store/static/js/144.491350c5.chunk.js",
+    "static/css/144.d28c3c3d.chunk.css": "/AFOL-Store/static/css/144.d28c3c3d.chunk.css",
+    "static/js/144.b79027ee.chunk.js": "/AFOL-Store/static/js/144.b79027ee.chunk.js",
     "static/css/392.1c44d3ac.chunk.css": "/AFOL-Store/static/css/392.1c44d3ac.chunk.css",
     "static/js/392.3592b615.chunk.js": "/AFOL-Store/static/js/392.3592b615.chunk.js",
     "static/css/803.3b75b81f.chunk.css": "/AFOL-Store/static/css/803.3b75b81f.chunk.css",
@@ -204,6 +204,7 @@
     "static/media/10497-minifig.webp": "/AFOL-Store/static/media/10497-minifig.51987afbf7da80313f36.webp",
     "static/media/Architecture.png": "/AFOL-Store/static/media/Architecture.a0c5e8d91a61535910d2.png",
     "static/media/Harry Potter.png": "/AFOL-Store/static/media/Harry Potter.faae5b84138f95cb26fc.png",
+    "static/media/shipping.svg": "/AFOL-Store/static/media/shipping.4938b7b1d83573bd6bda93e430a37a6c.svg",
     "index.html": "/AFOL-Store/index.html",
     "static/media/cart.svg": "/AFOL-Store/static/media/cart.03a706e9d6046b4ad90dd2af5508a635.svg",
     "static/media/menu.svg": "/AFOL-Store/static/media/menu.27df51a0dfd075e2ddf310b339f1fcdb.svg",
@@ -211,8 +212,8 @@
     "static/media/remove.svg": "/AFOL-Store/static/media/remove.26cfd3d2054b6e033432eeaef8b63944.svg",
     "static/media/plus.svg": "/AFOL-Store/static/media/plus.f3ca0f0290870ffb457a7aed0a2acab9.svg",
     "static/media/minus.svg": "/AFOL-Store/static/media/minus.e6962d4324b2e734a98fb786daef41c6.svg",
-    "main.4f0b0646.css.map": "/AFOL-Store/static/css/main.4f0b0646.css.map",
-    "main.439391f0.js.map": "/AFOL-Store/static/js/main.439391f0.js.map",
+    "main.2d7780d1.css.map": "/AFOL-Store/static/css/main.2d7780d1.css.map",
+    "main.e1407ea4.js.map": "/AFOL-Store/static/js/main.e1407ea4.js.map",
     "207.866445d3.chunk.css.map": "/AFOL-Store/static/css/207.866445d3.chunk.css.map",
     "207.58e354fa.chunk.js.map": "/AFOL-Store/static/js/207.58e354fa.chunk.js.map",
     "372.df9ca3ba.chunk.css.map": "/AFOL-Store/static/css/372.df9ca3ba.chunk.css.map",
@@ -227,8 +228,8 @@
     "63.212a5cbb.chunk.js.map": "/AFOL-Store/static/js/63.212a5cbb.chunk.js.map",
     "325.6a6d0d88.chunk.css.map": "/AFOL-Store/static/css/325.6a6d0d88.chunk.css.map",
     "325.fe2cc388.chunk.js.map": "/AFOL-Store/static/js/325.fe2cc388.chunk.js.map",
-    "144.a8f14368.chunk.css.map": "/AFOL-Store/static/css/144.a8f14368.chunk.css.map",
-    "144.491350c5.chunk.js.map": "/AFOL-Store/static/js/144.491350c5.chunk.js.map",
+    "144.d28c3c3d.chunk.css.map": "/AFOL-Store/static/css/144.d28c3c3d.chunk.css.map",
+    "144.b79027ee.chunk.js.map": "/AFOL-Store/static/js/144.b79027ee.chunk.js.map",
     "392.1c44d3ac.chunk.css.map": "/AFOL-Store/static/css/392.1c44d3ac.chunk.css.map",
     "392.3592b615.chunk.js.map": "/AFOL-Store/static/js/392.3592b615.chunk.js.map",
     "803.3b75b81f.chunk.css.map": "/AFOL-Store/static/css/803.3b75b81f.chunk.css.map",
@@ -238,7 +239,7 @@
     "770.5e549dda.chunk.js.map": "/AFOL-Store/static/js/770.5e549dda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f0b0646.css",
-    "static/js/main.439391f0.js"
+    "static/css/main.2d7780d1.css",
+    "static/js/main.e1407ea4.js"
   ]
 }
