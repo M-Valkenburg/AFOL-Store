@@ -26,8 +26,8 @@ const cartSlice = createSlice({
     reducers: {
         addProduct: (state, action: PayloadAction<[item: Product, qty: number]>) => {
             const product: Product = action.payload[0];
-            const quantity: number = action.payload[1]
-            const index: number = state.cart.findIndex(item => item.product.id === product.id)
+            const quantity: number = action.payload[1];
+            const index: number = state.cart.findIndex(item => item.product.id === product.id);
 
             if (index !== -1) {
                 const stock = state.cart[index].product.stock;
@@ -89,6 +89,31 @@ const cartSlice = createSlice({
             state.VAT = Number((state.value * 0.21).toFixed(2));
             state.total = state.value + state.shipping; 
         },
+        selectQty: (state, action: PayloadAction<[item: Product, qty: number]>) => {
+            const product: Product = action.payload[0];
+            const quantity: number = action.payload[1];
+            const index: number = state.cart.findIndex(item => item.product.id === product.id);
+
+            if (quantity === state.cart[index].qty) {
+                return;
+            } else if (quantity > state.cart[index].qty) {
+                const diff = quantity - state.cart[index].qty;
+
+                state.cart[index].qty += diff;
+                state.items += diff;
+                state.value += (product.sale ? (product.salePrice * diff) : (product.price * diff));
+                state.VAT = Number((state.value * 0.21).toFixed(2));
+                state.total = state.value + state.shipping;
+            } else {
+                const diff = state.cart[index].qty - quantity;
+
+                state.cart[index].qty -= diff;
+                state.items -= diff;
+                state.value -= (product.sale ? (product.salePrice * diff) : (product.price * diff));
+                state.VAT = Number((state.value * 0.21).toFixed(2));
+                state.total = state.value + state.shipping;    
+            }
+        }
     }
 });
 
@@ -105,4 +130,5 @@ export const {
     removeProduct, 
     increment, 
     decrement,
+    selectQty
 } = cartSlice.actions;
