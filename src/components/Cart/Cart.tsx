@@ -83,7 +83,7 @@ const Cart = () => {
                     <div className="border"/>
                     <p>Total items:<span>{totalItems}</span></p>
                     <p>Order value:<span>€ {totalPrice.toFixed(2)}</span></p>
-                    <p>Shipping<span>€ {shipping}</span></p>
+                    <p>Shipping: {totalPrice >= 150 ? <span className="shipping">Free shipping</span> : <span>{shipping}</span>}</p>
                     <p className="order-total">Order total:<span>€ {orderTotal.toFixed(2)}</span></p>
                     <p className="tax-total">Inclusive of € {totalTax.toFixed(2)} VAT</p>
                     <button>Checkout</button>
