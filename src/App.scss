@@ -17,3 +17,16 @@
 h1 {
     font-family: "bangersregular";
 }
+
+select {
+    height: 30px;
+    width: 50px;
+    font-size: 18px;
+    border: $content-border-light;
+    outline: none;
+    margin-left: 20px;
+
+    &:focus {
+        border: $content-border-light;
+    }
+}
