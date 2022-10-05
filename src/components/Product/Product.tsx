@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from "react-router-dom";
 import "./product.scss";
 import ReactMarkdown from 'react-markdown';
@@ -15,7 +15,7 @@ const Product = () => {
     const index = products.findIndex(obj => obj.id.toString() === params.productId);
     const product = products[index];
 
-    let [qty, setQty] = useState<number>(1);
+    const [qty, setQty] = useState<number>(1);
 
     const decrement = () => {
         if (qty === 1 || qty < 1) return;
@@ -26,6 +26,14 @@ const Product = () => {
         if (qty === product.stock) return;
         setQty(qty => qty += 1);
     };
+
+    const handleChange = (value: number) => {
+        setQty(qty => qty = value);
+    }
+
+    useEffect(() => {
+        setQty(qty)
+    }, [qty]);
 
     return (
         <div className="product-page">
@@ -56,6 +64,11 @@ const Product = () => {
                             <button aria-label="increase quantity" onClick={increment}>
                                 <img src={plus} alt="increase quantity"/>
                             </button>
+                            <select defaultValue={1} onChange={(e) => handleChange(Number(e.target.value))}>
+                                {[...Array(product.stock)].map((_,i) => {
+                                    return <option value={i + 1}>{i + 1}</option>
+                                })}
+                            </select>
                         </div>
                         <span className="product-stock">In stock: {product.stock}</span>
                         {
