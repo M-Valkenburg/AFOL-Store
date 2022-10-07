@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AFOL-Store/static/css/main.2d7780d1.css",
+    "main.css": "/AFOL-Store/static/css/main.3d077a1e.css",
     "main.js": "/AFOL-Store/static/js/main.e1407ea4.js",
     "static/css/207.866445d3.chunk.css": "/AFOL-Store/static/css/207.866445d3.chunk.css",
     "static/js/207.58e354fa.chunk.js": "/AFOL-Store/static/js/207.58e354fa.chunk.js",
@@ -85,7 +85,6 @@
     "static/media/42123.webp": "/AFOL-Store/static/media/42123.99e514d8b85d30a63447.webp",
     "static/media/10281.webp": "/AFOL-Store/static/media/10281.2f03e9df04e325a8a750.webp",
     "static/media/42096.webp": "/AFOL-Store/static/media/42096.9d8c8f945b7e5f9979d5.webp",
-    "static/media/bangers-regular.ttf": "/AFOL-Store/static/media/bangers-regular.0e89a2279da24d283991.ttf",
     "static/media/21319.webp": "/AFOL-Store/static/media/21319.429e5d0c050dbad6cf6d.webp",
     "static/media/42115.webp": "/AFOL-Store/static/media/42115.1c67b317b4f59240666d.webp",
     "static/media/75304.webp": "/AFOL-Store/static/media/75304.f713200943b9a21f518d.webp",
@@ -185,7 +184,6 @@
     "static/media/Disney.webp": "/AFOL-Store/static/media/Disney.36f393c8e1278b8c999b.webp",
     "static/media/homedecoration.webp": "/AFOL-Store/static/media/homedecoration.7d517287997fd58828d5.webp",
     "static/media/10305-minifigs.webp": "/AFOL-Store/static/media/10305-minifigs.1512e13ddaf03a286b9b.webp",
-    "static/media/bangers-regular-webfont.woff": "/AFOL-Store/static/media/bangers-regular-webfont.53e9757d1a3ecaf11dd3.woff",
     "static/media/sports.webp": "/AFOL-Store/static/media/sports.00ecce320d93a26ee887.webp",
     "static/media/buildings.webp": "/AFOL-Store/static/media/buildings.43810f53d2dd85345e69.webp",
     "static/media/no-results.webp": "/AFOL-Store/static/media/no-results.b4475d7d55ccbd0643ed.webp",
@@ -193,7 +191,6 @@
     "static/media/cars.webp": "/AFOL-Store/static/media/cars.d000bdc63545ea8b5d0c.webp",
     "static/media/Architecture.webp": "/AFOL-Store/static/media/Architecture.33f33889a07d1650d4c5.webp",
     "static/media/seasonal.webp": "/AFOL-Store/static/media/seasonal.901890b4c9ab7279cbb0.webp",
-    "static/media/bangers-regular-webfont.woff2": "/AFOL-Store/static/media/bangers-regular-webfont.5d57d4e13b66712f6ce4.woff2",
     "static/media/21309.webp": "/AFOL-Store/static/media/21309.c163ab0a7a124e4e0dd0.webp",
     "static/media/music.webp": "/AFOL-Store/static/media/music.128e244ae5a2a3e375cb.webp",
     "static/media/ferrari.webp": "/AFOL-Store/static/media/ferrari.5c373092fc26be6ae5f2.webp",
@@ -212,7 +209,7 @@
     "static/media/remove.svg": "/AFOL-Store/static/media/remove.26cfd3d2054b6e033432eeaef8b63944.svg",
     "static/media/plus.svg": "/AFOL-Store/static/media/plus.f3ca0f0290870ffb457a7aed0a2acab9.svg",
     "static/media/minus.svg": "/AFOL-Store/static/media/minus.e6962d4324b2e734a98fb786daef41c6.svg",
-    "main.2d7780d1.css.map": "/AFOL-Store/static/css/main.2d7780d1.css.map",
+    "main.3d077a1e.css.map": "/AFOL-Store/static/css/main.3d077a1e.css.map",
     "main.e1407ea4.js.map": "/AFOL-Store/static/js/main.e1407ea4.js.map",
     "207.866445d3.chunk.css.map": "/AFOL-Store/static/css/207.866445d3.chunk.css.map",
     "207.58e354fa.chunk.js.map": "/AFOL-Store/static/js/207.58e354fa.chunk.js.map",
@@ -239,7 +236,7 @@
     "770.5e549dda.chunk.js.map": "/AFOL-Store/static/js/770.5e549dda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d7780d1.css",
+    "static/css/main.3d077a1e.css",
     "static/js/main.e1407ea4.js"
   ]
 }
