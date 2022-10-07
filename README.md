@@ -17,4 +17,4 @@ ___
 - React-router-dom V6
 
 ## Project Status
-In progress
+Completed
